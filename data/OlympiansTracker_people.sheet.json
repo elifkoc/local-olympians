@@ -1,0 +1,322 @@
+[
+  {
+    "athleteid": 1,
+    "lastname": "Thompson",
+    "firstname": "Klay",
+    "sport": "Basketball ",
+    "team": "USA",
+    "hometown": "Los Angeles, Calif.",
+    "birthdate": "2/8/1990",
+    "connection": "Washington State University"
+  },
+  {
+    "athleteid": 2,
+    "lastname": "Bird",
+    "firstname": "Sue",
+    "sport": "Basketball ",
+    "team": "USA",
+    "hometown": "Syosset, N.Y.",
+    "birthdate": "10/16/1980",
+    "connection": "Plays for Seattle Storm"
+  },
+  {
+    "athleteid": 3,
+    "lastname": "Stewart",
+    "firstname": "Breanna",
+    "sport": "Basketball ",
+    "team": "USA",
+    "hometown": "Syracuse, N.Y.",
+    "birthdate": "8/27/1994",
+    "connection": "Plays for Seattle Storm"
+  },
+  {
+    "athleteid": 4,
+    "lastname": "Stevens",
+    "firstname": "Travis",
+    "sport": "Judo",
+    "team": "USA",
+    "hometown": "Bellevue, Wash.",
+    "birthdate": "2/28/1986",
+    "connection": "From Bellevue (or maybe Tacoma, most of internet seems to think Tacoma)"
+  },
+  {
+    "athleteid": 5,
+    "lastname": "Malloy",
+    "firstname": "Marti",
+    "sport": "Judo",
+    "team": "USA",
+    "hometown": "Oak Harbor, Wash.",
+    "birthdate": "6/23/1986",
+    "connection": "From Oak Harbor"
+  },
+  {
+    "athleteid": 6,
+    "lastname": "Struzyna",
+    "firstname": "Hans",
+    "sport": "Rowing ",
+    "team": "USA",
+    "hometown": "Kirkland, Wash.",
+    "birthdate": "3/31/89",
+    "connection": "Bellevue Christian High School, University of Washington"
+  },
+  {
+    "athleteid": 7,
+    "lastname": "Munn",
+    "firstname": "Rob",
+    "sport": "Rowing ",
+    "team": "USA",
+    "hometown": "Redmond, Wash.",
+    "birthdate": "7/26/90",
+    "connection": "Redmond High School, University of Washington"
+  },
+  {
+    "athleteid": 8,
+    "lastname": "Martelli",
+    "firstname": "Adrienne",
+    "sport": "Rowing ",
+    "team": "USA",
+    "hometown": "University Place, Wash.",
+    "birthdate": "12/3/87",
+    "connection": "Curtis Senior High School, University of Washington"
+  },
+  {
+    "athleteid": 9,
+    "lastname": "Snyder",
+    "firstname": "Katelin",
+    "sport": "Rowing ",
+    "team": "USA",
+    "hometown": "Detroit, Mich.",
+    "birthdate": "8/16/87",
+    "connection": "University of Washington"
+  },
+  {
+    "athleteid": 10,
+    "lastname": "Kalmoe",
+    "firstname": "Megan",
+    "sport": "Rowing ",
+    "team": "USA",
+    "hometown": "St. Croix Falls, Wis.",
+    "birthdate": "8/21/83",
+    "connection": "University of Washington"
+  },
+  {
+    "athleteid": 11,
+    "lastname": "Dommer",
+    "firstname": "Sam",
+    "sport": "Rowing ",
+    "team": "USA",
+    "hometown": "Folsom, Calif.",
+    "birthdate": "9/4/91",
+    "connection": "University of Washington"
+  },
+  {
+    "athleteid": 12,
+    "lastname": "Simmonds",
+    "firstname": "Kerry",
+    "sport": "Rowing ",
+    "team": "USA",
+    "hometown": "San Diego, Calif.",
+    "birthdate": "4/3/89",
+    "connection": "University of Washington"
+  },
+  {
+    "athleteid": 13,
+    "lastname": "Bonny",
+    "firstname": "Megan",
+    "sport": "Rugby ",
+    "team": "USA",
+    "hometown": "Yakima, Wash.",
+    "birthdate": "3/6/1990",
+    "connection": "La Salle High School, Washington State University"
+  },
+  {
+    "athleteid": 14,
+    "lastname": "Scutt",
+    "firstname": "Helena",
+    "sport": "Sailing",
+    "team": "USA",
+    "hometown": "Kirkland, Wash.",
+    "birthdate": "6/15/1992",
+    "connection": "International Community School (Kirkland)"
+  },
+  {
+    "athleteid": 15,
+    "lastname": "Solo",
+    "firstname": "Hope",
+    "sport": "Soccer",
+    "team": "USA",
+    "hometown": "Richland, Wash.",
+    "birthdate": "7/30/1981",
+    "connection": "Richland High School, University of Washington, plays for Seattle Reign FC"
+  },
+  {
+    "athleteid": 16,
+    "lastname": "Rapinoe",
+    "firstname": "Megan",
+    "sport": "Soccer",
+    "team": "USA",
+    "hometown": "Redding, Calif.",
+    "birthdate": "7/5/1985",
+    "connection": "Plays for Seattle Reign FC"
+  },
+  {
+    "athleteid": 17,
+    "lastname": "Adrian",
+    "firstname": "Nathan",
+    "sport": "Swimming",
+    "team": "USA",
+    "hometown": "Bremerton, Wash.",
+    "birthdate": "12/7/1988",
+    "connection": "Bremerton High School"
+  },
+  {
+    "athleteid": 18,
+    "lastname": "Billington",
+    "firstname": "Greg",
+    "sport": "Triathlon",
+    "team": "USA",
+    "hometown": "Spokane, Wash.",
+    "birthdate": "5/30/1988",
+    "connection": "Born in Spokane"
+  },
+  {
+    "athleteid": 19,
+    "lastname": "Thompson",
+    "firstname": "Courtney",
+    "sport": "Volleyball ",
+    "team": "USA",
+    "hometown": "Kent, Wash.",
+    "birthdate": "11/4/1984",
+    "connection": "Kentlake High School, University of Washington"
+  },
+  {
+    "athleteid": 20,
+    "lastname": "King",
+    "firstname": "Morghan",
+    "sport": "Weightlifting",
+    "team": "USA",
+    "hometown": "Seattle, Wash.",
+    "birthdate": "10/8/1985",
+    "connection": "Born in Seattle"
+  },
+  {
+    "athleteid": 21,
+    "lastname": "Baynes",
+    "firstname": "Aron",
+    "sport": "Basketball ",
+    "team": "Australia",
+    "hometown": "Cairns, Australia",
+    "birthdate": "12/09/1986",
+    "connection": "Washington State University"
+  },
+  {
+    "athleteid": 22,
+    "lastname": "Crothers",
+    "firstname": "Will",
+    "sport": "Rowing ",
+    "team": "Canada",
+    "hometown": "Kingston, Ontario, Canada",
+    "birthdate": "6/14/1987",
+    "connection": "University of Washington"
+  },
+  {
+    "athleteid": 23,
+    "lastname": "Gibson",
+    "firstname": "Rob",
+    "sport": "Rowing ",
+    "team": "Canada",
+    "hometown": "Kingston, Ontario, Canada",
+    "birthdate": "2/2/1986",
+    "connection": "University of Washington"
+  },
+  {
+    "athleteid": 24,
+    "lastname": "Jackson",
+    "firstname": "Lauren",
+    "sport": "Basketball ",
+    "team": "Australia",
+    "hometown": "Albury, Australia",
+    "birthdate": "5/11/1981",
+    "connection": "Played for Seattle Storm"
+  },
+  {
+    "athleteid": 25,
+    "lastname": "McCabe",
+    "firstname": "Conlin",
+    "sport": "Rowing ",
+    "team": "Canada",
+    "hometown": "Brockville, Ontario, Canada",
+    "birthdate": "8/20/1990",
+    "connection": "University of Washington"
+  },
+  {
+    "athleteid": 26,
+    "lastname": "Miyashiro",
+    "firstname": "Tamari",
+    "sport": "Volleyball ",
+    "team": "USA",
+    "hometown": "Kaneohe, Hawaii",
+    "birthdate": "7/8/1987",
+    "connection": "University of Washington"
+  },
+  {
+    "athleteid": 27,
+    "lastname": "Vansant",
+    "firstname": "Krista",
+    "sport": "Volleyball ",
+    "team": "USA",
+    "hometown": "Redlands, Calif.",
+    "birthdate": "3/31/1993",
+    "connection": "University of Washington"
+  },
+  {
+    "athleteid": 28,
+    "lastname": "Ojserkis",
+    "firstname": "Sam",
+    "sport": "Rowing ",
+    "team": "USA",
+    "hometown": "Linwood, N.J.",
+    "birthdate": "3/24/1990",
+    "connection": "University of Washington"
+  },
+  {
+    "athleteid": 29,
+    "lastname": "Obee",
+    "firstname": "Patricia",
+    "sport": "Rowing ",
+    "team": "Canada",
+    "hometown": "Victoria, British Columbia, Canada",
+    "birthdate": "10/31/1991",
+    "connection": "University of Washington"
+  },
+  {
+    "athleteid": 30,
+    "lastname": "Dygert",
+    "firstname": "Chloe",
+    "sport": "Cycling",
+    "team": "USA",
+    "hometown": "Brownsburg, Ind.",
+    "birthdate": "1/1/1997",
+    "connection": "Lives and trains in Bremerton"
+  },
+  {
+    "athleteid": 31,
+    "lastname": "Perry-Glass",
+    "firstname": "Kasey",
+    "sport": "Equestrian",
+    "team": "USA",
+    "hometown": "Orangevale, Calif.",
+    "birthdate": "10/12/1987",
+    "connection": "Lives and trains in Spokane"
+  },
+  {
+    "athleteid": 32,
+    "lastname": "Lowe",
+    "firstname": "Dan",
+    "sport": "Shooting",
+    "team": "USA",
+    "hometown": "Olympia, Wash.",
+    "birthdate": "11/18/1992",
+    "connection": "Raised and lives in Olympia"
+  }
+]

@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= json.project.title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <%= t.include("partials/_head.html") %>
+  </head>
+  <body>
+
+
+      <% 
+      var people = json.OlympiansTracker_people;
+
+      var events = {};      
+      json.OlympiansTracker_events.forEach(function(item) {
+        events[item.eventid] = item;
+      });      
+
+      people.forEach(function(person) {
+        //This object holds each athlete with all of their events.
+        person.events = {};
+
+        json.OlympiansTracker_participation.forEach(function(item) {
+          if (item.athleteid == person.athleteid) {
+            var event = events[item.eventid];
+            //does this if statement only allow for one event per date?
+            if (!person.events[event.date]) {
+              person.events[event.date] = [];
+            }
+            person.events[event.date].push({
+              participation: item,
+              event: event
+            });
+          }
+        });
+      });
+
+      %>
+      <div class="container">
+        <table>
+          <tr>
+            <th>Athletes</th>
+            <th>8/3</th>
+            <th>8/4</th>
+            <th>8/5</th>
+            <th>8/6</th>
+            <th>8/7</th>
+            <th>8/8</th>
+            <th>8/9</th>
+            <th>8/10</th>
+            <th>8/11</th>
+            <th>8/12</th>
+            <th>8/13</th>
+            <th>8/14</th>
+            <th>8/15</th>
+            <th>8/16</th>
+            <th>8/17</th>
+          </tr>
+
+          <% people.forEach(function(person) { %>
+
+            <tr class="athlete-row">
+              <td class="athlete-name" data-id="<%= person.athleteid%>">
+                <%=person.firstname%> <%=person.lastname%>
+
+              </td>
+
+
+            <%
+              for (var i = 3; i < 18; i++) {
+                var dateString = "8/" + i + "/16"; 
+                var hasEvent = !!person.events[dateString]; %>
+              <td class="<%= hasEvent ? "event" : "nothing" %>">
+              <% if (hasEvent) {
+
+                  %>
+                x
+              <% } else { %>
+
+              <% } %>
+              </td>
+
+              <% }; %>
+          </tr>
+
+          <tr class="athlete-info" data-id="<%= person.athleteid%>">
+          <td> <div class="athlete-card" data-id="<%= person.athleteid%>">
+            <img src="">    
+            <b>Hometown</b><%=person.hometown%><%=person.hometown%><%=person.hometown%><%=person.hometown%><%=person.hometown%>
+
+                </div></td></tr>
+          <% }); %>
+
+
+        </table>
+      </div>
+
+   
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_foot.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

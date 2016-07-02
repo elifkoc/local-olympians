@@ -1,0 +1,762 @@
+[
+  {
+    "union": 1,
+    "athleteid": 1,
+    "eventid": 5
+  },
+  {
+    "union": 2,
+    "athleteid": 1,
+    "eventid": 10
+  },
+  {
+    "union": 3,
+    "athleteid": 4,
+    "eventid": 11
+  },
+  {
+    "union": 4,
+    "athleteid": 4,
+    "eventid": 12
+  },
+  {
+    "union": 5,
+    "athleteid": 14,
+    "eventid": 41
+  },
+  {
+    "union": 6,
+    "athleteid": 14,
+    "eventid": 42
+  },
+  {
+    "union": 7,
+    "athleteid": 14,
+    "eventid": 43
+  },
+  {
+    "union": 8,
+    "athleteid": 14,
+    "eventid": 44
+  },
+  {
+    "union": 9,
+    "athleteid": 18,
+    "eventid": 61
+  },
+  {
+    "union": 10,
+    "athleteid": 1,
+    "eventid": 14
+  },
+  {
+    "union": 11,
+    "athleteid": 1,
+    "eventid": 16
+  },
+  {
+    "union": 12,
+    "athleteid": 1,
+    "eventid": 17
+  },
+  {
+    "union": 13,
+    "athleteid": 1,
+    "eventid": 19
+  },
+  {
+    "union": 14,
+    "athleteid": 1,
+    "eventid": 21
+  },
+  {
+    "union": 15,
+    "athleteid": 1,
+    "eventid": 24
+  },
+  {
+    "union": 16,
+    "athleteid": 1,
+    "eventid": 25
+  },
+  {
+    "union": 17,
+    "athleteid": 2,
+    "eventid": 6
+  },
+  {
+    "union": 18,
+    "athleteid": 3,
+    "eventid": 6
+  },
+  {
+    "union": 19,
+    "athleteid": 2,
+    "eventid": 8
+  },
+  {
+    "union": 20,
+    "athleteid": 3,
+    "eventid": 8
+  },
+  {
+    "union": 21,
+    "athleteid": 2,
+    "eventid": 13
+  },
+  {
+    "union": 22,
+    "athleteid": 3,
+    "eventid": 13
+  },
+  {
+    "union": 23,
+    "athleteid": 2,
+    "eventid": 15
+  },
+  {
+    "union": 24,
+    "athleteid": 3,
+    "eventid": 15
+  },
+  {
+    "union": 25,
+    "athleteid": 2,
+    "eventid": 71
+  },
+  {
+    "union": 26,
+    "athleteid": 3,
+    "eventid": 71
+  },
+  {
+    "union": 27,
+    "athleteid": 2,
+    "eventid": 18
+  },
+  {
+    "union": 28,
+    "athleteid": 3,
+    "eventid": 18
+  },
+  {
+    "union": 29,
+    "athleteid": 2,
+    "eventid": 20
+  },
+  {
+    "union": 30,
+    "athleteid": 3,
+    "eventid": 20
+  },
+  {
+    "union": 31,
+    "athleteid": 2,
+    "eventid": 22
+  },
+  {
+    "union": 32,
+    "athleteid": 3,
+    "eventid": 22
+  },
+  {
+    "union": 33,
+    "athleteid": 2,
+    "eventid": 23
+  },
+  {
+    "union": 34,
+    "athleteid": 3,
+    "eventid": 23
+  },
+  {
+    "union": 35,
+    "athleteid": 5,
+    "eventid": 7
+  },
+  {
+    "union": 36,
+    "athleteid": 5,
+    "eventid": 9
+  },
+  {
+    "union": 37,
+    "athleteid": 6,
+    "eventid": 26
+  },
+  {
+    "union": 38,
+    "athleteid": 7,
+    "eventid": 26
+  },
+  {
+    "union": 39,
+    "athleteid": 11,
+    "eventid": 26
+  },
+  {
+    "union": 40,
+    "athleteid": 6,
+    "eventid": 27
+  },
+  {
+    "union": 41,
+    "athleteid": 7,
+    "eventid": 27
+  },
+  {
+    "union": 42,
+    "athleteid": 11,
+    "eventid": 27
+  },
+  {
+    "union": 43,
+    "athleteid": 6,
+    "eventid": 28
+  },
+  {
+    "union": 44,
+    "athleteid": 7,
+    "eventid": 28
+  },
+  {
+    "union": 45,
+    "athleteid": 11,
+    "eventid": 28
+  },
+  {
+    "union": 46,
+    "athleteid": 8,
+    "eventid": 29
+  },
+  {
+    "union": 47,
+    "athleteid": 10,
+    "eventid": 29
+  },
+  {
+    "union": 48,
+    "athleteid": 8,
+    "eventid": 30
+  },
+  {
+    "union": 49,
+    "athleteid": 10,
+    "eventid": 30
+  },
+  {
+    "union": 50,
+    "athleteid": 8,
+    "eventid": 31
+  },
+  {
+    "union": 51,
+    "athleteid": 10,
+    "eventid": 31
+  },
+  {
+    "union": 52,
+    "athleteid": 9,
+    "eventid": 32
+  },
+  {
+    "union": 53,
+    "athleteid": 12,
+    "eventid": 32
+  },
+  {
+    "union": 54,
+    "athleteid": 9,
+    "eventid": 33
+  },
+  {
+    "union": 55,
+    "athleteid": 12,
+    "eventid": 33
+  },
+  {
+    "union": 56,
+    "athleteid": 9,
+    "eventid": 34
+  },
+  {
+    "union": 57,
+    "athleteid": 12,
+    "eventid": 34
+  },
+  {
+    "union": 58,
+    "athleteid": 13,
+    "eventid": 35
+  },
+  {
+    "union": 59,
+    "athleteid": 13,
+    "eventid": 36
+  },
+  {
+    "union": 60,
+    "athleteid": 13,
+    "eventid": 37
+  },
+  {
+    "union": 61,
+    "athleteid": 13,
+    "eventid": 38
+  },
+  {
+    "union": 62,
+    "athleteid": 13,
+    "eventid": 39
+  },
+  {
+    "union": 63,
+    "athleteid": 13,
+    "eventid": 40
+  },
+  {
+    "union": 64,
+    "athleteid": 14,
+    "eventid": 45
+  },
+  {
+    "union": 65,
+    "athleteid": 15,
+    "eventid": 2
+  },
+  {
+    "union": 66,
+    "athleteid": 16,
+    "eventid": 2
+  },
+  {
+    "union": 67,
+    "athleteid": 15,
+    "eventid": 3
+  },
+  {
+    "union": 68,
+    "athleteid": 16,
+    "eventid": 3
+  },
+  {
+    "union": 69,
+    "athleteid": 15,
+    "eventid": 46
+  },
+  {
+    "union": 70,
+    "athleteid": 16,
+    "eventid": 46
+  },
+  {
+    "union": 71,
+    "athleteid": 15,
+    "eventid": 47
+  },
+  {
+    "union": 72,
+    "athleteid": 16,
+    "eventid": 47
+  },
+  {
+    "union": 73,
+    "athleteid": 15,
+    "eventid": 48
+  },
+  {
+    "union": 74,
+    "athleteid": 16,
+    "eventid": 48
+  },
+  {
+    "union": 75,
+    "athleteid": 15,
+    "eventid": 49
+  },
+  {
+    "union": 76,
+    "athleteid": 16,
+    "eventid": 49
+  },
+  {
+    "union": 77,
+    "athleteid": 15,
+    "eventid": 50
+  },
+  {
+    "union": 78,
+    "athleteid": 16,
+    "eventid": 50
+  },
+  {
+    "union": 79,
+    "athleteid": 17,
+    "eventid": 51
+  },
+  {
+    "union": 80,
+    "athleteid": 17,
+    "eventid": 52
+  },
+  {
+    "union": 81,
+    "athleteid": 17,
+    "eventid": 53
+  },
+  {
+    "union": 82,
+    "athleteid": 17,
+    "eventid": 54
+  },
+  {
+    "union": 83,
+    "athleteid": 17,
+    "eventid": 55
+  },
+  {
+    "union": 84,
+    "athleteid": 17,
+    "eventid": 56
+  },
+  {
+    "union": 85,
+    "athleteid": 17,
+    "eventid": 57
+  },
+  {
+    "union": 86,
+    "athleteid": 17,
+    "eventid": 58
+  },
+  {
+    "union": 87,
+    "athleteid": 17,
+    "eventid": 59
+  },
+  {
+    "union": 88,
+    "athleteid": 17,
+    "eventid": 60
+  },
+  {
+    "union": 89,
+    "athleteid": 19,
+    "eventid": 4
+  },
+  {
+    "union": 90,
+    "athleteid": 19,
+    "eventid": 62
+  },
+  {
+    "union": 91,
+    "athleteid": 19,
+    "eventid": 63
+  },
+  {
+    "union": 92,
+    "athleteid": 19,
+    "eventid": 64
+  },
+  {
+    "union": 93,
+    "athleteid": 19,
+    "eventid": 65
+  },
+  {
+    "union": 94,
+    "athleteid": 19,
+    "eventid": 66
+  },
+  {
+    "union": 95,
+    "athleteid": 19,
+    "eventid": 67
+  },
+  {
+    "union": 96,
+    "athleteid": 19,
+    "eventid": 68
+  },
+  {
+    "union": 97,
+    "athleteid": 19,
+    "eventid": 69
+  },
+  {
+    "union": 98,
+    "athleteid": 20,
+    "eventid": 70
+  },
+  {
+    "union": 99,
+    "athleteid": 21,
+    "eventid": 72
+  },
+  {
+    "union": 100,
+    "athleteid": 21,
+    "eventid": 73
+  },
+  {
+    "union": 101,
+    "athleteid": 21,
+    "eventid": 14
+  },
+  {
+    "union": 102,
+    "athleteid": 21,
+    "eventid": 74
+  },
+  {
+    "union": 103,
+    "athleteid": 21,
+    "eventid": 75
+  },
+  {
+    "union": 104,
+    "athleteid": 21,
+    "eventid": 76
+  },
+  {
+    "union": 105,
+    "athleteid": 21,
+    "eventid": 77
+  },
+  {
+    "union": 106,
+    "athleteid": 21,
+    "eventid": 78
+  },
+  {
+    "union": 107,
+    "athleteid": 21,
+    "eventid": 79
+  },
+  {
+    "union": 108,
+    "athleteid": 22,
+    "eventid": 80
+  },
+  {
+    "union": 109,
+    "athleteid": 25,
+    "eventid": 80
+  },
+  {
+    "union": 110,
+    "athleteid": 22,
+    "eventid": 81
+  },
+  {
+    "union": 111,
+    "athleteid": 25,
+    "eventid": 81
+  },
+  {
+    "union": 112,
+    "athleteid": 22,
+    "eventid": 82
+  },
+  {
+    "union": 113,
+    "athleteid": 25,
+    "eventid": 82
+  },
+  {
+    "union": 114,
+    "athleteid": 22,
+    "eventid": 83
+  },
+  {
+    "union": 115,
+    "athleteid": 25,
+    "eventid": 83
+  },
+  {
+    "union": 116,
+    "athleteid": 23,
+    "eventid": 84
+  },
+  {
+    "union": 117,
+    "athleteid": 23,
+    "eventid": 85
+  },
+  {
+    "union": 118,
+    "athleteid": 23,
+    "eventid": 86
+  },
+  {
+    "union": 119,
+    "athleteid": 24,
+    "eventid": 87
+  },
+  {
+    "union": 120,
+    "athleteid": 24,
+    "eventid": 88
+  },
+  {
+    "union": 121,
+    "athleteid": 24,
+    "eventid": 89
+  },
+  {
+    "union": 122,
+    "athleteid": 24,
+    "eventid": 90
+  },
+  {
+    "union": 123,
+    "athleteid": 24,
+    "eventid": 91
+  },
+  {
+    "union": 124,
+    "athleteid": 24,
+    "eventid": 92
+  },
+  {
+    "union": 125,
+    "athleteid": 24,
+    "eventid": 93
+  },
+  {
+    "union": 126,
+    "athleteid": 24,
+    "eventid": 94
+  },
+  {
+    "union": 127,
+    "athleteid": 24,
+    "eventid": 95
+  },
+  {
+    "union": 128,
+    "athleteid": 26,
+    "eventid": 4
+  },
+  {
+    "union": 129,
+    "athleteid": 27,
+    "eventid": 4
+  },
+  {
+    "union": 130,
+    "athleteid": 26,
+    "eventid": 62
+  },
+  {
+    "union": 131,
+    "athleteid": 27,
+    "eventid": 62
+  },
+  {
+    "union": 132,
+    "athleteid": 26,
+    "eventid": 63
+  },
+  {
+    "union": 133,
+    "athleteid": 27,
+    "eventid": 63
+  },
+  {
+    "union": 134,
+    "athleteid": 26,
+    "eventid": 64
+  },
+  {
+    "union": 135,
+    "athleteid": 27,
+    "eventid": 64
+  },
+  {
+    "union": 136,
+    "athleteid": 26,
+    "eventid": 65
+  },
+  {
+    "union": 137,
+    "athleteid": 27,
+    "eventid": 65
+  },
+  {
+    "union": 138,
+    "athleteid": 26,
+    "eventid": 66
+  },
+  {
+    "union": 139,
+    "athleteid": 27,
+    "eventid": 66
+  },
+  {
+    "union": 140,
+    "athleteid": 26,
+    "eventid": 67
+  },
+  {
+    "union": 141,
+    "athleteid": 27,
+    "eventid": 67
+  },
+  {
+    "union": 142,
+    "athleteid": 26,
+    "eventid": 68
+  },
+  {
+    "union": 143,
+    "athleteid": 27,
+    "eventid": 68
+  },
+  {
+    "union": 144,
+    "athleteid": 26,
+    "eventid": 69
+  },
+  {
+    "union": 145,
+    "athleteid": 27,
+    "eventid": 69
+  },
+  {
+    "union": 146,
+    "athleteid": 28,
+    "eventid": 26
+  },
+  {
+    "union": 147,
+    "athleteid": 28,
+    "eventid": 27
+  },
+  {
+    "union": 148,
+    "athleteid": 28,
+    "eventid": 28
+  },
+  {
+    "union": 149,
+    "athleteid": 29,
+    "eventid": 96
+  },
+  {
+    "union": 150,
+    "athleteid": 29,
+    "eventid": 97
+  },
+  {
+    "union": 151,
+    "athleteid": 29,
+    "eventid": 98
+  },
+  {
+    "union": 152,
+    "athleteid": 29,
+    "eventid": 99
+  }
+]
