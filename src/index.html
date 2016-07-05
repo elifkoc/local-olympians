@@ -43,8 +43,7 @@
         <div class="athlete-box" "flex-item">
                 </div>
         <div class="table-box" "flex-item">
-        <tr>
-          <td>
+        
             <table>
               <tr>
                 <th>Name</th>
@@ -62,7 +61,8 @@
                 <th>8/14</th>
                 <th>8/15</th>
                 <th>8/16</th>
-                <th>8/17</th>    <th>8/18</th>
+                <th>8/17</th>    
+                <th>8/18</th>
                 <th>8/19</th>
                 <th>8/20</th>
                 <th>8/21</th>
@@ -70,14 +70,7 @@
                 <th>8/23</th>
                 <th>8/24</th>
               </tr>
-            </table>
-          </td>
-        </tr>
         
-        <tr>
-          <td>
-            <div class="table-body">
-              <table >
           <% people.forEach(function(person) {   %>
 
             <tr class="athlete-row">
@@ -95,7 +88,7 @@
               <% if (hasEvent) {  
                
                person.days[dateString].forEach( function(day) { %>
-                x<!--<%= day.event.title %>-->                                   
+                <img src="./assets/<%= day.event.category%>.png">                                   
                <% });
                   
               } else { } %>
@@ -110,9 +103,7 @@
 
         </table>  
        </div>
-    </td>
-  </tr>
-</div>
+
       <script> 
       window.olympians = <%= JSON.stringify(people) %>  
        

@@ -318,5 +318,15 @@
     "hometown": "Olympia, Wash.",
     "birthdate": "11/18/1992",
     "connection": "Raised and lives in Olympia"
+  },
+  {
+    "athleteid": 33,
+    "lastname": "Taiwo",
+    "firstname": "Jeremy",
+    "sport": "Track and Field",
+    "team": "USA",
+    "hometown": "Renton, Wash.",
+    "birthdate": "1/15/1990",
+    "connection": "Newport High School (Renton), University of Washington"
   }
 ]
