@@ -20,18 +20,19 @@
 
       people.forEach(function(person) {
         //This object holds each athlete with all of their events.
-        person.events = {};
+        person.days = {};
 
         json.OlympiansTracker_participation.forEach(function(item) {
           if (item.athleteid == person.athleteid) {
             var event = events[item.eventid];
-            //does this if statement only allow for one event per date?
-            if (!person.events[event.date]) {
-              person.events[event.date] = [];
+
+            if (!person.days[event.date]) {
+              person.days[event.date] = [];
             }
-            person.events[event.date].push({
+            person.days[event.date].push({
               participation: item,
-              event: event
+              event: event,
+              person: person.firstname
             });
           }
         });
@@ -39,66 +40,83 @@
 
       %>
       <div class="container">
-        <table>
-          <tr>
-            <th>Athletes</th>
-            <th>8/3</th>
-            <th>8/4</th>
-            <th>8/5</th>
-            <th>8/6</th>
-            <th>8/7</th>
-            <th>8/8</th>
-            <th>8/9</th>
-            <th>8/10</th>
-            <th>8/11</th>
-            <th>8/12</th>
-            <th>8/13</th>
-            <th>8/14</th>
-            <th>8/15</th>
-            <th>8/16</th>
-            <th>8/17</th>
-          </tr>
-
-          <% people.forEach(function(person) { %>
+        <div class="athlete-box" "flex-item">
+                </div>
+        <div class="table-box" "flex-item">
+        <tr>
+          <td>
+            <table>
+              <tr>
+                <th>Name</th>
+                <th>8/3</th>
+                <th>8/4</th>
+                <th>8/5</th>
+                <th>8/6</th>
+                <th>8/7</th>
+                <th>8/8</th>
+                <th>8/9</th>
+                <th>8/10</th>
+                <th>8/11</th>
+                <th>8/12</th>
+                <th>8/13</th>
+                <th>8/14</th>
+                <th>8/15</th>
+                <th>8/16</th>
+                <th>8/17</th>    <th>8/18</th>
+                <th>8/19</th>
+                <th>8/20</th>
+                <th>8/21</th>
+                <th>8/22</th>
+                <th>8/23</th>
+                <th>8/24</th>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        
+        <tr>
+          <td>
+            <div class="table-body">
+              <table >
+          <% people.forEach(function(person) {   %>
 
             <tr class="athlete-row">
               <td class="athlete-name" data-id="<%= person.athleteid%>">
                 <%=person.firstname%> <%=person.lastname%>
-
               </td>
 
-
-            <%
-              for (var i = 3; i < 18; i++) {
+            <% for (var i = 3; i < 25; i++) {
                 var dateString = "8/" + i + "/16"; 
-                var hasEvent = !!person.events[dateString]; %>
-              <td class="<%= hasEvent ? "event" : "nothing" %>">
-              <% if (hasEvent) {
+                var hasEvent = !!person.days[dateString]; 
+                var eventDay = "event " + dateString;
+                                %>
+              <td class="<%= hasEvent ? eventDay : "no-event" %>">
+                
+              <% if (hasEvent) {  
+               
+               person.days[dateString].forEach( function(day) { %>
+                x<!--<%= day.event.title %>-->                                   
+               <% });
+                  
+              } else { } %>
 
-                  %>
-                x
-              <% } else { %>
+              </td> <!--td (per athlete): event/no-event-->
 
-              <% } %>
-              </td>
+              <% }; %> 
+          </tr> <!--tr: athlete row-->
 
-              <% }; %>
-          </tr>
-
-          <tr class="athlete-info" data-id="<%= person.athleteid%>">
-          <td> <div class="athlete-card" data-id="<%= person.athleteid%>">
-            <img src="">    
-            <b>Hometown</b><%=person.hometown%><%=person.hometown%><%=person.hometown%><%=person.hometown%><%=person.hometown%>
-
-                </div></td></tr>
           <% }); %>
 
 
-        </table>
-      </div>
-
-   
-
+        </table>  
+       </div>
+    </td>
+  </tr>
+</div>
+      <script> 
+      window.olympians = <%= JSON.stringify(people) %>  
+       
+        </script>
     <script src="app.js" async></script>
     <% if (json.project.production) { %>
     <%= !json.project.embedded ? t.include("partials/_foot.html") : "" %>

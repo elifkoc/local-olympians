@@ -1,42 +1,78 @@
 @import "seattletimes";
 .container {
+  max-width: 1200px;
+  position: relative;
+  .display-flex;
+  flex-direction: column;
+  padding: 3%;
+  
+  .athlete-box {
+    width: 700px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+    display: none; 
+    
+    
+    
+    img {
+      width: 20%;
+      height: 40%;
+      float: left;
+      margin: 2%;
+    }
+    &.show {
+        display: block;
+    }
+  }  
+  
+  .table-box {
+    width: 1300px;
+    height: 400px;
 
-  
-  @media @mobile {
-    overflow-x: scroll;
-    overflow-y: visible;
   }
-  
+
 }
+
 table {
+
   font-family: @df-sans;
   border-collapse: separate;
-  width: 100%;
-  height: auto;
+  width: 1200px;
       @media @mobile {
       width: 100%;
       height: 100%;
-      display: block;
     }
 }
 
+
+div .table-body {
+  width:1200px; 
+  height:100%; 
+   overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
 th {
+  width: 50px;
    @media @mobile {
       display: none;
-    }
+   }
 }
+
 td {
+  
   margin: 0;
+  width:50px;
   @media @mobile {
     display: block;
     width: 100%;
-
-  }  
+  }
+  
   &.athlete-name {
+    width: 130px;
     font-size: 10px;
-    //HEIGHT IS BAAAD
-    width: 75px;
-    height: 50px;
     background-color: @df-footer-gray;
     @media @mobile {
       width: 100%;
@@ -45,30 +81,25 @@ td {
     }
   }
 
-  &.event {
+  &.event{
     background-color: @st-light-purple;
     width: 50px;
     height: 50px;
     padding-left: 2%;
     padding-right: 2%;
+    font-size: 8px;
       @media @mobile {
       width: 100%;
       height: 100%;
-      display: block;
+      border-bottom: 1px solid white;
+    }  
+  }  
+  
+  &.no-event{
+    .event; 
+    @media @mobile {
+      display: none;
     }  
   }
 }
 
-tr {
-    &.athlete-info {
-      font-size: 10px;
-      display: none;
-      width: 90%;
-      &.show {
-        display: block;
-        colspan: 10;
-          white-space: nowrap;
-
-      }
-    }
-}
