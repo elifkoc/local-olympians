@@ -44,7 +44,7 @@
       <div class="table">
 
         <!--Headers-->
-        <div class="table-row table-header">
+        <div class="table-header">
           <div class="row-item">Name</div>
           <div class="row-item">8/3</div>
           <div class="row-item">8/4</div>
@@ -72,8 +72,8 @@
 
         <% people.forEach(function(person) { %>
 
-        <div class="table-row-athlete">
-          <div class="row-item athlete-name" data-id="<%= person.athleteid%>">
+        <div class="table-athlete-row">
+          <div class="athlete-name row-item" data-id="<%= person.athleteid%>">
             <%=person.firstname%> <%=person.lastname%>
           </div>
 
@@ -82,12 +82,12 @@
             var hasEvent = !!person.days[dateString]; 
             var eventDay = "event " + dateString;
             %>
-          <div class="table-row-<%= hasEvent ? eventDay : "noevent" %>">
+          <div class="row-item <%= hasEvent ? eventDay : "noevent" %>">
 
             <% if (hasEvent) {  
 
               person.days[dateString].forEach( function(day) { %>
-            <img src="./assets/<%= day.event.category%>.png">                                   
+            x                                  
             <% });
 
             } else { } %>
