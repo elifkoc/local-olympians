@@ -84,9 +84,12 @@
           <div class="row-item <%= hasEvent ? eventDay : "noevent" %>" data-id="<%= "8/" + i%> ">
 
             <% if (hasEvent) {  
+
               person.days[dateString].forEach( function(day) { %>
 
-            <div class="tooltip"><i class="icon">x</i>
+            <div class="tooltip"><i class="icon"><img src="/assets/Soccer.png"></i>
+              <%break;%>
+              
               <span class="tooltiptext">    <%=day.event.category%><br>
                 <%=day.event.title%><br>
                 Local Time: <%=day.event.localtime%><br> 
