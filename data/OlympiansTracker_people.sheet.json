@@ -231,13 +231,13 @@
   },
   {
     "athleteid": 24,
-    "lastname": "Jackson",
-    "firstname": "Lauren",
+    "lastname": "Mitchell",
+    "firstname": "Leilani",
     "sport": "Basketball ",
     "team": "Australia",
-    "hometown": "Albury, Australia",
-    "birthdate": "5/11/1981",
-    "connection": "Played for Seattle Storm"
+    "hometown": "Richland, Wash.",
+    "birthdate": "6/15/1985",
+    "connection": "Born in Richland, went to Kennewick High School"
   },
   {
     "athleteid": 25,
@@ -328,5 +328,77 @@
     "hometown": "Renton, Wash.",
     "birthdate": "1/15/1990",
     "connection": "Newport High School (Renton), University of Washington"
+  },
+  {
+    "athleteid": 34,
+    "lastname": "Geubelle",
+    "firstname": "Andrea",
+    "sport": "Track and Field",
+    "team": "USA",
+    "hometown": "University Place, Wash.",
+    "birthdate": "6/26/1991",
+    "connection": "Raise in University Place, Curtis Senior High School"
+  },
+  {
+    "athleteid": 35,
+    "lastname": "Lagat",
+    "firstname": "Bernard",
+    "sport": "Track and Field",
+    "team": "USA",
+    "hometown": "Kapsabet, Kenya",
+    "birthdate": "12/12/1974",
+    "connection": "Washington State University"
+  },
+  {
+    "athleteid": 36,
+    "lastname": "Winger",
+    "firstname": "Kara",
+    "sport": "Track and Field",
+    "team": "USA",
+    "hometown": "Vancouver, Wash.",
+    "birthdate": "4/10/1986",
+    "connection": "Raised in Vancouver, Skyview High School"
+  },
+  {
+    "athleteid": 37,
+    "lastname": "Motum",
+    "firstname": "Brock",
+    "sport": "Basketball ",
+    "team": "Australia",
+    "hometown": "Brisbane, Australia",
+    "birthdate": "10/16/1990",
+    "connection": "Washington State University"
+  },
+  {
+    "athleteid": 38,
+    "lastname": "Young",
+    "firstname": "Katrina",
+    "sport": "Diving",
+    "team": "USA",
+    "hometown": "Shoreline, Wash.",
+    "birthdate": "1/10/1992",
+    "connection": "Raised in Shoreline"
+  },
+  {
+    "athleteid": 39,
+    "lastname": "Black**",
+    "firstname": "Maya",
+    "sport": "Equestrian",
+    "team": "USA",
+    "hometown": "Clinton, Wash.",
+    "birthdate": "-----",
+  },
+  {
+    "athleteid": 40,
+    "lastname": "Pan",
+    "firstname": "Cheng Tsung",
+    "sport": "Golf",
+    "team": "Chinese Taipei",
+    "hometown": "Taipei, Chinese Taipei",
+    "birthdate": "11/12/1991",
+    "connection": "University of Washington"
+  },
+  {
+    "lastname": "**Is currently a reserve, so I haven't included any events yet"
   }
 ]
