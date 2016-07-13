@@ -41,7 +41,7 @@
   text-align: center;
   border: .5px solid rgba(255, 255, 255, 0.44);
   &.highlight {
-    background-color: gray;
+    background-color: lightblue;
   }
 
   &.athlete-name {
@@ -61,7 +61,7 @@
   &.event{
     &.highlight {
       background-color: rgb(180, 140, 220);
-      cursor: pointer;
+      cursor: default;
 
     }
     background-color: @st-light-purple;
@@ -105,7 +105,12 @@
 .tooltip {
   position: relative;
   width: 25px;
-
+  img:first-of-type {
+    position: relative;
+  }
+  img {
+    position: sticky;
+  }
   .icon {
     font-style: normal;
   }

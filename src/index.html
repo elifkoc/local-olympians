@@ -46,36 +46,40 @@
         <!--Headers-->
         <div class="table-column dates">
           <div class="row-item athlete-name">Name</div>
-          <div class="row-item week1" data-id="8/3">8/3</div>
-          <div class="row-item week1" data-id="8/4">8/4</div>
-          <div class="row-item week1" data-id="8/5">8/5</div>
-          <div class="row-item week1" data-id="8/6">8/6</div>
-          <div class="row-item week1" data-id="8/7">8/7</div>
-          <div class="row-item week1" data-id="8/8">8/8</div>
-          <div class="row-item week1" data-id="8/9">8/9</div>
-          <div class="row-item week1" data-id="8/10">8/10</div>
-          <div class="row-item week2" data-id="8/11">8/11</div>
-          <div class="row-item week2" data-id="8/12">8/12</div>
-          <div class="row-item week2" data-id="8/13">8/13</div>
-          <div class="row-item week2" data-id="8/14">8/14</div>
-          <div class="row-item week2" data-id="8/15">8/15</div>
-          <div class="row-item week2" data-id="8/16">8/16</div>
-          <div class="row-item week2" data-id="8/17">8/17</div>    
-          <div class="row-item week3" data-id="8/18">8/18</div>
-          <div class="row-item week3" data-id="8/19">8/19</div>
-          <div class="row-item week3" data-id="8/20">8/20</div>
-          <div class="row-item week3" data-id="8/21">8/21</div>
-          <div class="row-item week3" data-id="8/22">8/22</div>
-          <div class="row-item week3" data-id="8/23">8/23</div>
-          <div class="row-item week3" data-id="8/24">8/24</div>
+          <div class="row-item" data-id="8/3">8/3</div>
+          <div class="row-item" data-id="8/4">8/4</div>
+          <div class="row-item" data-id="8/5">8/5</div>
+          <div class="row-item" data-id="8/6">8/6</div>
+          <div class="row-item" data-id="8/7">8/7</div>
+          <div class="row-item" data-id="8/8">8/8</div>
+          <div class="row-item" data-id="8/9">8/9</div>
+          <div class="row-item" data-id="8/10">8/10</div>
+          <div class="row-item" data-id="8/11">8/11</div>
+          <div class="row-item" data-id="8/12">8/12</div>
+          <div class="row-item" data-id="8/13">8/13</div>
+          <div class="row-item" data-id="8/14">8/14</div>
+          <div class="row-item" data-id="8/15">8/15</div>
+          <div class="row-item" data-id="8/16">8/16</div>
+          <div class="row-item" data-id="8/17">8/17</div>    
+          <div class="row-item" data-id="8/18">8/18</div>
+          <div class="row-item" data-id="8/19">8/19</div>
+          <div class="row-item" data-id="8/20">8/20</div>
+          <div class="row-item" data-id="8/21">8/21</div>
+          <div class="row-item" data-id="8/22">8/22</div>
+          <div class="row-item" data-id="8/23">8/23</div>
+          <div class="row-item" data-id="8/24">8/24</div>
         </div>
+        
         <% people.forEach(function(person) { %>
 
         <!--Athlete rows-->
         <div class="table-column athleterows">
+          
           <div class="athlete-name row-item" data-id="<%= person.athleteid%>">
             <%=person.firstname%> <%=person.lastname%>
           </div>
+          
+        <!--Event rows-->
           <% for (var i = 3; i < 25; i++) {
             var dateString = "8/" + i + "/16"; 
             var hasEvent = !!person.days[dateString]; 
@@ -87,8 +91,8 @@
 
               person.days[dateString].forEach( function(day) { %>
 
-            <div class="tooltip"><i class="icon"><img src="/assets/Soccer.png"></i>
-              <%break;%>
+            <div class="tooltip"><i class="icon">x</i>
+        
               
               <span class="tooltiptext">    <%=day.event.category%><br>
                 <%=day.event.title%><br>
