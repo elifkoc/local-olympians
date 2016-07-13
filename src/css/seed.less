@@ -8,7 +8,7 @@
 
 .table {
   font-family: @df-sans;
-  
+
   @media @mobile {
     width: 100%;
     height: 100%;
@@ -21,7 +21,7 @@
 
     &.dates {
       font-size: 11px;
-      
+
       @media @mobile {
         display: none;
       }
@@ -36,14 +36,14 @@
 }
 
 .row-item {
-  
+
   .flex(1 1 6%);
   text-align: center;
   border: .5px solid rgba(255, 255, 255, 0.44);
   &.highlight {
     background-color: gray;
   }
-  
+
   &.athlete-name {
     cursor: pointer;
 
@@ -68,10 +68,6 @@
     font-size: 8px;
     text-align: center;
 
-    .icon {
-      font-style: normal;
-    }
-
     @media @mobile {
       margin-left: 2%;
     }  
@@ -79,9 +75,9 @@
 
   &.noevent {
     &.highlight {
-      background-color: rgb(43, 50, 112);
+      background-color: lightblue;
     }
-    background-color: @df-navy;
+    background-color: whitesmoke;
     @media @mobile {
       display: none;
     }  
@@ -108,8 +104,11 @@
 
 .tooltip {
   position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
+  width: 25px;
+
+  .icon {
+    font-style: normal;
+  }
 }
 
 .tooltip .tooltiptext {
