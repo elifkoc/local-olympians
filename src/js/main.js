@@ -37,8 +37,10 @@ var colHover = function(e) {
 
   });
                  
+  
   items.forEach(function(i) {
       i.classList.add("highlight");
+
   });
 }
 
