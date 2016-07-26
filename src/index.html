@@ -46,32 +46,31 @@
         <!--Headers-->
         <div class="table-column dates">
           <div class="row-item athlete-name">Name</div>
-          <div class="row-item" data-id="8/3">8/3</div>
-          <div class="row-item" data-id="8/4">8/4</div>
-          <div class="row-item" data-id="8/5">8/5</div>
-          <div class="row-item" data-id="8/6">8/6</div>
-          <div class="row-item" data-id="8/7">8/7</div>
-          <div class="row-item" data-id="8/8">8/8</div>
-          <div class="row-item" data-id="8/9">8/9</div>
-          <div class="row-item" data-id="8/10">8/10</div>
-          <div class="row-item" data-id="8/11">8/11</div>
-          <div class="row-item" data-id="8/12">8/12</div>
-          <div class="row-item" data-id="8/13">8/13</div>
-          <div class="row-item" data-id="8/14">8/14</div>
-          <div class="row-item" data-id="8/15">8/15</div>
-          <div class="row-item" data-id="8/16">8/16</div>
-          <div class="row-item" data-id="8/17">8/17</div>    
-          <div class="row-item" data-id="8/18">8/18</div>
-          <div class="row-item" data-id="8/19">8/19</div>
-          <div class="row-item" data-id="8/20">8/20</div>
-          <div class="row-item" data-id="8/21">8/21</div>
+          <div class="row-item" data-id="8/3/16">8/3</div>
+          <div class="row-item" data-id="8/4/16">8/4</div>
+          <div class="row-item" data-id="8/5/16">8/5</div>
+          <div class="row-item" data-id="8/6/16">8/6</div>
+          <div class="row-item" data-id="8/7/16">8/7</div>
+          <div class="row-item" data-id="8/8/16">8/8</div>
+          <div class="row-item" data-id="8/9/16">8/9</div>
+          <div class="row-item" data-id="8/10/16">8/10</div>
+          <div class="row-item" data-id="8/11/16">8/11</div>
+          <div class="row-item" data-id="8/12/16">8/12</div>
+          <div class="row-item" data-id="8/13/16">8/13</div>
+          <div class="row-item" data-id="8/14/16">8/14</div>
+          <div class="row-item" data-id="8/15/16">8/15</div>
+          <div class="row-item" data-id="8/16/16">8/16</div>
+          <div class="row-item" data-id="8/17/16">8/17</div>    
+          <div class="row-item" data-id="8/18/16">8/18</div>
+          <div class="row-item" data-id="8/19/16">8/19</div>
+          <div class="row-item" data-id="8/20/16">8/20</div>
+          <div class="row-item" data-id="8/21/16">8/21</div>
 
         </div>
         
-        <% people.forEach(function(person) { 
-
-        console.log(person.athleteid) %>
-          
+        <% people.forEach(function(person) { %>
+        
+<!--        Athlete Row-->
         <div class="table-column athleterows">
 
           <div class="athlete-name row-item" data-id="<%= person.athleteid%>">
@@ -83,36 +82,36 @@
         <!--Event rows-->
           <% for (var i = 3; i < 22; i++) {
             
-            
             var dateString = "8/" + i + "/16"; 
             var hasEvent = !!person.days[dateString]; 
             var eventDay = "event " + dateString;
             %>
-          <div class="row-item <%= hasEvent ? eventDay : "noevent" %>" data-id="<%= "8/" + i%> ">
-
+          <div class="row-item <%= hasEvent ? eventDay : "noevent" %>" data-id="<%= dateString%> ">
             <% if (hasEvent) {  
-
+              
               person.days[dateString].forEach( function(day) { %>
 
-            <div class="tooltip">
-              <i class="icon">
-                <img src="assets/Soccer.png">
-              </i>
-        
-              
-              <span class="tooltiptext">    
-                <%=day.event.title%><br>
-                Local Time: <%=day.event.localtime%><br>
-                Rio Time: <%=day.event.riotime%><br>
-              </span>
-            </div>
+                <div class="tooltip">
+                  <i class="icon">
+                    <img src="assets/Icons/<%=person.sport%>.png">
+                  </i>
+
+
+                  <span class="tooltiptext">    
+
+                    <%=person.sport%><br>
+                    <%=day.event.title%><br>
+                    Local Time: <%=day.event.localtime%><br>
+                    Rio Time: <%=day.event.riotime%><br>
+                  </span>
+                </div>
             
-            <% });
+              <% });
 
             } else { } %>
 
           </div>
-          <% }; %> 
+        <% }; %> 
         </div> 
         <div class="athlete-box" data-id="<%= person.athleteid%>"></div>
 
