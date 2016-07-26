@@ -12,7 +12,7 @@ var qsa = require("./lib/qsa");
 var openBox = function(e) {
   var pos = this.getAttribute("data-id");
   var items = qsa(`.athlete-box[data-id="${pos}"]`);
-      
+
   items.forEach(function(item) {
     item.classList.toggle("show");
     item.innerHTML = template({athletes: window.olympians, id: pos});
@@ -20,8 +20,8 @@ var openBox = function(e) {
 };
 
 var iconToggle = function(e) {
-    var icon = this.getElementsByTagName("i")[0];
-    icon.classList.toggle("fa-minus");
+  var icon = this.getElementsByTagName("i")[0];
+  icon.classList.toggle("fa-minus");
 };
 
 qsa(".athlete-name").forEach(function(el) {
@@ -46,8 +46,31 @@ var colHover = function(e) {
 }
 
 
-
 qsa(".dates .row-item").forEach(function(el) {
   el.addEventListener("mouseover", colHover);
 } );
+
+var expand = function(e) {
+  var hidden = qsa('.off');
+  var expanded = qsa('.expanded');
+
+  if (hidden.length > 0) {
+    hidden.forEach(function(h) {
+      h.classList.remove('off');
+      h.classList.add('expanded');
+    });
+
+    this.innerHTML = "Collapse";  
+  }
+
+  else  {
+    this.innerHTML = "Expand";  
+    expanded.forEach(function(x) {
+      x.classList.add('off');
+    });
+
+  }
+
+};
+document.querySelector(".expand").addEventListener("click", expand);
 

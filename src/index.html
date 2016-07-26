@@ -70,13 +70,20 @@
 
         </div>
         
-        <% for (var j = 0; j < 10; j++) {
+        <% for (var j = 0; j < people.length; j++) {
             var person = people[j];
-            console.log(person.firstname); %>
+     
         
         <!--        Athlete Row-->
-        <div class="table-column athleterows">
+        if (j < 10) { %>
+          <div class="table-column athleterows">
 
+        <% }
+          else { %>
+            
+          
+        <div class="table-column athleterows off">
+          <% } %>
           <div class="athlete-name row-item" data-id="<%= person.athleteid%>">
             <p class="name">
               <%=person.firstname%> <%=person.lastname%> <i class="fa fa-plus"></i>
@@ -125,7 +132,7 @@
 
 
       </div>
-
+        <p class=expand>Expand</p>
       <script> 
         window.olympians = <%= JSON.stringify(people) %>  
 
