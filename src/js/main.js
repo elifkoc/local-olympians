@@ -11,29 +11,22 @@ var qsa = require("./lib/qsa");
 //Athlete profiles
 var openBox = function(e) {
   var pos = this.getAttribute("data-id");
-  var others = qsa('.show');
   var items = qsa(`.athlete-box[data-id="${pos}"]`);
-
-  items.forEach(function(item) {
-
-    if (item.classList.contains("show")) {
-      item.classList.remove("show");
-    }
-    
-    else {
-      others.forEach(function(i) {
-      i.classList.remove("show");
-      });
       
-      item.classList.add("show");
-      item.innerHTML = template({athletes: window.olympians, id: pos});
-    }
-
+  items.forEach(function(item) {
+    item.classList.toggle("show");
+    item.innerHTML = template({athletes: window.olympians, id: pos});
   });
+};
+
+var iconToggle = function(e) {
+    var icon = this.getElementsByTagName("i")[0];
+    icon.classList.toggle("fa-minus");
 };
 
 qsa(".athlete-name").forEach(function(el) {
   el.addEventListener("click", openBox);
+  el.addEventListener("click", iconToggle);
 });
 
 

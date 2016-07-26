@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
     <%= t.include("partials/_head.html") %>
   </head>
   <body>
@@ -74,7 +76,9 @@
         <div class="table-column athleterows">
 
           <div class="athlete-name row-item" data-id="<%= person.athleteid%>">
-            <%=person.firstname%> <%=person.lastname%>
+            <p class="name">
+              <%=person.firstname%> <%=person.lastname%> <i class="fa fa-plus"></i>
+            </p>
           </div>
           
           <div class="athlete-box mobile" data-id="<%= person.athleteid%>"></div>
