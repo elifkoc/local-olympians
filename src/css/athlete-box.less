@@ -1,0 +1,51 @@
+
+.athlete-box {
+  width: 100%;
+  display: none;
+
+  &.show {
+    display: block;
+    @media @mobile {
+      display: none;
+    }
+  }
+  
+    &.mobile.show {
+    display: none;
+    @media @mobile {
+      display: block;
+    }  
+  }
+
+
+  .box {
+    .display-flex();
+    background-color: @df-off-white;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+
+    .intro {
+      .flex(1 0 0);
+      .photo {
+        float: left;
+        width: 50px;
+
+      }
+      .name {
+        font-size: 14px;
+      }
+    }
+
+    .stats {
+      .flex(1 0 0);
+
+    }
+
+    .connection {
+      .flex(1 0 0);
+
+    }
+  }
+
+}

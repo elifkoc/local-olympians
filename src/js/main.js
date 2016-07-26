@@ -11,10 +11,11 @@ var qsa = require("./lib/qsa");
 var box = qsa(".athletebox");
 
 var onClick = function(e) {
-
+console.log('g');
   var pos = this.getAttribute("data-id");
-  var item = document.querySelector(`.athlete-box[data-id="${pos}"]`);
+  var items = qsa(`.athlete-box[data-id="${pos}"]`);
 
+  items.forEach(function(item) {
   if (!item.classList.contains("show")) {
     item.classList.add("show");
     item.innerHTML = template({athletes: window.olympians, id: pos});
@@ -23,8 +24,8 @@ var onClick = function(e) {
   else {
     item.classList.remove("show");
   }
+});
 }
-
 
 var colHover = function(e) {
   var pos = this.getAttribute("data-id");

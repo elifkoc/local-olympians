@@ -65,22 +65,25 @@
           <div class="row-item" data-id="8/19">8/19</div>
           <div class="row-item" data-id="8/20">8/20</div>
           <div class="row-item" data-id="8/21">8/21</div>
-          <div class="row-item" data-id="8/22">8/22</div>
-          <div class="row-item" data-id="8/23">8/23</div>
-          <div class="row-item" data-id="8/24">8/24</div>
+
         </div>
         
-        <% people.forEach(function(person) { %>
+        <% people.forEach(function(person) { 
 
-        <!--Athlete rows-->
-        <div class="table-column athleterows">
+        console.log(person.athleteid) %>
           
+        <div class="table-column athleterows">
+
           <div class="athlete-name row-item" data-id="<%= person.athleteid%>">
             <%=person.firstname%> <%=person.lastname%>
           </div>
           
+          <div class="athlete-box mobile" data-id="<%= person.athleteid%>"></div>
+          
         <!--Event rows-->
-          <% for (var i = 3; i < 25; i++) {
+          <% for (var i = 3; i < 22; i++) {
+            
+            
             var dateString = "8/" + i + "/16"; 
             var hasEvent = !!person.days[dateString]; 
             var eventDay = "event " + dateString;
@@ -91,15 +94,19 @@
 
               person.days[dateString].forEach( function(day) { %>
 
-            <div class="tooltip"><i class="icon"><img src="assets/Soccer.png"></i>
+            <div class="tooltip">
+              <i class="icon">
+                <img src="assets/Soccer.png">
+              </i>
         
               
-              <span class="tooltiptext">    <%=day.event.category%><br>
+              <span class="tooltiptext">    
                 <%=day.event.title%><br>
-                Local Time: <%=day.event.localtime%><br> 
+                Local Time: <%=day.event.localtime%><br>
                 Rio Time: <%=day.event.riotime%><br>
               </span>
             </div>
+            
             <% });
 
             } else { } %>

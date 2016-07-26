@@ -1,10 +1,31 @@
 <% var athlete = data.athletes[data.id - 1]; %>
 
 <div class="box">
-  <div class="name"><%=athlete.firstname%>  <%=athlete.lastname%></div>
 
-  <div>Hometown:  <%=athlete.hometown%></div>
+  <div class="intro">
 
-  <div>Team:  <%=athlete.team%></div>
-  <div>Sport:  <%=athlete.sport%></div>
+    <div class="name">
+      <%=athlete.firstname%>  <%=athlete.lastname%>
+    </div>
+
+    <div class="photo">
+      <image src="<%=athlete.Photo%>"/>
+    </div>
+
+  </div>
+
+
+  <div class="stats">
+    <div>Hometown:  <%=athlete.hometown%></div>
+
+    <div>Team:  <%=athlete.team%></div>
+
+    <div>Sport:  <%=athlete.sport%></div>
+  </div>
+
+
+  <div class="connection">
+    Washington Connection: <%=athlete.connection%>
+  </div>
+
 </div>

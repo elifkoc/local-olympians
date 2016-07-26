@@ -1,5 +1,105 @@
 [
   {
+    "union": 219,
+    "athleteid": 45,
+    "eventid": 154,
+    "qualify": "*"
+  },
+  {
+    "union": 218,
+    "athleteid": 45,
+    "eventid": 153,
+    "qualify": "*"
+  },
+  {
+    "union": 217,
+    "athleteid": 45,
+    "eventid": 152
+  },
+  {
+    "union": 216,
+    "athleteid": 44,
+    "eventid": 151,
+    "qualify": "*"
+  },
+  {
+    "union": 215,
+    "athleteid": 44,
+    "eventid": 150,
+    "qualify": "*"
+  },
+  {
+    "union": 214,
+    "athleteid": 44,
+    "eventid": 149,
+    "qualify": "*"
+  },
+  {
+    "union": 213,
+    "athleteid": 44,
+    "eventid": 148
+  },
+  {
+    "union": 212,
+    "athleteid": 44,
+    "eventid": 147
+  },
+  {
+    "union": 211,
+    "athleteid": 44,
+    "eventid": 146
+  },
+  {
+    "union": 210,
+    "athleteid": 44,
+    "eventid": 145
+  },
+  {
+    "union": 209,
+    "athleteid": 42,
+    "eventid": 34,
+    "qualify": "*"
+  },
+  {
+    "union": 208,
+    "athleteid": 42,
+    "eventid": 33,
+    "qualify": "*"
+  },
+  {
+    "union": 207,
+    "athleteid": 42,
+    "eventid": 32
+  },
+  {
+    "union": 206,
+    "athleteid": 43,
+    "eventid": 144,
+    "qualify": "*"
+  },
+  {
+    "union": 205,
+    "athleteid": 43,
+    "eventid": 143,
+    "qualify": "*"
+  },
+  {
+    "union": 204,
+    "athleteid": 43,
+    "eventid": 142
+  },
+  {
+    "union": 203,
+    "athleteid": 41,
+    "eventid": 141,
+    "qualify": "*"
+  },
+  {
+    "union": 202,
+    "athleteid": 41,
+    "eventid": 140
+  },
+  {
     "union": 201,
     "athleteid": 40,
     "eventid": 139,
@@ -42,12 +142,6 @@
     "union": 194,
     "athleteid": 37,
     "eventid": 79,
-    "qualify": "*"
-  },
-  {
-    "union": 193,
-    "athleteid": 37,
-    "eventid": 78,
     "qualify": "*"
   },
   {
@@ -121,49 +215,9 @@
     "eventid": 127
   },
   {
-    "union": 179,
-    "athleteid": 33,
-    "eventid": 126
-  },
-  {
-    "union": 178,
-    "athleteid": 33,
-    "eventid": 125
-  },
-  {
-    "union": 177,
-    "athleteid": 33,
-    "eventid": 124
-  },
-  {
-    "union": 176,
-    "athleteid": 33,
-    "eventid": 123
-  },
-  {
     "union": 175,
     "athleteid": 33,
     "eventid": 122
-  },
-  {
-    "union": 174,
-    "athleteid": 33,
-    "eventid": 121
-  },
-  {
-    "union": 173,
-    "athleteid": 33,
-    "eventid": 120
-  },
-  {
-    "union": 172,
-    "athleteid": 33,
-    "eventid": 119
-  },
-  {
-    "union": 171,
-    "athleteid": 33,
-    "eventid": 118
   },
   {
     "union": 170,
@@ -301,110 +355,57 @@
     "union": 145,
     "athleteid": 27,
     "eventid": 69,
-    "qualify": "*"
-  },
-  {
-    "union": 144,
-    "athleteid": 26,
-    "eventid": 69,
-    "qualify": "*"
-  },
-  {
-    "union": 143,
-    "athleteid": 27,
-    "eventid": 68,
-    "qualify": "*"
-  },
-  {
-    "union": 142,
-    "athleteid": 26,
-    "eventid": 68,
-    "qualify": "*"
+    "qualify": "*",
+    "undefined": "RESERVE"
   },
   {
     "union": 141,
     "athleteid": 27,
     "eventid": 67,
-    "qualify": "*"
-  },
-  {
-    "union": 140,
-    "athleteid": 26,
-    "eventid": 67,
-    "qualify": "*"
+    "qualify": "*",
+    "undefined": "RESERVE"
   },
   {
     "union": 139,
     "athleteid": 27,
     "eventid": 66,
-    "qualify": "*"
-  },
-  {
-    "union": 138,
-    "athleteid": 26,
-    "eventid": 66,
-    "qualify": "*"
+    "qualify": "*",
+    "undefined": "RESERVE"
   },
   {
     "union": 137,
     "athleteid": 27,
-    "eventid": 65
-  },
-  {
-    "union": 136,
-    "athleteid": 26,
-    "eventid": 65
+    "eventid": 65,
+    "undefined": "RESERVE"
   },
   {
     "union": 135,
     "athleteid": 27,
-    "eventid": 64
-  },
-  {
-    "union": 134,
-    "athleteid": 26,
-    "eventid": 64
+    "eventid": 64,
+    "undefined": "RESERVE"
   },
   {
     "union": 133,
     "athleteid": 27,
-    "eventid": 63
-  },
-  {
-    "union": 132,
-    "athleteid": 26,
-    "eventid": 63
+    "eventid": 63,
+    "undefined": "RESERVE"
   },
   {
     "union": 131,
     "athleteid": 27,
-    "eventid": 62
-  },
-  {
-    "union": 130,
-    "athleteid": 26,
-    "eventid": 62
+    "eventid": 62,
+    "undefined": "RESERVE"
   },
   {
     "union": 129,
     "athleteid": 27,
-    "eventid": 4
-  },
-  {
-    "union": 128,
-    "athleteid": 26,
-    "eventid": 4
+    "eventid": 4,
+    "undefined": "RESERVE"
   },
   {
     "union": 127,
     "athleteid": 24,
     "eventid": 95,
-    "qualify": "*"
-  },
-  {
-    "union": 126,
-    "athleteid": 24,
-    "eventid": 94,
     "qualify": "*"
   },
   {
@@ -514,12 +515,6 @@
     "qualify": "*"
   },
   {
-    "union": 106,
-    "athleteid": 21,
-    "eventid": 78,
-    "qualify": "*"
-  },
-  {
     "union": 105,
     "athleteid": 21,
     "eventid": 77,
@@ -565,12 +560,6 @@
     "union": 97,
     "athleteid": 19,
     "eventid": 69,
-    "qualify": "*"
-  },
-  {
-    "union": 96,
-    "athleteid": 19,
-    "eventid": 68,
     "qualify": "*"
   },
   {
@@ -679,18 +668,6 @@
     "qualify": "*"
   },
   {
-    "union": 76,
-    "athleteid": 16,
-    "eventid": 49,
-    "qualify": "*"
-  },
-  {
-    "union": 75,
-    "athleteid": 15,
-    "eventid": 49,
-    "qualify": "*"
-  },
-  {
     "union": 74,
     "athleteid": 16,
     "eventid": 48,
@@ -749,39 +726,6 @@
     "athleteid": 14,
     "eventid": 45,
     "qualify": "*"
-  },
-  {
-    "union": 63,
-    "athleteid": 13,
-    "eventid": 40,
-    "qualify": "*"
-  },
-  {
-    "union": 62,
-    "athleteid": 13,
-    "eventid": 39,
-    "qualify": "*"
-  },
-  {
-    "union": 61,
-    "athleteid": 13,
-    "eventid": 38,
-    "qualify": "*"
-  },
-  {
-    "union": 60,
-    "athleteid": 13,
-    "eventid": 37
-  },
-  {
-    "union": 59,
-    "athleteid": 13,
-    "eventid": 36
-  },
-  {
-    "union": 58,
-    "athleteid": 13,
-    "eventid": 35
   },
   {
     "union": 57,
@@ -926,18 +870,6 @@
     "qualify": "*"
   },
   {
-    "union": 32,
-    "athleteid": 3,
-    "eventid": 22,
-    "qualify": "*"
-  },
-  {
-    "union": 31,
-    "athleteid": 2,
-    "eventid": 22,
-    "qualify": "*"
-  },
-  {
     "union": 30,
     "athleteid": 3,
     "eventid": 20,
@@ -1015,12 +947,6 @@
     "union": 16,
     "athleteid": 1,
     "eventid": 25,
-    "qualify": "*"
-  },
-  {
-    "union": 15,
-    "athleteid": 1,
-    "eventid": 24,
     "qualify": "*"
   },
   {
