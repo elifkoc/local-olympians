@@ -9,7 +9,8 @@
     "birthdate": "2/8/1990",
     "connection": "Washington State University",
     "twitter ((unverified))": "@klaythompson",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Basketball"
   },
   {
     "athleteid": 2,
@@ -21,7 +22,8 @@
     "birthdate": "10/16/1980",
     "connection": "Plays for Seattle Storm",
     "twitter ((unverified))": "@s10bird",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Basketball"
   },
   {
     "athleteid": 3,
@@ -33,7 +35,8 @@
     "birthdate": "8/27/1994",
     "connection": "Plays for Seattle Storm",
     "twitter ((unverified))": "@bre_stewart30",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Basketball"
   },
   {
     "athleteid": 44,
@@ -45,7 +48,8 @@
     "birthdate": "6/11/1991",
     "connection": "Plays for the Seattle Storm",
     "twitter ((unverified))": "@TOKASHIKI_10",
-    "Photo": "no official team site"
+    "Photo": "Y",
+    "icon_name": "Basketball"
   },
   {
     "athleteid": 21,
@@ -57,7 +61,8 @@
     "birthdate": "12/09/1986",
     "connection": "Washington State University",
     "twitter ((unverified))": "@aronbaynes",
-    "Photo": "no downloadable one on official team site"
+    "Photo": "Only mug-shot style photo we have is from 2007",
+    "icon_name": "Basketball"
   },
   {
     "athleteid": 24,
@@ -69,7 +74,8 @@
     "birthdate": "6/15/1985",
     "connection": "Born in Richland, went to Kennewick High School",
     "twitter ((unverified))": "none",
-    "Photo": "no downloadable one on official team site"
+    "Photo": "Most recent photo we have is from 2003",
+    "icon_name": "Basketball"
   },
   {
     "athleteid": 37,
@@ -81,19 +87,21 @@
     "birthdate": "10/16/1990",
     "connection": "Washington State University",
     "twitter ((unverified))": "@brockm12",
-    "Photo": "no downloadable one on official team site"
+    "Photo": "No mug shot",
+    "icon_name": "Basketball"
   },
   {
     "athleteid": 30,
     "lastname": "Dygert",
     "firstname": "Chloe",
-    "sport": "Cycling",
+    "sport": "Track Cycling",
     "team": "USA",
     "hometown": "Brownsburg, Ind.",
     "birthdate": "1/1/1997",
     "connection": "Lives and trains in Bremerton",
     "twitter ((unverified))": "@chloedygert30",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Cycling_track"
   },
   {
     "athleteid": 38,
@@ -105,19 +113,21 @@
     "birthdate": "1/10/1992",
     "connection": "Raised in Shoreline",
     "twitter ((unverified))": "((@kristinadiver))",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Diving"
   },
   {
     "athleteid": 31,
     "lastname": "Perry-Glass",
     "firstname": "Kasey",
-    "sport": "Equestrian",
+    "sport": "Dressage",
     "team": "USA",
     "hometown": "Orangevale, Calif.",
     "birthdate": "10/12/1987",
     "connection": "Lives and trains in Spokane",
     "twitter ((unverified))": "@Kaseypdressage",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Dressage"
   },
   {
     "athleteid": 40,
@@ -129,7 +139,8 @@
     "birthdate": "11/12/1991",
     "connection": "University of Washington",
     "twitter ((unverified))": "((@ctpan63))",
-    "Photo": "no official team site"
+    "Photo": "No mug shot",
+    "icon_name": "Golf"
   },
   {
     "athleteid": 4,
@@ -141,7 +152,8 @@
     "birthdate": "2/28/1986",
     "connection": "From Tacoma",
     "twitter ((unverified))": "@judosilencer",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Judo"
   },
   {
     "athleteid": 5,
@@ -153,7 +165,8 @@
     "birthdate": "6/23/1986",
     "connection": "From Oak Harbor",
     "twitter ((unverified))": "@martidamus",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Judo"
   },
   {
     "athleteid": 6,
@@ -165,7 +178,8 @@
     "birthdate": "3/31/89",
     "connection": "Bellevue Christian High School, University of Washington",
     "twitter ((unverified))": "@HCGS89",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Rowing"
   },
   {
     "athleteid": 7,
@@ -177,7 +191,8 @@
     "birthdate": "7/26/90",
     "connection": "Redmond High School, University of Washington",
     "twitter ((unverified))": "@bobbyCgunn",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Rowing"
   },
   {
     "athleteid": 8,
@@ -189,7 +204,8 @@
     "birthdate": "12/3/87",
     "connection": "Curtis Senior High School, University of Washington",
     "twitter ((unverified))": "@HammerMartelli",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Rowing"
   },
   {
     "athleteid": 9,
@@ -201,7 +217,8 @@
     "birthdate": "8/16/87",
     "connection": "University of Washington",
     "twitter ((unverified))": "@katelins",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Rowing"
   },
   {
     "athleteid": 10,
@@ -213,7 +230,8 @@
     "birthdate": "8/21/83",
     "connection": "University of Washington",
     "twitter ((unverified))": "@megankalmoe",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Rowing"
   },
   {
     "athleteid": 11,
@@ -225,7 +243,8 @@
     "birthdate": "9/4/91",
     "connection": "University of Washington",
     "twitter ((unverified))": "@samdommer",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Rowing"
   },
   {
     "athleteid": 12,
@@ -237,7 +256,8 @@
     "birthdate": "4/3/89",
     "connection": "University of Washington",
     "twitter ((unverified))": "@simmonds_kerry",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Rowing"
   },
   {
     "athleteid": 22,
@@ -249,7 +269,8 @@
     "birthdate": "6/14/1987",
     "connection": "University of Washington",
     "twitter ((unverified))": "@willcrothers",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Rowing"
   },
   {
     "athleteid": 23,
@@ -261,7 +282,8 @@
     "birthdate": "2/2/1986",
     "connection": "University of Washington",
     "twitter ((unverified))": "@RobGibson86",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Rowing"
   },
   {
     "athleteid": 25,
@@ -273,7 +295,8 @@
     "birthdate": "8/20/1990",
     "connection": "University of Washington",
     "twitter ((unverified))": "@conlinmccabe",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Rowing"
   },
   {
     "athleteid": 28,
@@ -285,7 +308,8 @@
     "birthdate": "3/24/1990",
     "connection": "University of Washington",
     "twitter ((unverified))": "none",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Rowing"
   },
   {
     "athleteid": 29,
@@ -297,7 +321,8 @@
     "birthdate": "10/31/1991",
     "connection": "University of Washington",
     "twitter ((unverified))": "@obee1111",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Rowing"
   },
   {
     "athleteid": 42,
@@ -309,7 +334,8 @@
     "birthdate": "9/17/1989",
     "connection": "Washington State University",
     "twitter ((unverified))": "((@LoveLisa28))",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Rowing"
   },
   {
     "athleteid": 43,
@@ -321,7 +347,8 @@
     "birthdate": "7/26/1994",
     "connection": "Washington State University",
     "twitter ((unverified))": "((@nbhare))",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Rowing"
   },
   {
     "athleteid": 14,
@@ -333,7 +360,8 @@
     "birthdate": "6/15/1992",
     "connection": "International Community School (Kirkland)",
     "twitter ((unverified))": "@HelenaScutt",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Sailing"
   },
   {
     "athleteid": 32,
@@ -345,7 +373,8 @@
     "birthdate": "11/18/1992",
     "connection": "Raised and lives in Olympia",
     "twitter ((unverified))": "none",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Shooting"
   },
   {
     "athleteid": 15,
@@ -357,7 +386,8 @@
     "birthdate": "7/30/1981",
     "connection": "Richland High School, University of Washington, plays for Seattle Reign FC",
     "twitter ((unverified))": "@hopesolo",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Football"
   },
   {
     "athleteid": 16,
@@ -369,7 +399,8 @@
     "birthdate": "7/5/1985",
     "connection": "Plays for Seattle Reign FC",
     "twitter ((unverified))": "@mPinoe",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Football"
   },
   {
     "athleteid": 17,
@@ -381,79 +412,86 @@
     "birthdate": "12/7/1988",
     "connection": "Bremerton High School",
     "twitter ((unverified))": "@nathangadrian",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Swimming"
   },
   {
     "athleteid": 33,
     "lastname": "Taiwo",
     "firstname": "Jeremy",
-    "sport": "Track",
+    "sport": "Track and field",
     "team": "USA",
     "hometown": "Renton, Wash.",
     "birthdate": "1/15/1990",
     "connection": "Newport High School (Renton), University of Washington",
     "twitter ((unverified))": "@jeremyataiwo",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Athletics"
   },
   {
     "athleteid": 34,
     "lastname": "Geubelle",
     "firstname": "Andrea",
-    "sport": "Track",
+    "sport": "Track and field",
     "team": "USA",
     "hometown": "University Place, Wash.",
     "birthdate": "6/26/1991",
     "connection": "Raise in University Place, Curtis Senior High School",
     "twitter ((unverified))": "@ageubelle05",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Athletics"
   },
   {
     "athleteid": 35,
     "lastname": "Lagat",
     "firstname": "Bernard",
-    "sport": "Track",
+    "sport": "Track and field",
     "team": "USA",
     "hometown": "Kapsabet, Kenya",
     "birthdate": "12/12/1974",
     "connection": "Washington State University",
     "twitter ((unverified))": "@lagat1500",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Athletics"
   },
   {
     "athleteid": 36,
     "lastname": "Winger",
     "firstname": "Kara",
-    "sport": "Track",
+    "sport": "Track and field",
     "team": "USA",
     "hometown": "Vancouver, Wash.",
     "birthdate": "4/10/1986",
     "connection": "Raised in Vancouver, Skyview High School",
     "twitter ((unverified))": "@karathrowsjav",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Athletics"
   },
   {
     "athleteid": 45,
     "lastname": "Fedronic",
     "firstname": "Justine",
-    "sport": "Track",
+    "sport": "Track and field",
     "team": "France",
     "hometown": "Palo Alto, Calif.",
     "birthdate": "5/11/1991",
     "connection": "Lives in Seattle",
     "twitter ((unverified))": "@ThisJustine_",
-    "Photo": "no photo yet"
+    "Photo": "no mug shot",
+    "icon_name": "Athletics"
   },
   {
     "athleteid": 41,
     "lastname": "Planell Cruz",
     "firstname": "Diamara",
-    "sport": "Track",
+    "sport": "Track and field",
     "team": "Puerto Rico",
     "hometown": "Dayamon, Puerto Rico",
     "birthdate": "2/16/1993",
     "connection": "University of Washington",
     "twitter ((unverified))": "((@diami_pc))",
-    "Photo": "no official team site"
+    "Photo": "no official team site",
+    "icon_name": "Athletics"
   },
   {
     "athleteid": 18,
@@ -465,7 +503,8 @@
     "birthdate": "5/30/1988",
     "connection": "Born in Spokane",
     "twitter ((unverified))": "@grillington",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Triathlon"
   },
   {
     "athleteid": 19,
@@ -477,19 +516,21 @@
     "birthdate": "11/4/1984",
     "connection": "Kentlake High School, University of Washington",
     "twitter ((unverified))": "((@CourtLThompson))",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Volleyball"
   },
   {
     "athleteid": 27,
     "lastname": "Vansant*",
     "firstname": "Krista",
-    "sport": "Volleyball ",
+    "sport": "Volleyball",
     "team": "USA",
     "hometown": "Redlands, Calif.",
     "birthdate": "3/31/1993",
     "connection": "University of Washington",
     "twitter ((unverified))": "((@kristaaaa16))",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Volleyball"
   },
   {
     "athleteid": 20,
@@ -501,6 +542,7 @@
     "birthdate": "10/8/1985",
     "connection": "Born in Seattle",
     "twitter ((unverified))": "@kingmorghan",
-    "Photo": "Y"
+    "Photo": "Y",
+    "icon_name": "Weightlifting"
   }
 ]

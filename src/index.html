@@ -70,9 +70,11 @@
 
         </div>
         
-        <% people.forEach(function(person) { %>
+        <% for (var j = 0; j < 10; j++) {
+            var person = people[j];
+            console.log(person.firstname); %>
         
-<!--        Athlete Row-->
+        <!--        Athlete Row-->
         <div class="table-column athleterows">
 
           <div class="athlete-name row-item" data-id="<%= person.athleteid%>">
@@ -97,7 +99,7 @@
 
                 <div class="tooltip">
                   <i class="icon">
-                    <img src="assets/Icons/<%=person.sport%>.png">
+                    <img src="assets/Icons/<%=person.icon_name%>.png">
                   </i>
 
 
@@ -112,14 +114,14 @@
             
               <% });
 
-            } else { } %>
+            } %>
 
           </div>
         <% }; %> 
         </div> 
         <div class="athlete-box" data-id="<%= person.athleteid%>"></div>
+<% } %>
 
-        <% }); %>
 
 
       </div>

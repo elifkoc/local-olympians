@@ -340,7 +340,8 @@
     "category": "Equestrian",
     "title": "Dressage individual Grand Prix freestyle",
     "localtime": "6:00 AM",
-    "riotime": "10:00 AM"
+    "riotime": "10:00 AM",
+    "how to watch": "USA (Live)"
   },
   {
     "eventid": 17,
@@ -428,8 +429,9 @@
     "date": "8/13/16",
     "category": "Sailing",
     "title": "Races of women's 49er FX",
-    "localtime": "9:05 AM",
-    "riotime": "1:05 PM"
+    "localtime": "9:00 AM",
+    "riotime": "1:00 PM",
+    "how to watch": "MSNBC (Delay- 1 PM PT)"
   },
   {
     "eventid": 60,
@@ -645,7 +647,8 @@
     "category": "Equestrian",
     "title": "Dressage Grand prix afternoon session day 2",
     "localtime": "9:30 AM",
-    "riotime": "1:30 PM"
+    "riotime": "1:30 PM",
+    "how to watch": "MSNBC (Delay- 12:45 PM PT)"
   },
   {
     "eventid": 136,
@@ -1160,8 +1163,5 @@
   },
   {
     "date": "Note: I'm waiting on adding TV for Equestrian because I want to double-check what events she's participating in"
-  },
-  {
-    "date": "Note: I'm also waiting on adding TV information for potential matches that could be at any time, mostly possible quarterfinals and semifinals"
   }
 ]
