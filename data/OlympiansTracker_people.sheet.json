@@ -483,7 +483,7 @@
     "athleteid": 27,
     "lastname": "Vansant*",
     "firstname": "Krista",
-    "sport": "Volleyball",
+    "sport": "Volleyball ",
     "team": "USA",
     "hometown": "Redlands, Calif.",
     "birthdate": "3/31/1993",
@@ -502,8 +502,5 @@
     "connection": "Born in Seattle",
     "twitter ((unverified))": "@kingmorghan",
     "Photo": "Y"
-  },
-  {
-    "lastname": "*Is currently a reserve, is included in events"
   }
 ]

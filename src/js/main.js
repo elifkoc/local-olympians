@@ -34,7 +34,6 @@ qsa(".athlete-name").forEach(function(el) {
 var colHover = function(e) {
   var pos = this.getAttribute("data-id");
   var items = qsa(`.row-item[data-id="${pos}"]`);
-  console.log(items);
   var others = qsa('.row-item');
 
   others.forEach(function(i) {

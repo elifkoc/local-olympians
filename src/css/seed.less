@@ -4,20 +4,21 @@
 .container {
   margin-left: 5%; //DELETE LATER
   max-width: 960px;
+  font-family: @df-sans;
+
 }
 
 .table {
-  font-family: @df-sans;
   padding-top: 100px;
   @media @mobile {
-    width: 100%;
-    height: 100%;
-    display: block;
+    padding: 0;
   }
-
 
   &-column {
     .display-flex;
+    @media @mobile {
+      display: block;
+    }
 
     &.dates {
       font-size: 13px;
@@ -30,69 +31,70 @@
       }
     }
 
-    @media @mobile {
-      width: 100%;
-      height: 100%;
-      display: block;
-    }
-  }
-}
-
-.row-item {
-
-  .flex(1 1 6%);
-  text-align: center;
-  border: .5px solid rgba(255, 255, 255, 0.44);
-  &.highlight {
-    background-color: lightblue;
   }
 
-  &.athlete-name {
-    cursor: pointer;
 
-    font-size: 10px;
-    background-color: @df-footer-gray;
-    .flex(0 0 100px);
+  .row-item {
 
-    @media @mobile {
-      display: block;
-      width: 100%;
-      height: 100%;
-      text-align: left;
-    }
-  }
-
-  &.event{
-    background-color: @st-light-purple;
-    font-size: 8px;
+    .flex(1);
     text-align: center;
-    &.highlight {
-      background-color: rgb(180, 140, 220);
-      cursor: default;
-    }
-
-    @media @mobile {
-      margin-left: 2%;
-      display: block;
-      
-    }  
-  }  
-
-  &.noevent {
+    border: .5px solid rgba(255, 255, 255, 0.44);
+    
     &.highlight {
       background-color: lightblue;
     }
-    background-color: whitesmoke;
-    @media @mobile {
-      display: none;
+
+    &.athlete-name {
+      cursor: pointer;
+
+      font-size: 14px;
+      background-color: @df-footer-gray;
+      .flex(0 0 100px);
+
+      @media @mobile {
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-align: left;
+      }
+    }
+
+    &.event{
+      background-color: @st-light-purple;
+      font-size: 8px;
+      text-align: center;
+      &.highlight {
+        background-color: rgb(180, 140, 220);
+        cursor: default;
+        
+        @media @mobile {
+        background-color: @st-light-purple;
+        }
+        
+      }
+
+      @media @mobile {
+        margin-left: 2%;
+        display: block;
+      }  
     }  
-  }
 
-  @media @mobile {
-    display: block;
-    width: 100%;
-  }
+    &.noevent {
+      &.highlight {
+        background-color: lightblue;
+      }
+      background-color: whitesmoke;
+      @media @mobile {
+        display: none;
+      }  
+    }
 
+    @media @mobile {
+      display: block;
+      width: 100%;
+    }
+
+  }
 }
 
 @import "athlete-box";
