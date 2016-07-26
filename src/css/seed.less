@@ -19,7 +19,7 @@
     @media @mobile {
       display: block;
     }
-    
+
     &.off {
       display: none;
     }
@@ -43,14 +43,14 @@
     .flex(1);
     text-align: center;
     border: .5px solid rgba(255, 255, 255, 0.44);
-    
+
     &.highlight {
       background-color: lightblue;
     }
 
     &.athlete-name {
       cursor: pointer;
-      
+
       font-size: 14px;
       background-color: @df-footer-gray;
       .flex(0 0 150px);
@@ -61,44 +61,48 @@
         height: 100%;
         text-align: left;
       }
-      
+
       .fa {
-  .flex(0 0 40px);
-  cursor: pointer;
-  font-size: 14px;
+        .flex(0 0 40px);
+        cursor: pointer;
+        font-size: 14px;
 
 
-}
+      }
     }
 
     &.event{
       background-color: @st-light-purple;
       font-size: 8px;
       text-align: center;
+      
+      @media @mobile {
+        margin-left: 2%;
+        display: none;
+        
+        &.show {
+          display: block;
+        }
+      }
+      
       &.highlight {
         background-color: rgb(180, 140, 220);
         cursor: default;
-        
-        @media @mobile {
-        background-color: @st-light-purple;
-        }
-        
-      }
 
-      @media @mobile {
-        margin-left: 2%;
-        display: block;
-      }  
+        @media @mobile {
+          background-color: @st-light-purple;
+        }
+      }
     }  
 
     &.noevent {
+      @media @mobile {
+        display: none;
+      }  
       &.highlight {
         background-color: lightblue;
       }
       background-color: whitesmoke;
-      @media @mobile {
-        display: none;
-      }  
     }
 
     @media @mobile {

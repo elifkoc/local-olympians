@@ -12,7 +12,12 @@ var qsa = require("./lib/qsa");
 var openBox = function(e) {
   var pos = this.getAttribute("data-id");
   var items = qsa(`.athlete-box[data-id="${pos}"]`);
+  var rows = this.parentNode.querySelectorAll(".event");
 
+  rows.forEach(function(row){
+  
+    row.classList.toggle("show");
+  });
   items.forEach(function(item) {
     item.classList.toggle("show");
     item.innerHTML = template({athletes: window.olympians, id: pos});
@@ -50,6 +55,8 @@ qsa(".dates .row-item").forEach(function(el) {
   el.addEventListener("mouseover", colHover);
 } );
 
+
+//Expand collapse
 var expand = function(e) {
   var hidden = qsa('.off');
   var expanded = qsa('.expanded');
@@ -59,7 +66,6 @@ var expand = function(e) {
       h.classList.remove('off');
       h.classList.add('expanded');
     });
-
     this.innerHTML = "Collapse";  
   }
 

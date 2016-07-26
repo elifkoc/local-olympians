@@ -1,7 +1,6 @@
 <% var athletes = data.athletes; 
 
 athletes.forEach(function(athlete) { 
-
   if (athlete.athleteid == data.id) { %>
 
     <div class="box">
@@ -32,8 +31,10 @@ athletes.forEach(function(athlete) {
         Washington Connection: <%=athlete.connection%>
       </div>
 
+     
+      
     </div>
 
-  <% } 
+  <% }
 
 }); %>

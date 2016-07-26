@@ -70,8 +70,9 @@
 
         </div>
         
-        <% for (var j = 0; j < people.length; j++) {
-            var person = people[j];
+        <% 
+        for (var j = 0; j < people.length; j++) {
+            var athlete = people[j];
      
         
         <!--        Athlete Row-->
@@ -84,35 +85,35 @@
           
         <div class="table-column athleterows off">
           <% } %>
-          <div class="athlete-name row-item" data-id="<%= person.athleteid%>">
+          <div class="athlete-name row-item" data-id="<%= athlete.athleteid%>">
             <p class="name">
-              <%=person.firstname%> <%=person.lastname%> <i class="fa fa-plus"></i>
+              <%=athlete.firstname%> <%=athlete.lastname%> <i class="fa fa-plus"></i>
             </p>
           </div>
           
-          <div class="athlete-box mobile" data-id="<%= person.athleteid%>"></div>
+          <div class="athlete-box mobile" data-id="<%= athlete.athleteid%>"></div>
           
         <!--Event rows-->
           <% for (var i = 3; i < 22; i++) {
             
             var dateString = "8/" + i + "/16"; 
-            var hasEvent = !!person.days[dateString]; 
+            var hasEvent = !!athlete.days[dateString]; 
             var eventDay = "event " + dateString;
             %>
           <div class="row-item <%= hasEvent ? eventDay : "noevent" %>" data-id="<%= dateString%> ">
             <% if (hasEvent) {  
               
-              person.days[dateString].forEach( function(day) { %>
+              athlete.days[dateString].forEach( function(day) { %>
 
                 <div class="tooltip">
                   <i class="icon">
-                    <img src="assets/Icons/<%=person.icon_name%>.png">
+                    <img src="assets/Icons/<%=athlete.icon_name%>.png">
                   </i>
 
 
                   <span class="tooltiptext">    
 
-                    <%=person.sport%><br>
+                    <%=athlete.sport%><br>
                     <%=day.event.title%><br>
                     Local Time: <%=day.event.localtime%><br>
                     Rio Time: <%=day.event.riotime%><br>
@@ -126,7 +127,7 @@
           </div>
         <% }; %> 
         </div> 
-        <div class="athlete-box" data-id="<%= person.athleteid%>"></div>
+        <div class="athlete-box" data-id="<%= athlete.athleteid%>"></div>
 <% } %>
 
 
@@ -135,7 +136,6 @@
         <p class=expand>Expand</p>
       <script> 
         window.olympians = <%= JSON.stringify(people) %>  
-
       </script>
       <script src="app.js" async></script>
       <% if (json.project.production) { %>
