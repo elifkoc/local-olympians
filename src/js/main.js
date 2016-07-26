@@ -9,26 +9,27 @@ var qsa = require("./lib/qsa");
 
 
 //Athlete profiles
-var box = qsa(".athletebox");
-
 var openBox = function(e) {
   var pos = this.getAttribute("data-id");
+  var others = qsa('.athlete-box');
   var items = qsa(`.athlete-box[data-id="${pos}"]`);
+  
+  console.log(others);
+  others.forEach(function(i) {
+    i.classList.remove("show");
+  });
 
   items.forEach(function(item) {
-    if (!item.classList.contains("show")) {
-      item.classList.add("show");
-      item.innerHTML = template({athletes: window.olympians, id: pos});
-    }
-    else {
-      item.classList.remove("show");
-    }
+    item.classList.add("show");
+    item.innerHTML = template({athletes: window.olympians, id: pos});
+
   });
-}
+};
 
 qsa(".athlete-name").forEach(function(el) {
   el.addEventListener("click", openBox);
 });
+
 
 //Highlighting
 var colHover = function(e) {
