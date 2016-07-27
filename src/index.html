@@ -35,7 +35,7 @@
           person.days[event.date].push({
             participation: item,
             event: event,
-            person: person.firstname
+            medal: event.medal
           });
         }
       });
@@ -43,111 +43,131 @@
 
     <div class="container">
 
+      <div class="legend">
+        <div class="key">Icon(*): Scheduled event (*qualifying)</div> 
+        <div class="key">Certain color: Medaling event</div> 
+        <div class="key">Gold: Medaling event</div> 
+        <div class="key">Silver: Medaling event</div> 
+        <div class="key">Bronzed: Medaling event</div> 
+
+
+      </div>
       <div class="table">
 
         <!--Headers-->
         <div class="table-column dates">
-          <div class="row-item athlete-name">Name</div>
-          <div class="row-item" data-id="8/3/16">8/3</div>
-          <div class="row-item" data-id="8/5/16">8/5</div>
-          <div class="row-item" data-id="8/6/16">8/6</div>
-          <div class="row-item" data-id="8/7/16">8/7</div>
-          <div class="row-item" data-id="8/8/16">8/8</div>
-          <div class="row-item" data-id="8/9/16">8/9</div>
-          <div class="row-item" data-id="8/10/16">8/10</div>
-          <div class="row-item" data-id="8/11/16">8/11</div>
-          <div class="row-item" data-id="8/12/16">8/12</div>
-          <div class="row-item" data-id="8/13/16">8/13</div>
-          <div class="row-item" data-id="8/14/16">8/14</div>
-          <div class="row-item" data-id="8/15/16">8/15</div>
-          <div class="row-item" data-id="8/16/16">8/16</div>
-          <div class="row-item" data-id="8/17/16">8/17</div>    
-          <div class="row-item" data-id="8/18/16">8/18</div>
-          <div class="row-item" data-id="8/19/16">8/19</div>
-          <div class="row-item" data-id="8/20/16">8/20</div>
-          <div class="row-item" data-id="8/21/16">8/21</div>
+          <div class="row-item header">Name</div>
+          <div class="row-item" data-id="8/3">8/3</div>
+          <div class="row-item" data-id="8/6">8/6</div>
+          <div class="row-item" data-id="8/7">8/7</div>
+          <div class="row-item" data-id="8/8">8/8</div>
+          <div class="row-item" data-id="8/9">8/9</div>
+          <div class="row-item" data-id="8/10">8/10</div>
+          <div class="row-item" data-id="8/11">8/11</div>
+          <div class="row-item" data-id="8/12">8/12</div>
+          <div class="row-item" data-id="8/13">8/13</div>
+          <div class="row-item" data-id="8/14">8/14</div>
+          <div class="row-item" data-id="8/15">8/15</div>
+          <div class="row-item" data-id="8/16">8/16</div>
+          <div class="row-item" data-id="8/17">8/17</div>    
+          <div class="row-item" data-id="8/18">8/18</div>
+          <div class="row-item" data-id="8/19">8/19</div>
+          <div class="row-item" data-id="8/20">8/20</div>
+          <div class="row-item" data-id="8/21">8/21</div>
 
         </div>
-        
+
         <% 
         for (var j = 0; j < people.length; j++) {
-            var athlete = people[j];
-     
-        
-        <!--        Athlete Row-->
-        if (j < 10) { %>
-          <div class="table-column athleterows">
+          var athlete = people[j];
 
-        <% }
+
+          <!--        Athlete Row-->
+            if (j < 10) { %>
+        <div class="table-column athleterows">
+
+          <% }
           else { %>
-            
-          
-        <div class="table-column athleterows off">
-          <% } %>
-          <div class="athlete-name row-item" data-id="<%= athlete.athleteid%>">
-               <i class="fa fa-plus"></i><%=athlete.firstname%> <%=athlete.lastname%>
-          </div>
-          
-          <div class="athlete-box mobile" data-id="<%= athlete.athleteid%>"></div>
-          
-        <!--Event rows-->
-          <% var eventCounter = 0;
-          for (var i = 3; i < 22; i++) {
-            
-            if ( i == 4) {
-              continue;
-            }
-            
-            var dateString = "8/" + i + "/16"; 
-            var hasEvent = !!athlete.days[dateString]; 
-            
-                    if (athlete.days[dateString]) {
-              }
-          
-            var eventDay = "event " + dateString;
-            %>
-          <div class="row-item <%= hasEvent ? eventDay : "noevent" %>" data-id="<%= dateString%> ">
-            <% if (hasEvent) { %>
-              
-     
-              <div class="tooltip">
-                  <img src="assets/icons/<%= athlete.icon_name %>.png" class="icon">
-          
-                <aside class="tooltiptext">    
-                <%
-              
-              athlete.days[dateString].forEach( function(day) { %>
 
-                  <div>
-                    <%=athlete.sport%><br>
-                    <%=day.event.title%><br>
-                    Local Time: <%=day.event.localtime%><br>
-                    Rio Time: <%=day.event.riotime%><br>
-                  </div>
-              <% }); %>
-                  </aside>
-                </div>
 
+          <div class="table-column athleterows off">
             <% } %>
+            <div class="athlete-name row-item" data-id="<%= athlete.athleteid%>">
+              <i class="fa fa-plus"></i><%=athlete.firstname%> <%=athlete.lastname%>
+              
+              
+            </div>
 
-          </div>
-        <% };
-%> 
-        </div> 
-        <div class="athlete-box" data-id="<%= athlete.athleteid%>"></div>
-<% } %>
+            <div class="athlete-box mobile" data-id="<%= athlete.athleteid%>"></div>
+
+            <!--Event rows-->
+            <% var eventCounter = 0;
+            for (var i = 3; i < 22; i++) {
+
+              if ( i == 4 || i == 5) {
+                continue;
+              }
+
+              var dateString = "8/" + i; 
+              var hasEvent = !!athlete.days[dateString]; 
+              var eventDay = "event " + dateString;
+              var athletes = athlete.days[dateString];
+              var hasMedal;
+              
+              if (hasEvent) {
+                athletes.forEach(function(t) {
+                  hasMedal = !!t.medal;   
+                });
+              }%>
+
+            <div class="row-item <%= hasEvent ? eventDay : "noevent" %> <%= hasMedal ? "medal" : "" %>" data-id="<%=dateString%>">
+              <% if (hasEvent) { 
+              %>
+
+
+              <div class="tooltip">
+                <img src="assets/icons/<%= athlete.icon_name %>.png" class="icon grow">
+
+                <aside class="tooltiptext">    
+                  <%
+
+                  athletes.forEach( function(day) { %>
+
+                    
+                    <div class="info">
+                      <div class="sport"><%=athlete.sport%></div>
+                     <div class="title"><%=day.event.title%></div>
+
+                      <i class="fa fa-clock-o" aria-hidden="true"></i> <b><%=day.event.localtime%> PST</b>, <%=day.event.riotime%> BRT<br>
+                    <i class="fa fa-desktop" aria-hidden="true"></i><%=day.event.watch%>
+
+                    </div>
+
+               
+                  <% }); %>
+                </aside>
+              </div>
+
+              <% } %>
+
+            </div>
+            <% };
+            %> 
+          </div> 
+          <div class="athlete-box" data-id="<%= athlete.athleteid%>"></div>
+          <% } %>
 
 
 
-      </div>
+        </div>
         <p class=expand>Expand</p>
-      <script> 
-        window.olympians = <%= JSON.stringify(people) %>  
-      </script>
-      <script src="app.js" async></script>
-      <% if (json.project.production) { %>
-      <%= !json.project.embedded ? t.include("partials/_foot.html") : "" %>
-      <%= t.include("partials/_workHere.html") %>
-      <% } %>
-      </body>
-    </html>
+        <script> 
+          window.olympians = <%= JSON.stringify(people) %>  
+        </script>
+        <script src="app.js" async></script>
+        <% if (json.project.production) { %>
+        <%= !json.project.embedded ? t.include("partials/_foot.html") : "" %>
+        <%= t.include("partials/_workHere.html") %>
+        <% } %>
+        </body>
+      </html>

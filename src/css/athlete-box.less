@@ -9,8 +9,8 @@
       display: none;
     }
   }
-  
-    &.mobile.show {
+
+  &.mobile.show {
     display: none;
     @media @mobile {
       display: block;
@@ -19,32 +19,42 @@
 
 
   .box {
-    .display-flex();
-    background-color: @df-off-white;
-    margin-bottom: 2%;
-    margin-right: 2%;
-    margin-left: 2%;
+    border: fade(#198E3A, 50%) solid 5px;
+    background-color: fade(#198E3A, 20%);
+    margin: 2%;
+    
 
-    .intro {
-      .flex(1 0 0);
+    .content {
+      .display-flex();
+      .justify-content(flex-start);
+      padding: 2%;
+
       .photo {
-        float: left;
-        width: 50px;
+        .flex(1);
+        img {
+
+        }
 
       }
-      .name {
-        font-size: 14px;
+
+      .stats {
+        .flex(2);
+        .name {
+          font-size: 30px;
+          font-weight: 700;
+        }
+
+        img {
+          width: 100px;
+        }
       }
-    }
 
-    .stats {
-      .flex(1 0 0);
-
-    }
-
-    .connection {
-      .flex(1 0 0);
-
+      .connection {
+        .flex(2);
+        background-color: fade(@df-off-white, 80%);
+        border-radius: 10%;
+        
+      }
     }
   }
 
