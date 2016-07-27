@@ -11,12 +11,13 @@
 .legend {
   .display-flex();
   .flex-direction(column);
-  width: 30;
+  width: 30%;
   .key {
     .flex(1 0 0);
   }
 
 }
+
 .table {
   padding-top: 100px;
   @media @mobile {
@@ -25,17 +26,18 @@
 
   &-column {
     .display-flex;
+    .align-content(center);
     @media @mobile {
       display: block;
+      
     }
 
     &.off {
       display: none;
     }
 
-    &.dates {
-      font-size: 13px;
-
+    &.headers {
+      font-size: 15px;
       @media @tablet {
         font-size: 10px;
       }
@@ -48,8 +50,8 @@
 
 
   .row-item {
-
     .flex(1);
+    background-color: fade(#1184BB, 10%);
     text-align: center;
     border: .5px solid rgba(255, 255, 255, 0.44);
 
@@ -57,38 +59,42 @@
       background-color: lightblue;
     }
     &.header {
-      .flex(0 0 150px);
+      .flex(0 0 250px);
     }
 
     &.athlete-name {
       cursor: pointer;
       text-align: left;
-      font-weight: 700;
-
       font-size: 14px;
-      background-color:fade(@df-footer-gray, 80%);
-      .flex(0 0 150px);
-
-      @media @mobile {
+      .flex(0 0 250px);
+      
+        @media @mobile {
         display: block;
         width: 100%;
         height: 100%;
         text-align: left;
 
+      }
 
+      img {      
+        padding: 1% 2%;        
+        width: 30%;
+             @media @mobile {
+        text-align: left;
 
-        .info {
-          .display-flex();
-
-          img {      
-            .flex(1);
-          }
-          
-          .stats {
-            .flex(1);
-          }
+      }
+      }
+      
+      .stats {
+        display: inline-block;
+        width: 70%;
+        float: right;
+        
+        .fa {
+          padding-left: 5px;
         }
       }
+
 
       .fa {
         .flex(0 0 40px);
@@ -137,7 +143,6 @@
       &.highlight {
         background-color: lightblue;
       }
-      background-color: fade(#1184BB, 10%);
     }
 
     @media @mobile {
