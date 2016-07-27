@@ -49,7 +49,6 @@
         <div class="table-column dates">
           <div class="row-item athlete-name">Name</div>
           <div class="row-item" data-id="8/3/16">8/3</div>
-          <div class="row-item" data-id="8/4/16">8/4</div>
           <div class="row-item" data-id="8/5/16">8/5</div>
           <div class="row-item" data-id="8/6/16">8/6</div>
           <div class="row-item" data-id="8/7/16">8/7</div>
@@ -86,46 +85,54 @@
         <div class="table-column athleterows off">
           <% } %>
           <div class="athlete-name row-item" data-id="<%= athlete.athleteid%>">
-            <p class="name">
-              <%=athlete.firstname%> <%=athlete.lastname%> <i class="fa fa-plus"></i>
-            </p>
+               <i class="fa fa-plus"></i><%=athlete.firstname%> <%=athlete.lastname%>
           </div>
           
           <div class="athlete-box mobile" data-id="<%= athlete.athleteid%>"></div>
           
         <!--Event rows-->
-          <% for (var i = 3; i < 22; i++) {
+          <% var eventCounter = 0;
+          for (var i = 3; i < 22; i++) {
+            
+            if ( i == 4) {
+              continue;
+            }
             
             var dateString = "8/" + i + "/16"; 
             var hasEvent = !!athlete.days[dateString]; 
+            
+                    if (athlete.days[dateString]) {
+              }
+          
             var eventDay = "event " + dateString;
             %>
           <div class="row-item <%= hasEvent ? eventDay : "noevent" %>" data-id="<%= dateString%> ">
-            <% if (hasEvent) {  
+            <% if (hasEvent) { %>
+              
+     
+              <div class="tooltip">
+                  <img src="assets/icons/<%= athlete.icon_name %>.png" class="icon">
+          
+                <aside class="tooltiptext">    
+                <%
               
               athlete.days[dateString].forEach( function(day) { %>
 
-                <div class="tooltip">
-                  <i class="icon">
-                    <img src="assets/Icons/<%=athlete.icon_name%>.png">
-                  </i>
-
-
-                  <span class="tooltiptext">    
-
+                  <div>
                     <%=athlete.sport%><br>
                     <%=day.event.title%><br>
                     Local Time: <%=day.event.localtime%><br>
                     Rio Time: <%=day.event.riotime%><br>
-                  </span>
+                  </div>
+              <% }); %>
+                  </aside>
                 </div>
-            
-              <% });
 
-            } %>
+            <% } %>
 
           </div>
-        <% }; %> 
+        <% };
+%> 
         </div> 
         <div class="athlete-box" data-id="<%= athlete.athleteid%>"></div>
 <% } %>
