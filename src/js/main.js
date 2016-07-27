@@ -11,22 +11,30 @@ var qsa = require("./lib/qsa");
 //Athlete profiles
 var openBox = function(e) {
   var pos = this.getAttribute("data-id");
-  var items = qsa(`.athlete-box[data-id="${pos}"]`);
+  //  var items = qsa(`.athlete-box[data-id="${pos}"]`);
   var rows = this.parentNode.querySelectorAll(".event");
 
   rows.forEach(function(row){
-  
+
     row.classList.toggle("show");
   });
-  items.forEach(function(item) {
+  /*  items.forEach(function(item) {
     item.classList.toggle("show");
     item.innerHTML = template({athletes: window.olympians, id: pos});
-  });
+  });*/
 };
 
 var iconToggle = function(e) {
-  var icon = this.getElementsByTagName("i")[0];
-  icon.classList.toggle("fa-minus");
+  var icon = this.getElementsByTagName("i")[1];
+  if (icon.classList.contains("fa-chevron-down")) {
+    icon.classList.remove("fa-chevron-down");
+    icon.classList.add("fa-chevron-up");
+  }
+
+  else  {
+    icon.classList.remove("fa-chevron-up");
+    icon.classList.add("fa-chevron-down");
+  };
 };
 
 qsa(".athlete-name").forEach(function(el) {

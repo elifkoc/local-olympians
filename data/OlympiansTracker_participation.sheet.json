@@ -2,19 +2,22 @@
   {
     "union": 220,
     "athleteid": 44,
-    "eventid": 155
+    "eventid": 155,
+    "medal": "s"
   },
   {
     "union": 219,
     "athleteid": 45,
     "eventid": 154,
-    "qualify": "*"
+    "qualify": "*",
+    "medal": "g"
   },
   {
     "union": 218,
     "athleteid": 45,
     "eventid": 153,
-    "qualify": "*"
+    "qualify": "*",
+    "medal": "b"
   },
   {
     "union": 217,
