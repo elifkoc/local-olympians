@@ -92,7 +92,7 @@
       min-height: 0;
 min-width: 0;
       background-color: fade(#1184BB, 10%);
-      border: .5px solid rgba(255, 255, 255, 0.44);
+      border: 1px solid rgba(255, 255, 255, 1);
 
       @media @mobile {
         display: block;
@@ -144,14 +144,18 @@ min-width: 0;
         @media @mobile {
           border-left: solid black 6px;
           display: none;
-
           &.show {
             display: block;
           }
         }
+        
+            &.medal {
+      background-color:  fade(#FEB42E, 40%);
+    }
       }  
 
       &.noevent {
+        min-height: 77px;
         @media @mobile {
           display: none;
         }  

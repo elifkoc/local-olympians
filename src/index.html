@@ -34,10 +34,13 @@
           }
 
           person.days[event.date].push({
-            participation: item,
             event: event,
             medal: event.medal,
-            medalType: item.medal
+            medalType: item.medal,
+            results: item.results,
+            url: item.url,
+            date: event.date
+
           });
         }
       });
@@ -45,13 +48,14 @@
 
     <div class="container">
 
+
       <div class="legend">
         <h2>Local Olympians</h2>
         <ul>
-          <li><div class="splotch medaling"></div> Medaling event</li>
+          <li><div class="splotch medaling"><img src="assets/icons/Tennis.png" class="upcoming"></div> Medaling event</li>
+          <li><img src="assets/icons/Athletics.png" class="upcoming">Scheduled event</li>
         </ul>
         <ul>
-          <li><img src="assets/icons/Athletics.png" class="upcoming">Scheduled event</li>
           <li><img src="assets/medals/gold_medal.png">Medalist</li>
         </ul>
 
@@ -82,8 +86,7 @@
 
         </div>
 
-        <% 
-        for (var j = 0; j < people.length; j++) {
+        <% for (var j = 0; j < people.length; j++) {
           var athlete = people[j];
           var firstTen = !!(j < 10); %>
 
@@ -95,7 +98,7 @@
 
             <aside class="stats">              
               <div class="name"><%=athlete.firstname%> <%=athlete.lastname%>, <%=athlete.age%> <a href="https://twitter.com/<%=athlete.twitter%>"><i class="fa fa-twitter"></i></a><br></div>
-              
+
               <%=athlete.sport%><br>
               <%=athlete.connection%> <i class="fa fa-chevron-down"></i>
             </aside>
@@ -103,7 +106,7 @@
           </div>
 
           <!--Event rows-->
-          <% var hasMedal; var wonMedal; var gold; var silver; var bronze;
+          <% var hasMedal; var hasResult; var wonMedal; 
           for (var i = 3; i < 22; i++) {
 
             if ( i == 4 || i == 5) {
@@ -112,34 +115,47 @@
 
             var dateString = "8/" + i; 
             var hasEvent = !!athlete.days[dateString]; 
-            var eventDay = "event " + dateString;
-            var athletes = athlete.days[dateString];
-
+            var athletes = athlete.days[dateString]; 
 
             if (hasEvent) {
-              
+              athletes.forEach(function(t) {
+                hasMedal = !!t.medal;  
+              }); 
             }%>
 
-          <div class="row-item <%= hasEvent ? eventDay : "noevent" %>" data-id="<%=dateString%>">
-            <% 
-            if (hasEvent) {
-athletes.forEach(function(t) {
-                hasMedal = !!t.medal;  
+          <div class="row-item <%= hasEvent ? "event" : "noevent" %> <%= hasMedal ? "medal" : "" %>">
 
-              }); %>
+            <%  if (hasEvent) { %>
+
+            <% athletes.forEach( function(day) { 
+
+              wonMedal = !!day.medalType;
+              hasResult = !!t.result;%>
+
             <div class="tooltip">
-              <img src="assets/icons/<%= athlete.icon_name %>.png" class="icon grow <%= hasMedal ? "medal" : "" %>">
 
+              <img src="assets/<%= wonMedal ? "medals/" + day.medalType + "_medal.png": "icons/" + athlete.icon_name + ".png" %>" class="icon grow">
+
+                
               <aside class="tooltiptext">    
-                <% athletes.forEach( function(day) { %>
-
-                  <div class="title"><%=day.event.title%></div>
-                  <i class="fa fa-clock-o" aria-hidden="true"></i> <b><%=day.event.localtime%> PST</b>, <%=day.event.riotime%> BRT<br>
-                  <i class="fa fa-desktop" aria-hidden="true"></i><%=day.event.watch%>
-                <%});%>
+                <div class="title"><%=day.event.title%></div>
+                <% if (hasResult) { %>
+                  
+                Results: <%=day.result%>
+                
+                <% if (!!day.url) { %>
+                <a href="<%=day.url%>">Read more</a>
+                <% } } else { %>
+                
+                 <i class="fa fa-clock-o" aria-hidden="true"></i> <b><%=day.event.localtime%> PST</b>, <%=day.event.riotime%> BRT<br>
+                <i class="fa fa-desktop" aria-hidden="true"></i><%=day.event.watch%>
+                 <% } %>
                 
               </aside>
             </div>
+            <%});%>
+
+
 
             <% } %>
 

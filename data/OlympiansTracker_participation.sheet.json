@@ -361,51 +361,51 @@
     "athleteid": 27,
     "eventid": 69,
     "qualify": "*",
-    "undefined": "RESERVE"
+    "Note: enter medal as gold, silver, or bronze (leave empty if no medal)": "RESERVE"
   },
   {
     "union": 141,
     "athleteid": 27,
     "eventid": 67,
     "qualify": "*",
-    "undefined": "RESERVE"
+    "Note: enter medal as gold, silver, or bronze (leave empty if no medal)": "RESERVE"
   },
   {
     "union": 139,
     "athleteid": 27,
     "eventid": 66,
     "qualify": "*",
-    "undefined": "RESERVE"
+    "Note: enter medal as gold, silver, or bronze (leave empty if no medal)": "RESERVE"
   },
   {
     "union": 137,
     "athleteid": 27,
     "eventid": 65,
-    "undefined": "RESERVE"
+    "Note: enter medal as gold, silver, or bronze (leave empty if no medal)": "RESERVE"
   },
   {
     "union": 135,
     "athleteid": 27,
     "eventid": 64,
-    "undefined": "RESERVE"
+    "Note: enter medal as gold, silver, or bronze (leave empty if no medal)": "RESERVE"
   },
   {
     "union": 133,
     "athleteid": 27,
     "eventid": 63,
-    "undefined": "RESERVE"
+    "Note: enter medal as gold, silver, or bronze (leave empty if no medal)": "RESERVE"
   },
   {
     "union": 131,
     "athleteid": 27,
     "eventid": 62,
-    "undefined": "RESERVE"
+    "Note: enter medal as gold, silver, or bronze (leave empty if no medal)": "RESERVE"
   },
   {
     "union": 129,
     "athleteid": 27,
     "eventid": 4,
-    "undefined": "RESERVE"
+    "Note: enter medal as gold, silver, or bronze (leave empty if no medal)": "RESERVE"
   },
   {
     "union": 127,
@@ -620,7 +620,8 @@
     "athleteid": 17,
     "eventid": 58,
     "qualify": "*",
-    "medal": "g"
+    "medal": "gold",
+    "results": "Great day"
   },
   {
     "union": 85,
