@@ -92,7 +92,6 @@
       min-height: 0;
 min-width: 0;
       background-color: fade(#1184BB, 10%);
-      text-align: center;
       border: .5px solid rgba(255, 255, 255, 0.44);
 
       @media @mobile {
@@ -100,9 +99,6 @@ min-width: 0;
         width: 100%;
       }
 
-      &.highlight {
-        background-color: lightblue;
-      }
       &.header {
         .flex(0 0 250px);
       }
@@ -126,7 +122,11 @@ min-width: 0;
           display: block;
           width: 70%;
           float: right;
-
+          
+          .name {
+            font-size: 16px;
+            font-weight: 700;
+          }
           .fa {
             padding-left: 5px;
 
@@ -148,12 +148,6 @@ min-width: 0;
           &.show {
             display: block;
           }
-        }
-
-
-        &.medal {
-          background-color:  fade(#FEB42E, 40%);
-
         }
       }  
 

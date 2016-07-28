@@ -2,8 +2,13 @@
   position: relative;
 
   .icon {
+    position: relative;
     img {
       max-width: 100%;
+    }
+    
+    &.medal {
+      background-color: fade(#FEB42E, 40%);;
     }
     @media @mobile {
       display: none;
@@ -20,7 +25,7 @@
   .tooltiptext {
     visibility: hidden;
     display: inline-block;
-    width: 250px;
+    width: 200px;
     background-color: @df-off-white;
     color: black;
     font-size: 14px;
@@ -40,7 +45,6 @@
 
     }
     .title {
-
       font-size: 18px;
       padding: 5px 0;
     }
