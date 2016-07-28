@@ -35,7 +35,8 @@
           person.days[event.date].push({
             participation: item,
             event: event,
-            medal: event.medal
+            medal: event.medal,
+            medalType: item.medal
           });
         }
       });
@@ -108,7 +109,7 @@
             <div class="athlete-box mobile" data-id="<%= athlete.athleteid%>"></div>
 
             <!--Event rows-->
-            <% var eventCounter = 0;
+            <% var hasMedal; var wonMedal; var gold; var silver; var bronze;
             for (var i = 3; i < 22; i++) {
 
               if ( i == 4 || i == 5) {
@@ -119,16 +120,30 @@
               var hasEvent = !!athlete.days[dateString]; 
               var eventDay = "event " + dateString;
               var athletes = athlete.days[dateString];
-              var hasMedal;
+
 
               if (hasEvent) {
                 athletes.forEach(function(t) {
-                  hasMedal = !!t.medal;   
+                  hasMedal = !!t.medal;  
+
                 });
               }%>
 
             <div class="row-item <%= hasEvent ? eventDay : "noevent" %> <%= hasMedal ? "medal" : "" %>" data-id="<%=dateString%>">
-              <% if (hasEvent) { 
+              <% 
+              if (hasEvent) { 
+
+                wonMedal = !!t.medalType;
+
+                if (t.medalType == 'g') {
+                  gold = true;
+                }
+                else if (t.medalType == 's') {
+                  silver = true;
+                }
+                else if (t.medalType == 'b') {
+                  bronze = true;
+                }
                 %>
 
 
@@ -168,9 +183,9 @@
 
 
         </div>
-        
+
         <p class="expand">Expand</p>
-        
+
       </div>
     </div>
     <script> 
