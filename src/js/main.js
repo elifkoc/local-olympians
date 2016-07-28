@@ -9,19 +9,14 @@ var qsa = require("./lib/qsa");
 
 
 //Athlete profiles
-var openBox = function(e) {
+var mobileEvents = function(e) {
   var pos = this.getAttribute("data-id");
-  //  var items = qsa(`.athlete-box[data-id="${pos}"]`);
   var rows = this.parentNode.querySelectorAll(".event");
 
   rows.forEach(function(row){
 
     row.classList.toggle("show");
   });
-  /*  items.forEach(function(item) {
-    item.classList.toggle("show");
-    item.innerHTML = template({athletes: window.olympians, id: pos});
-  });*/
 };
 
 var iconToggle = function(e) {
@@ -30,7 +25,6 @@ var iconToggle = function(e) {
     icon.classList.remove("fa-chevron-down");
     icon.classList.add("fa-chevron-up");
   }
-
   else  {
     icon.classList.remove("fa-chevron-up");
     icon.classList.add("fa-chevron-down");
@@ -38,7 +32,7 @@ var iconToggle = function(e) {
 };
 
 qsa(".athlete-name").forEach(function(el) {
-  el.addEventListener("click", openBox);
+  el.addEventListener("click", mobileEvents);
   el.addEventListener("click", iconToggle);
 });
 

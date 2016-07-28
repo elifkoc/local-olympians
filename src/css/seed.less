@@ -10,33 +10,50 @@
 
 .legend {
   margin-top: 20px;
+  margin-left: 60%;
   display: inline-block;
+  box-shadow: 4px 4px 4px fade(black, 20%);
+  max-width: 360px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  width: 40%;
+  @media @mobile {
+    position: static;
+    font-size: 12px;
+    margin-left: 10%;
+    width: 80%;
+
+  }
+
   ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     float:left;
-
+    vertical-align: middle;
     margin: 3px 0;
-    
+
 
   }
-  h5 {
-    margin:0;
-    text-transform:uppercase;
-    color:#333;
-    font-size:.9em;
+  h2 {
+    font-size: 14px;
+    margin: 0;
   }
 
   img {
     width:25px;
   }
-     li .splotch {
-      display: inline-block;
-      height: 25px;
-      width: 25px;
+  li .splotch {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-color: fade(#1184BB, 40%);
+
+    &.medaling {
       background-color:  fade(#FEB42E, 40%);
+
     }
+  }
 }
 
 
@@ -44,6 +61,7 @@
 .table {
   @media @mobile {
     padding: 0;
+    padding-top: 30px;
   }
 
   &-column {
@@ -51,7 +69,6 @@
     .align-content(center);
     @media @mobile {
       display: block;
-
     }
 
     &.off {
@@ -68,122 +85,98 @@
       }
     }
 
-  }
 
 
-  .row-item {
-    .flex(1);
-    background-color: fade(#1184BB, 10%);
-    text-align: center;
-    border: .5px solid rgba(255, 255, 255, 0.44);
-
-    &.highlight {
-      background-color: lightblue;
-    }
-    &.header {
-      .flex(0 0 250px);
-    }
-
-    &.athlete-name {
-      text-align: left;
-      font-size: 14px;
-      .flex(0 0 250px);
+    .row-item {
+      .flex(1 1 0%);
+      min-height: 0;
+min-width: 0;
+      background-color: fade(#1184BB, 10%);
+      text-align: center;
+      border: .5px solid rgba(255, 255, 255, 0.44);
 
       @media @mobile {
         display: block;
-        cursor: pointer;
         width: 100%;
-        height: 100%;
+      }
+
+      &.highlight {
+        background-color: lightblue;
+      }
+      &.header {
+        .flex(0 0 250px);
+      }
+
+      &.athlete-name {
+        .flex(0 0 250px);
         text-align: left;
+        font-size: 14px;
 
-      }
-
-      img {      
-        padding: 1% 2%;        
-        width: 30%;
         @media @mobile {
-          text-align: left;
-
+          display: block;
+          cursor: pointer;
         }
-      }
 
-      .stats {
-        display: inline-block;
-        width: 70%;
-        float: right;
+        img {      
+          padding: 1% 2%;        
+          width: 30%;
+        }
 
-        .fa {
-          padding-left: 5px;
-          
-          &.fa-chevron-down {
-            display: none;
-            @media @mobile {
-              display: inline-block;
+        .stats {
+          display: block;
+          width: 70%;
+          float: right;
+
+          .fa {
+            padding-left: 5px;
+
+            &.fa-chevron-down, &.fa-chevron-up {
+              display: none;
+              @media @mobile {
+                display: inline-block;
+              }
             }
           }
         }
       }
 
-
-      .fa {
-        .flex(0 0 40px);
-        cursor: pointer;
-        font-size: 14px;
-        margin-right: 5px;
-
-
-      }
-    }
-
-    &.event{
-      text-align: center;
-      background-color: fade(#1184BB, 40%);
-
-
-      @media @mobile {
-        border-left: solid black 6px;
-        display: none;
-
-        &.show {
-          display: block;
-        }
-      }
-
-      &.highlight {
-        background-color: rgb(180, 140, 220);
-        cursor: default;
-
+      &.event{
         @media @mobile {
-          background-color: @st-light-purple;
+          border-left: solid black 6px;
+          display: none;
+
+          &.show {
+            display: block;
+          }
         }
-      }
 
-      &.medal {
-        background-color:  fade(#FEB42E, 40%);
 
-      }
-    }  
+        &.medal {
+          background-color:  fade(#FEB42E, 40%);
 
-    &.noevent {
-      @media @mobile {
-        display: none;
+        }
       }  
-      &.highlight {
-        background-color: lightblue;
+
+      &.noevent {
+        @media @mobile {
+          display: none;
+        }  
+
       }
     }
-
-    @media @mobile {
-      display: block;
-      width: 100%;
-    }
-
   }
 }
-  
-  .expand {
 
-  }
+.expand {
+  background-color: #4CAF50;
+  cursor: pointer;
+  border: none;
+  color: white;
 
-@import "athlete-box";
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;}
+
 @import "tooltip";

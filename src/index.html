@@ -14,6 +14,7 @@
     <% 
     var people = json.OlympiansTracker_people;
     var events = {};  
+
     var participation = json.OlympiansTracker_participation;
     json.OlympiansTracker_events.forEach(function(item) {
       events[item.eventid] = item;
@@ -44,14 +45,15 @@
 
     <div class="container">
 
-
-
       <div class="legend">
         <h2>Local Olympians</h2>
         <ul>
+          <li><div class="splotch"></div> Qualifying event</li>
+          <li><div class="splotch medaling"></div> Medaling event</li>
+        </ul>
+        <ul>
           <li><img src="assets/icons/Athletics.png" class="upcoming">Scheduled event</li>
           <li><img src="assets/medals/gold_medal.png">Medalist</li>
-          <li><div class="splotch"></div> Medaling event</li>
         </ul>
 
       </div>
@@ -84,110 +86,96 @@
         <% 
         for (var j = 0; j < people.length; j++) {
           var athlete = people[j];
+          var firstTen = !!(j < 10); %>
 
-          <!--Athlete Row-->
+        <div class="table-column  <%= firstTen ? "athleterows" : "athleterows off" %>">
 
-            if (j < 10) { %>
-        <div class="table-column athleterows">
-          <% } else { %>
-          <div class="table-column athleterows off">
+          <div class="athlete-name row-item" data-id="<%= athlete.athleteid%>">
+
+            <img src="assets/faces/<%=athlete.athleteid%>_athleteid_resized.jpg"/>
+
+            <aside class="stats">              
+              <b><%=athlete.firstname%> <%=athlete.lastname%>, <%=athlete.age%></b>
+              <a href="https://twitter.com/<%=athlete.twitter%>"><i class="fa fa-twitter"></i></a><br>
+              <%=athlete.sport%><br>
+              <%=athlete.connection%> <i class="fa fa-chevron-down"></i>
+            </aside>
+
+          </div>
+
+          <!--Event rows-->
+          <% var hasMedal; var wonMedal; var gold; var silver; var bronze;
+          for (var i = 3; i < 22; i++) {
+
+            if ( i == 4 || i == 5) {
+              continue;
+            }
+
+            var dateString = "8/" + i; 
+            var hasEvent = !!athlete.days[dateString]; 
+            var eventDay = "event " + dateString;
+            var athletes = athlete.days[dateString];
+
+
+            if (hasEvent) {
+              athletes.forEach(function(t) {
+                hasMedal = !!t.medal;  
+
+              });
+            }%>
+
+          <div class="row-item <%= hasEvent ? eventDay : "noevent" %> <%= hasMedal ? "medal" : "" %>" data-id="<%=dateString%>">
+            <% 
+            if (hasEvent) { 
+
+              wonMedal = !!t.medalType;
+
+              if (t.medalType == 'g') {
+                gold = true;
+              }
+              else if (t.medalType == 's') {
+                silver = true;
+              }
+              else if (t.medalType == 'b') {
+                bronze = true;
+              }
+              %>
+
+            <div class="tooltip">
+              <img src="assets/icons/<%= athlete.icon_name %>.png" class="icon grow">
+
+              <aside class="tooltiptext">    
+                <%
+
+                athletes.forEach( function(day) { %>
+
+                <div class="info">
+                  <div class="sport"><%=athlete.sport%></div>
+                  <div class="title"><%=day.event.title%></div>
+
+                  <i class="fa fa-clock-o" aria-hidden="true"></i> <b><%=day.event.localtime%> PST</b>, <%=day.event.riotime%> BRT<br>
+                  <i class="fa fa-desktop" aria-hidden="true"></i><%=day.event.watch%>
+
+                </div>
+                <%});%>
+              </aside>
+            </div>
+
             <% } %>
 
-            <div class="athlete-name row-item" data-id="<%= athlete.athleteid%>">
-
-              <img src="assets/faces/<%=athlete.athleteid%>_athleteid_resized.jpg"/>
-
-              <div class="stats">              
-                <b><%=athlete.firstname%> <%=athlete.lastname%>, <%=athlete.age%></b>
-                <a href="https://twitter.com/<%=athlete.twitter%>"><i class="fa fa-twitter"></i></a><br>
-                <%=athlete.sport%><br>
-                <%=athlete.connection%> <i class="fa fa-chevron-down"></i>
-              </div>
-
-            </div>
-
-            <div class="athlete-box mobile" data-id="<%= athlete.athleteid%>"></div>
-
-            <!--Event rows-->
-            <% var hasMedal; var wonMedal; var gold; var silver; var bronze;
-            for (var i = 3; i < 22; i++) {
-
-              if ( i == 4 || i == 5) {
-                continue;
-              }
-
-              var dateString = "8/" + i; 
-              var hasEvent = !!athlete.days[dateString]; 
-              var eventDay = "event " + dateString;
-              var athletes = athlete.days[dateString];
+          </div>
+          <% };
+          %> 
+        </div> 
+        <% } %>
 
 
-              if (hasEvent) {
-                athletes.forEach(function(t) {
-                  hasMedal = !!t.medal;  
-
-                });
-              }%>
-
-            <div class="row-item <%= hasEvent ? eventDay : "noevent" %> <%= hasMedal ? "medal" : "" %>" data-id="<%=dateString%>">
-              <% 
-              if (hasEvent) { 
-
-                wonMedal = !!t.medalType;
-
-                if (t.medalType == 'g') {
-                  gold = true;
-                }
-                else if (t.medalType == 's') {
-                  silver = true;
-                }
-                else if (t.medalType == 'b') {
-                  bronze = true;
-                }
-                %>
-
-
-              <div class="tooltip">
-
-                <img src="assets/icons/<%= athlete.icon_name %>.png" class="icon grow">
-
-                <aside class="tooltiptext">    
-                  <%
-
-                  athletes.forEach( function(day) { %>
-
-
-                  <div class="info">
-                    <div class="sport"><%=athlete.sport%></div>
-                    <div class="title"><%=day.event.title%></div>
-
-                    <i class="fa fa-clock-o" aria-hidden="true"></i> <b><%=day.event.localtime%> PST</b>, <%=day.event.riotime%> BRT<br>
-                    <i class="fa fa-desktop" aria-hidden="true"></i><%=day.event.watch%>
-
-                  </div>
-
-
-                  <% }); %>
-                </aside>
-              </div>
-
-              <% } %>
-
-            </div>
-            <% };
-            %> 
-          </div> 
-          <div class="athlete-box" data-id="<%= athlete.athleteid%>"></div>
-          <% } %>
-
-
-
-        </div>
-
-        <p class="expand">Expand</p>
 
       </div>
+      <p class="expand">Expand</p>
     </div>
+
+
     <script> 
       window.olympians = <%= JSON.stringify(people) %>  
     </script>

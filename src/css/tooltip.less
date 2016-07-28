@@ -1,28 +1,22 @@
 .tooltip {
   position: relative;
-  margin: 0 auto;
-  @media @mobile {
-    text-align: left;
-    width: 100%;
-
-  }
-
 
   .icon {
-    position: relative;
-    
-    ;
-    &.grow:hover
-    {
+    img {
+      max-width: 100%;
+    }
+    @media @mobile {
+      display: none;
+      max-width: 100%;
+    }
+
+    &.grow:hover {
       -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
       transform: scale(1.1);
     }
-    @media @mobile {
-      display: none;
-    }
-
   }
+  
   .tooltiptext {
     visibility: hidden;
     display: inline-block;
@@ -48,15 +42,9 @@
     .title {
 
       font-size: 18px;
-      text-align: center;
       padding: 5px 0;
     }
-    .info {
-      .sport {
-        text-align: center; 
-      }
-      text-align: left;
-    }
+
 
     @media @mobile {
       visibility: visible;
@@ -67,7 +55,6 @@
       border-radius: 0px;
       left: 0;
       bottom: 0%;
-      margin: 5px;
       text-align: left;
       display: inline-block;
     }
