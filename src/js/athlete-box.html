@@ -1,0 +1,39 @@
+<% var athletes = data.athletes; 
+
+athletes.forEach(function(athlete) { 
+  if (athlete.athleteid == data.id) { %>
+
+    <div class="box">
+
+      <div class="content">
+        
+        <div class="photo">
+
+            <image src="assets/faces/<%=athlete.athleteid%>_athleteid_resized.jpg"/>
+
+        </div>
+
+
+        <div class="stats">
+            <div class="name">
+              <%=athlete.firstname%>  <%=athlete.lastname%> <a href="https://twitter.com/<%=athlete.twitter%>"><i class="fa fa-twitter"></i></a>
+          </div>
+          <div><b>Hometown:</b>  <%=athlete.hometown%></div>
+          <div><b>Age:</b>  <%=athlete.age%></div>
+          <div><b>Team:</b>  <%=athlete.team%></div>
+
+<img src="assets/icons/<%= athlete.icon_name %>.png">
+        </div>
+
+
+        <div class="connection">
+         <%=athlete.connection%>
+        </div>
+      </div>
+     
+      
+    </div>
+
+  <% }
+
+}); %>

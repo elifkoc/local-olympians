@@ -3,37 +3,46 @@
 athletes.forEach(function(athlete) { 
   if (athlete.athleteid == data.id) { %>
 
-    <div class="box">
-
-      <div class="content">
-        
-        <div class="photo">
-
-            <image src="assets/faces/<%=athlete.athleteid%>_athleteid_resized.jpg"/>
-
-        </div>
+<div class="box">
 
 
-        <div class="stats">
-            <div class="name">
-              <%=athlete.firstname%>  <%=athlete.lastname%> <a href="https://twitter.com/<%=athlete.twitter%>"><i class="fa fa-twitter"></i></a>
-          </div>
-          <div><b>Hometown:</b>  <%=athlete.hometown%></div>
-          <div><b>Age:</b>  <%=athlete.age%></div>
-          <div><b>Team:</b>  <%=athlete.team%></div>
-
-<img src="assets/icons/<%= athlete.icon_name %>.png">
-        </div>
+  <div class="icon">
+    <img src="assets/icons/<%= athlete.icon_name %>.png">
+  </div>
 
 
-        <div class="connection">
-         <%=athlete.connection%>
-        </div>
-      </div>
-     
-      
-    </div>
+  <div class="event">
+    <p class="header">Event</p>
+    <p class="content"><%=athlete.sport%></p>
+  </div>    
 
-  <% }
+    <div class="age">
+    <p class="header">Age</p>
+    <p class="content"><%=athlete.age%></p>
+  </div>
 
-}); %>
+    <div class="hometown">
+    <p class="header">Hometown</p>
+    <p class="content"><%=athlete.hometown%></p>
+  </div>   
+  
+    <% if (!!athlete.twitter) { %>
+  <div class="twitter">
+    <p class="header">Twitter</p>
+    <p class="content"><a href="https://twitter.com/<%=athlete.twitter%>"><%=athlete.twitter%></a></p>
+  </div>  
+  <% } %>
+  
+ 
+
+  <div class="connection">
+    <p class="header">Connection</p>
+    <p class="content"><%=athlete.connection%></p>
+  </div>  
+  
+
+
+
+</div>
+
+<% } }); %>

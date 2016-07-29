@@ -97,13 +97,15 @@
             <img src="assets/faces/<%=athlete.athleteid%>_athleteid_resized.jpg"/>
 
             <aside class="stats">              
-              <div class="name"><%=athlete.firstname%> <%=athlete.lastname%>, <%=athlete.age%> <a href="https://twitter.com/<%=athlete.twitter%>"><i class="fa fa-twitter"></i></a><br></div>
+              <div class="name"><%=athlete.firstname%> <%=athlete.lastname%>, <%=athlete.age%></div>
 
               <%=athlete.sport%><br>
-              <%=athlete.connection%> <i class="fa fa-chevron-down"></i>
+               <i class="fa fa-plus"></i>
             </aside>
 
           </div>
+
+          <div class="athlete-box mobile" data-id="<%= athlete.athleteid%>"></div>
 
           <!--Event rows-->
           <% var hasMedal; var hasResult; var wonMedal; 
@@ -130,7 +132,7 @@
             <% athletes.forEach( function(day) { 
 
               wonMedal = !!day.medalType;
-              hasResult = !!t.result;%>
+              hasResult = !!day.results;%>
 
             <div class="tooltip">
 
@@ -141,7 +143,7 @@
                 <div class="title"><%=day.event.title%></div>
                 <% if (hasResult) { %>
                   
-                Results: <%=day.result%>
+                Results: <%=day.results%>
                 
                 <% if (!!day.url) { %>
                 <a href="<%=day.url%>">Read more</a>
@@ -162,6 +164,7 @@
           </div>
           <% }; %> 
         </div> 
+          <div class="athlete-box" data-id="<%= athlete.athleteid%>"></div>
         <% } %>
 
 

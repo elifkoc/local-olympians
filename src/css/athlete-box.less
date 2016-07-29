@@ -1,0 +1,62 @@
+
+.athlete-box {
+  width: 100%;
+  display: none;
+
+  &.show {
+    display: block;
+    @media @mobile {
+      display: none;
+    }
+  }
+
+  &.mobile.show {
+    display: none;
+    @media @mobile {
+      display: block;
+    }  
+  }
+
+
+  .box {
+    
+    .header {
+      font-weight: 700;
+      margin: 0;
+    }
+    
+    .content {
+      margin: 0;
+    }
+    background-color: fade(#1184BB, 10%);
+    .display-flex();
+    .justify-content(flex-start);
+    .icon {
+      .flex(1);
+      img {
+        width: 50%;
+      }
+    }
+
+
+    .event {
+      .flex(1);
+    }   
+    
+    .hometown {
+      .flex(1);
+    }   
+    
+    .connection {
+      .flex(1);
+    } 
+    
+    .age {
+      .flex(1 3);
+    } 
+    
+    .twitter {
+      .flex(1);
+    }
+  }
+}
