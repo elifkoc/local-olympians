@@ -41,7 +41,7 @@
             url: item.url,
             date: event.date,
             localTime: event.localtime,
-          
+
 
           });
         }
@@ -49,15 +49,12 @@
     }); %>
 
     <div class="container">
-    <h2>Washington locals in the Rio Olympics</h2>
+      <h2>Washington locals in the Rio Olympics</h2>
       <p class="chatter mobile">
-        
-      Tap on the boxes below to see each athlete's event schedule and results. 
-        
+        Use the table below to explore when these Olympians with Washington ties are competing in Rio and how they are performing. Tap on the boxes below to see each athlete’s bio, event schedule and results.        
       </p>      
       <p class="chatter">
-        
-      Use the table below to explore when these Olympians with Washington ties are competing in Rio and how they are performing. Hover over the icons for more information on specific events, timing, results and how to watch.
+        Use the table below to explore when these Olympians with Washington ties are competing in Rio and how they are performing. Hover over the icons for more information on specific events, timing, results and how to watch.
       </p>
       <div class="legend">
         <h2>Legend</h2>
@@ -66,8 +63,8 @@
           <li><div class="splotch medaling"></div> Medaling event</li>
           <li><img class="splotch" src="assets/medals/gold_medal.png">Medalist</li>
         </ul>
-        
-        
+
+
       </div>
 
       <div class="table">
@@ -80,9 +77,9 @@
         <% for (var j = 0; j < people.length; j++) {
           var athlete = people[j];
           var firstTen = !!(j < 10); 
-          
+
           if (j % 10 == 0) { %>
-                <div class="table-column headers <%= firstTen ? "" : "off" %>">
+        <div class="table-column headers <%= firstTen ? "" : "off" %>">
           <div class="row-item athlete-name header">Name</div>
           <div class="row-item" data-id="8/3">8/3</div>
           <div class="row-item" data-id="8/6">8/6</div>
@@ -106,7 +103,7 @@
         <% } %>
 
         <div class="table-column  <%= firstTen ? "athleterows" : "athleterows off" %>">
-          
+
           <div class="athlete-name row-item" data-id="<%= athlete.athleteid%>">
 
             <img src="assets/faces/<%=athlete.athleteid%>_athleteid_resized.jpg"/>
@@ -117,7 +114,7 @@
 
               <i><%=athlete.sport%></i><br>
               <%=athlete.team%><br>
-               
+
             </aside>
 
           </div>
@@ -155,30 +152,30 @@
 
               <img src="assets/<%= wonMedal ? "medals/" + day.medalType + "_medal.png": "icons/" + athlete.icon_name + ".png" %>" class="icon grow">
 
-                
+
               <aside class="tooltiptext">    
-                
+
                 <div class="date"><%=day.event.date%></div>
                 <div class="title"><%=day.event.title%></div>
                 <% if (hasResult) { %>
-                  
+
                 Results: <%=day.results%>
-                
+
                 <% if (!!day.url) { %>
                 <a href="<%=day.url%>">Read more</a>
                 <% } } else { %>
-                
+
                 <% if (!!day.localTime) { %>
-                 <i class="fa fa-clock-o" aria-hidden="true"></i> <b><%=day.event.localtime%> PDT </b>, <%=day.event.riotime%> BRT<br>
+                <i class="fa fa-clock-o" aria-hidden="true"></i> <b><%=day.event.localtime%> PDT </b>, <%=day.event.riotime%> BRT<br>
                 <% if (!!day.event.watch) { %>
                 <i class="fa fa-desktop" aria-hidden="true"></i><%=day.event.watch%><br>
                 <% } %>
                 <% } else { %>
-                  Schedule TBD <br>
+                Schedule TBD <br>
                 <% } %>
                 <a class="nbc" href="http://www.nbcolympics.com/live-stream-schedule">NBC broadcast schedule </a>
-                 <% } %>
-                
+                <% } %>
+
               </aside>
             </div>
             <%});%>
@@ -190,17 +187,17 @@
           </div>
           <% }; %> 
         </div> 
-          <div class="athlete-box" data-id="<%= athlete.athleteid%>"></div>
+        <div class="athlete-box" data-id="<%= athlete.athleteid%>"></div>
         <% } %>
 
 
 
       </div>
       <p class="expand">More local athletes <i class="fa fa-angle-double-down" aria-hidden="true"></i></p>
-<div class="credit">
-  Reporting and production: Nick Sullivan <br>
-  Development: Elif Koc
-      
+      <div class="credit">
+        Reporting and production: Nick Sullivan <br>
+        Development: Elif Koc
+
       </div>
     </div>
 

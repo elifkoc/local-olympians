@@ -5,8 +5,8 @@
       "path": "fast-tree"
     },
     "live": {
-      "bucket": "",
-      "path": ""
+      "bucket": "projects.seattletimes.com",
+      "path": "2016/sports/local-olympians"
     }
   },
   "title": "",
@@ -16,6 +16,6 @@
   "tags": [],
   "image": "assets/social.jpg",
   "sheets": ["1CPqXqzsRUHJcThXkMdrhu2ZIJC115Mh5g6OhXga3psQ"],
-  "production": false,
+  "production": true,
   "embedded": true
 }

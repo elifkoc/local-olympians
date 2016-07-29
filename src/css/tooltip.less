@@ -16,9 +16,9 @@
     }
 
     &.grow:hover {
-      -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-      transform: scale(1.1);
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
     }
   }
 
@@ -39,7 +39,7 @@
     padding-left: 10px;
     margin-left: -150px;
     opacity: 0;
-    transition: opacity .5s;
+    transition: opacity .5s, ease-out 1s;
     
     @media @mobile {
       width: auto;
@@ -71,7 +71,6 @@
 
         font-size: 17px;
         font-weight: 700; 
-        background-color: white;
       }
     }
 

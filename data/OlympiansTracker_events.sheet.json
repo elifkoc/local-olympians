@@ -15,7 +15,7 @@
     "title": "USA vs. France (preliminary round)",
     "localtime": "1:00 PM",
     "riotime": "5:00 PM",
-    "watch": "NBCSN (Live), Soccer Specialty Channel (Live), NBC UNIVERSO (Live)"
+    "watch": "NBCSN (Live), Soccer Specialty Channel (Live), NBC Universo (Live)"
   },
   {
     "eventid": 4,
@@ -147,38 +147,38 @@
     "eventid": 18,
     "date": "8/16",
     "category": "Basketball",
-    "title": "USA vs. TBD (quarterfinals)"
+    "title": "Quarterfinals"
   },
   {
     "eventid": 19,
     "date": "8/17",
     "category": "Basketball",
-    "title": "USA vs. TBD (quarterfinals)"
+    "title": "Quarterfinals"
   },
   {
     "eventid": 20,
     "date": "8/18",
     "category": "Basketball",
-    "title": "USA vs. TBD (semifinals)"
+    "title": "Semifinals"
   },
   {
     "eventid": 21,
     "date": "8/19",
     "category": "Basketball",
-    "title": "USA vs. TBD (semifinals)"
+    "title": "Semifinals"
   },
   {
     "eventid": 23,
     "date": "8/20",
     "category": "Basketball",
-    "title": "USA vs. TBD ",
+    "title": "Finals",
     "medal": "x"
   },
   {
     "eventid": 25,
     "date": "8/21",
     "category": "Basketball",
-    "title": "USA vs. TBD ",
+    "title": "Finals",
     "medal": "x"
   },
   {
@@ -205,7 +205,7 @@
     "title": "Men's eight finals",
     "localtime": "4:50 AM",
     "riotime": "8:50 AM",
-    "watch": "NBC (Delay- 11 AM PT)",
+    "watch": "NBC (Delay: 11 AM PT)",
     "medal": "x"
   },
   {
@@ -233,7 +233,7 @@
     "title": "Women's quad sculls finals",
     "localtime": "4:30 AM",
     "riotime": "8:30 AM",
-    "watch": "NBC (Delay- 12:45 PM PT)",
+    "watch": "NBC (Delay: 12:45 PM PDT)",
     "medal": "x"
   },
   {
@@ -260,7 +260,7 @@
     "title": "Women's eight finals",
     "localtime": "4:50 AM",
     "riotime": "8:50 AM",
-    "watch": "NBC (Delay- 11 AM PT)",
+    "watch": "NBC (Delay: 11 AM PDT)",
     "medal": "x"
   },
   {
@@ -278,7 +278,7 @@
     "title": "Races of women's 49er FX",
     "localtime": "9:00 AM",
     "riotime": "1:00 PM",
-    "watch": "MSNBC (Delay- 1 PM PT)"
+    "watch": "MSNBC (Delay: 1 PM PDT)"
   },
   {
     "eventid": 43,
@@ -303,7 +303,7 @@
     "title": "Medal races of women's 49er FX",
     "localtime": "9:00 AM",
     "riotime": "1:00 PM",
-    "watch": "MSNBC (Delay- 11 AM PT)",
+    "watch": "MSNBC (Delay: 11 AM PDT)",
     "medal": "x"
   },
   {
@@ -313,19 +313,19 @@
     "title": "USA vs. Columbia (preliminary round)",
     "localtime": "3:00 PM",
     "riotime": "7:00 PM",
-    "watch": "NBCSN (Live), Soccer Specialty Channel (Live), NBC UNIVERSO (Live)"
+    "watch": "NBCSN (Live), Soccer Specialty Channel (Live), NBC Universo (Live)"
   },
   {
     "eventid": 47,
     "date": "8/12",
     "category": "Soccer",
-    "title": "USA vs. TBD (quarterfinals)"
+    "title": "Quarterfinals"
   },
   {
     "eventid": 48,
     "date": "8/16",
     "category": "Soccer",
-    "title": "USA vs. TBD (semifinals)"
+    "title": "Semifinals"
   },
   {
     "eventid": 50,
@@ -478,19 +478,19 @@
     "eventid": 66,
     "date": "8/16",
     "category": "Volleyball",
-    "title": "USA vs. TBD (quarterfinals)"
+    "title": "Quarterfinals"
   },
   {
     "eventid": 67,
     "date": "8/18",
     "category": "Volleyball",
-    "title": "USA vs. TBD (semifinals)"
+    "title": "Semifinals"
   },
   {
     "eventid": 69,
     "date": "8/20",
     "category": "Volleyball",
-    "title": "USA vs. TBD ",
+    "title": "Finals",
     "medal": "x"
   },
   {
@@ -500,7 +500,7 @@
     "title": "Women's 48kg Group A medal round",
     "localtime": "3:00 PM",
     "riotime": "7:00 PM",
-    "watch": "NBCSN (Delay- 5 PM PT) ",
+    "watch": "NBCSN (Delay: 5 PM PDT) ",
     "medal": "x"
   },
   {
@@ -537,7 +537,7 @@
     "title": "Australia vs. China (preliminary round)",
     "localtime": "10:15 AM",
     "riotime": "2:15 PM",
-    "watch": "Basketball Specialty Channel (Delay- 1:15 PM PT)"
+    "watch": "Basketball Specialty Channel (Delay: 1:15 PM PDT)"
   },
   {
     "eventid": 75,
@@ -552,19 +552,19 @@
     "eventid": 76,
     "date": "8/17",
     "category": "Basketball",
-    "title": "Australia vs. TBD (quarterfinals)"
+    "title": "Quarterfinals"
   },
   {
     "eventid": 77,
     "date": "8/19",
     "category": "Basketball",
-    "title": "Australia vs. TBD (semifinals)"
+    "title": "Semifinals"
   },
   {
     "eventid": 79,
     "date": "8/21",
     "category": "Basketball",
-    "title": "Australia vs. TBD ",
+    "title": "Finals",
     "medal": "x"
   },
   {
@@ -600,7 +600,7 @@
     "title": "Men's four final",
     "localtime": "4:30 AM",
     "riotime": "8:30 AM",
-    "watch": "NBC (Delay- 9 AM PT)",
+    "watch": "NBC (Delay: 9 AM PDT)",
     "medal": "x"
   },
   {
@@ -628,7 +628,7 @@
     "title": "Men's quadruple sculls final",
     "localtime": "4:30 AM",
     "riotime": "8:30 AM",
-    "watch": "NBC (Delay- 12:45 PM PT)",
+    "watch": "NBC (Delay: 12:45 PM PDT)",
     "medal": "x"
   },
   {
@@ -638,7 +638,7 @@
     "title": "Australia vs. Brazil (preliminary round)",
     "localtime": "1:45 PM",
     "riotime": "5:45 PM",
-    "watch": "Basketball Specialty Channel (Delay- 4:45 PM PT)"
+    "watch": "Basketball Specialty Channel (Delay: 4:45 PM PDT)"
   },
   {
     "eventid": 88,
@@ -647,7 +647,7 @@
     "title": "Australia vs. Turkey (preliminary round)",
     "localtime": "1:30 PM",
     "riotime": "5:30 PM",
-    "watch": "Basketball Specialty Channel (Delay- 4:45 PM PT)"
+    "watch": "Basketball Specialty Channel (Delay: 4:45 PM PDT)"
   },
   {
     "eventid": 89,
@@ -665,7 +665,7 @@
     "title": "Australia vs. Japan (preliminary round)",
     "localtime": "1:45 PM",
     "riotime": "5:45 PM",
-    "watch": "Basketball Specialty Channel (Delay- 4:45 PM PT)"
+    "watch": "Basketball Specialty Channel (Delay: 4:45 PM PDT)"
   },
   {
     "eventid": 91,
@@ -680,19 +680,19 @@
     "eventid": 92,
     "date": "8/16",
     "category": "Basketball",
-    "title": "Australia vs. TBD (quarterfinals)"
+    "title": "Quarterfinals"
   },
   {
     "eventid": 93,
     "date": "8/18",
     "category": "Basketball",
-    "title": "Australia vs. TBD (semifinals)"
+    "title": "Semifinals"
   },
   {
     "eventid": 95,
     "date": "8/20",
     "category": "Basketball",
-    "title": "Australia vs. TBD ",
+    "title": "Finals",
     "medal": "x"
   },
   {
@@ -720,7 +720,7 @@
     "title": "Women's lightweight double sculls semifinals",
     "localtime": "4:30 AM",
     "riotime": "8:30 AM",
-    "watch": "NBC (Delay- 9 AM PT)"
+    "watch": "NBC (Delay: 9 AM PDT)"
   },
   {
     "eventid": 99,
@@ -729,7 +729,7 @@
     "title": "Women's lightweight double sculls final",
     "localtime": "4:30 AM",
     "riotime": "8:30 AM",
-    "watch": "NBC (Delay- 12:45 PM PT)",
+    "watch": "NBC (Delay: 12:45 PM PDT)",
     "medal": "x"
   },
   {
@@ -821,7 +821,7 @@
     "title": "Dressage Grand prix afternoon session day 2",
     "localtime": "9:30 AM",
     "riotime": "1:30 PM",
-    "watch": "MSNBC (Delay- 12:45 PM PT)"
+    "watch": "MSNBC (Delay: 12:45 PM PDT)"
   },
   {
     "eventid": 111,
@@ -882,17 +882,17 @@
     "date": "8/17",
     "category": "Track and field",
     "title": "Men's decathlon day 1: 100m, long jump, shot put, high jump, 400m",
-    "localtime": "5:30:00 AM- 4:20 PM",
-    "riotime": "9:30:00 AM- 8:20 PM"
+    "localtime": "5:30 AM-4:20 PM",
+    "riotime": "9:30 AM-8:20 PM"
   },
   {
     "eventid": 122,
     "date": "8/18",
     "category": "Track and field",
     "title": "Men's decathlon day 2: 110m hurdles, discus, pole vault, javelin, 1500m",
-    "localtime": "5:30:00 AM- 3:20 PM",
-    "riotime": "9:30:00 AM- 7:20 PM",
-    "watch": "NBC (Live at 5 PM PT)",
+    "localtime": "5:30 AM-3:20 PM",
+    "riotime": "9:30 AM-7:20 PM",
+    "watch": "NBC (Live at 5 PM PDT)",
     "medal": "x"
   },
   {
@@ -957,7 +957,7 @@
     "title": "Women's 10m platform prelims",
     "localtime": "11:00 AM",
     "riotime": "3:00 PM",
-    "watch": "NBC (Delay- 5 PM PT)"
+    "watch": "NBC (Delay: 5 PM PDT)"
   },
   {
     "eventid": 134,
@@ -966,7 +966,7 @@
     "title": "Women's 10m platform semifinal",
     "localtime": "6:00 AM",
     "riotime": "10:00 AM",
-    "watch": "NBC (Delay- 11 AM PT)"
+    "watch": "NBC (Delay: 11 AM PDT)"
   },
   {
     "eventid": 135,
@@ -975,7 +975,7 @@
     "title": "Women's 10m platform final",
     "localtime": "12:00 PM",
     "riotime": "4:00 PM",
-    "watch": "NBC (Delay- 5 PM PT)",
+    "watch": "NBC (Delay: 5 PM PDT)",
     "medal": "x"
   },
   {
@@ -1012,7 +1012,7 @@
     "title": "Men's final round",
     "localtime": "3:30 AM",
     "riotime": "7:30 AM",
-    "watch": "NBC (Live- starting at 10 AM), Golf Channel (Live)",
+    "watch": "NBC (Live at 10 AM PDT), Golf Channel (Live)",
     "medal": "x"
   },
   {
@@ -1059,7 +1059,7 @@
     "title": "Women's pair finals",
     "localtime": "4:30 AM",
     "riotime": "8:30 AM",
-    "watch": "NBC (Delay- 12:45 PM PT)",
+    "watch": "NBC (Delay: 12:45 PM PDT)",
     "medal": "x"
   },
   {
@@ -1069,7 +1069,7 @@
     "title": "Japan vs. Belarus (preliminary round)",
     "localtime": "3:45 PM",
     "riotime": "7:45 PM",
-    "watch": "Basketball Specialty Channel (Delay- 8:15 PM PT)"
+    "watch": "Basketball Specialty Channel (Delay: 8:15 PM PDT)"
   },
   {
     "eventid": 146,
@@ -1078,8 +1078,7 @@
     "title": "Japan vs. Brazil (preliminary round)",
     "localtime": "1:30 PM",
     "riotime": "5:30 PM",
-    "watch": "Basketball Specialty Channel (Delay- 4:45 PT)",
-    "medal": "womens"
+    "watch": "Basketball Specialty Channel (Delay: 4:45 PDT)"
   },
   {
     "eventid": 147,
@@ -1088,25 +1087,25 @@
     "title": "Japan vs. Turkey (preliminary round)",
     "localtime": "1:45 PM",
     "riotime": "5:45 PM",
-    "watch": "Basketball Specialty Channel (Delay- 4:45 PM PT)"
+    "watch": "Basketball Specialty Channel (Delay: 4:45 PM PDT)"
   },
   {
     "eventid": 149,
     "date": "8/16",
     "category": "Basketball",
-    "title": "Japan vs. TBD (quarterfinals)"
+    "title": "Quarterfinals"
   },
   {
     "eventid": 150,
     "date": "8/18",
     "category": "Basketball",
-    "title": "Japan vs. TBD (semifinals)"
+    "title": "Semifinals"
   },
   {
     "eventid": 151,
     "date": "8/20",
     "category": "Basketball",
-    "title": "Japan vs. TBD",
+    "title": "Finals",
     "medal": "x"
   },
   {
@@ -1142,9 +1141,6 @@
     "title": "Japan vs. France (preliminary round)",
     "localtime": "1:45 PM",
     "riotime": "5:45 PM",
-    "watch": "Basketball Specialty Channel (Delay- 4:45 PM PT)"
-  },
-  {
-    "date": "Note: I'm waiting on adding TV for Equestrian because I want to double-check what events she's participating in"
+    "watch": "Basketball Specialty Channel (Delay: 4:45 PM PDT)"
   }
 ]
