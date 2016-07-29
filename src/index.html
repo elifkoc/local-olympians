@@ -40,7 +40,8 @@
             results: item.results,
             url: item.url,
             date: event.date,
-            localTime: event.localtime
+            localTime: event.localtime,
+          
 
           });
         }
@@ -48,13 +49,21 @@
     }); %>
 
     <div class="container">
-
-
+    <h2>Washington locals in the Rio Olympics</h2>
+      <p class="chatter mobile">
+        
+      Tap on the boxes below to see each athlete's event schedule and results. 
+        
+      </p>      
+      <p class="chatter">
+        
+      Use the table below to explore when these Olympians with Washington ties are competing in Rio and how they are performing. Hover over the icons for more information on specific events, timing, results and how to watch.
+      </p>
       <div class="legend">
-        <h2>Local Olympians</h2>
+        <h2>Legend</h2>
         <ul>
-          <li><div class="splotch medaling"></div> Medaling event</li>
           <li><img class="splotch" src="assets/icons/Athletics.png">Scheduled event</li>
+          <li><div class="splotch medaling"></div> Medaling event</li>
           <li><img class="splotch" src="assets/medals/gold_medal.png">Medalist</li>
         </ul>
         
@@ -65,7 +74,16 @@
 
         <!--Headers-->
         <div class="table-column headers">
-          <div class="row-item athlete-name">Name</div>
+
+        </div>
+
+        <% for (var j = 0; j < people.length; j++) {
+          var athlete = people[j];
+          var firstTen = !!(j < 10); 
+          
+          if (j % 10 == 0) { %>
+                <div class="table-column headers <%= firstTen ? "" : "off" %>">
+          <div class="row-item athlete-name header">Name</div>
           <div class="row-item" data-id="8/3">8/3</div>
           <div class="row-item" data-id="8/6">8/6</div>
           <div class="row-item" data-id="8/7">8/7</div>
@@ -76,7 +94,7 @@
           <div class="row-item" data-id="8/12">8/12</div>
           <div class="row-item" data-id="8/13">8/13</div>
           <div class="row-item" data-id="8/14">8/14</div>
-          <div class="row-item" sdata-id="8/15">8/15</div>
+          <div class="row-item" data-id="8/15">8/15</div>
           <div class="row-item" data-id="8/16">8/16</div>
           <div class="row-item" data-id="8/17">8/17</div>    
           <div class="row-item" data-id="8/18">8/18</div>
@@ -85,13 +103,10 @@
           <div class="row-item" data-id="8/21">8/21</div>
 
         </div>
-
-        <% for (var j = 0; j < people.length; j++) {
-          var athlete = people[j];
-          var firstTen = !!(j < 10); %>
+        <% } %>
 
         <div class="table-column  <%= firstTen ? "athleterows" : "athleterows off" %>">
-
+          
           <div class="athlete-name row-item" data-id="<%= athlete.athleteid%>">
 
             <img src="assets/faces/<%=athlete.athleteid%>_athleteid_resized.jpg"/>
@@ -101,6 +116,7 @@
               </div>
 
               <i><%=athlete.sport%></i><br>
+              <%=athlete.team%><br>
                
             </aside>
 
@@ -141,6 +157,8 @@
 
                 
               <aside class="tooltiptext">    
+                
+                <div class="date"><%=day.event.date%></div>
                 <div class="title"><%=day.event.title%></div>
                 <% if (hasResult) { %>
                   
@@ -151,13 +169,14 @@
                 <% } } else { %>
                 
                 <% if (!!day.localTime) { %>
-                 <i class="fa fa-clock-o" aria-hidden="true"></i> <b><%=day.event.localtime%> PST</b>, <%=day.event.riotime%> BRT<br>
-                
+                 <i class="fa fa-clock-o" aria-hidden="true"></i> <b><%=day.event.localtime%> PDT </b>, <%=day.event.riotime%> BRT<br>
+                <% if (!!day.event.watch) { %>
                 <i class="fa fa-desktop" aria-hidden="true"></i><%=day.event.watch%><br>
+                <% } %>
                 <% } else { %>
                   Schedule TBD <br>
                 <% } %>
-                <a class="nbc" href="http://www.nbcolympics.com/live-stream-schedule">NBC Olymics Schedule</a>
+                <a class="nbc" href="http://www.nbcolympics.com/live-stream-schedule">NBC broadcast schedule </a>
                  <% } %>
                 
               </aside>
@@ -177,8 +196,12 @@
 
 
       </div>
-      <p class="expand">More athletes <i class="fa fa-angle-double-down" aria-hidden="true"></i></p>
-<div class="credit">ELIF KOC / THE SEATTLE TIMES</div>
+      <p class="expand">More local athletes <i class="fa fa-angle-double-down" aria-hidden="true"></i></p>
+<div class="credit">
+  Reporting and production: Nick Sullivan <br>
+  Development: Elif Koc
+      
+      </div>
     </div>
 
     <script> 

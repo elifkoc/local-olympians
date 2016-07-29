@@ -6,36 +6,38 @@ athletes.forEach(function(athlete) {
 <div class="box">
 
 
-  <div class="icon">
+  <div class="item">
     <img src="assets/icons/<%= athlete.icon_name %>.png">
   </div>
 
 
-  <div class="event">
+  <div class="item">
     <p class="header">Event</p>
     <p class="content"><%=athlete.sport%></p>
   </div>    
 
-    <div class="age">
+    <div class="item">
     <p class="header">Age</p>
     <p class="content"><%=athlete.age%></p>
   </div>
-
-    <div class="hometown">
-    <p class="header">Hometown</p>
-    <p class="content"><%=athlete.hometown%></p>
-  </div>   
   
-    <% if (!!athlete.twitter) { %>
-  <div class="twitter">
+      <% if (!!athlete.twitter) { %>
+  <div class="item">
     <p class="header">Twitter</p>
     <p class="content"><a href="https://twitter.com/<%=athlete.twitter%>"><%=athlete.twitter%></a></p>
   </div>  
   <% } %>
+
+    <div class="item">
+    <p class="header">Hometown</p>
+    <p class="content"><%=athlete.hometown%></p>
+  </div>   
+  
+
   
  
 
-  <div class="connection">
+  <div class="item">
     <p class="header">Connection</p>
     <p class="content"><%=athlete.connection%></p>
   </div>  

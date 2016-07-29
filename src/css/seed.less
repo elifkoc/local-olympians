@@ -8,16 +8,41 @@
 
 }
 
+h2 {
+  text-align: center;
+
+  @media @mobile {
+    font-size: 17px;
+  }
+}
+.chatter {
+  display: inline-block;
+  width: 73%;
+  float: left;
+  margin-top: 10px;
+
+  @media @mobile {
+    display: none;
+  }
+
+  &.mobile {
+    display: none;
+    @media @mobile {
+      display: block;
+      width: 100%;
+      padding: 0 5%;
+      font-size: 15px;
+    }
+  }
+}
 .legend {
-  margin-top: 20px;
-  margin-left: 80%;
   display: inline-block;
   box-shadow: 4px 4px 4px fade(black, 20%);
   max-width: 360px;
   font-size: 14px;
-
+  margin-top: 10px;
   margin-bottom: 10px;
-  width: 20%;
+  width: 25%;
   @media @mobile {
     position: static;
     font-size: 12px;
@@ -28,7 +53,6 @@
 
   ul {
     list-style-type: none;
-    padding: 0;    
     float:left;
     margin: 3px 0;
     margin-bottom: 2px;
@@ -43,6 +67,7 @@
     display: inline-block;
     vertical-align: middle;
     width: 25px;
+    margin-bottom: 5px;
     margin-right: 5px;
     &.medaling {
       background-color:  fade(#FEB42E, 40%);
@@ -97,7 +122,9 @@
         display: block;
         width: 100%;
       }
-
+      &.header {
+        padding-left: 15px;
+      }
       &.athlete-name {
         .flex(0 0 250px);
         text-align: left;
