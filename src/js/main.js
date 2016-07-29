@@ -26,7 +26,7 @@ var openBox = function(e) {
 
 var iconToggle = function(e) {
   var icon = this.getElementsByTagName("i")[0];
-  icon.classList.toggle("fa-minus");
+  icon.classList.toggle("fa-minus-circle");
 };
 
 qsa(".athlete-name").forEach(function(el) {
@@ -70,7 +70,7 @@ var expand = function(e) {
   }
 
   else  {
-    this.innerHTML = "Expand";  
+    this.innerHTML = "More athletes <i class='fa fa-angle-double-down' aria-hidden='true';>";  
     expanded.forEach(function(x) {
       x.classList.add('off');
     });

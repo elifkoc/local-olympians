@@ -2,7 +2,6 @@
 .athlete-box {
   width: 100%;
   display: none;
-
   &.show {
     display: block;
     @media @mobile {
@@ -28,13 +27,21 @@
     .content {
       margin: 0;
     }
-    background-color: fade(#1184BB, 10%);
+    background-color: fade(#1184BB, 30%);
     .display-flex();
-    .justify-content(flex-start);
+    .justify-content(flex-end);
+    
+    @media @mobile {
+      .flex-direction(column);
+      
+    }
     .icon {
       .flex(1);
       img {
         width: 50%;
+        @media @mobile {
+          max-width: 100px;
+        }
       }
     }
 

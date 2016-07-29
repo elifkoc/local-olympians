@@ -39,7 +39,8 @@
             medalType: item.medal,
             results: item.results,
             url: item.url,
-            date: event.date
+            date: event.date,
+            localTime: event.localtime
 
           });
         }
@@ -52,20 +53,19 @@
       <div class="legend">
         <h2>Local Olympians</h2>
         <ul>
-          <li><div class="splotch medaling"><img src="assets/icons/Tennis.png" class="upcoming"></div> Medaling event</li>
-          <li><img src="assets/icons/Athletics.png" class="upcoming">Scheduled event</li>
+          <li><div class="splotch medaling"></div> Medaling event</li>
+          <li><img class="splotch" src="assets/icons/Athletics.png">Scheduled event</li>
+          <li><img class="splotch" src="assets/medals/gold_medal.png">Medalist</li>
         </ul>
-        <ul>
-          <li><img src="assets/medals/gold_medal.png">Medalist</li>
-        </ul>
-
+        
+        
       </div>
 
       <div class="table">
 
         <!--Headers-->
         <div class="table-column headers">
-          <div class="row-item header">Name</div>
+          <div class="row-item athlete-name">Name</div>
           <div class="row-item" data-id="8/3">8/3</div>
           <div class="row-item" data-id="8/6">8/6</div>
           <div class="row-item" data-id="8/7">8/7</div>
@@ -97,10 +97,11 @@
             <img src="assets/faces/<%=athlete.athleteid%>_athleteid_resized.jpg"/>
 
             <aside class="stats">              
-              <div class="name"><%=athlete.firstname%> <%=athlete.lastname%>, <%=athlete.age%></div>
+              <div class="name"><%=athlete.firstname%> <%=athlete.lastname%> <i class="fa fa-plus-circle"></i>
+              </div>
 
-              <%=athlete.sport%><br>
-               <i class="fa fa-plus"></i>
+              <i><%=athlete.sport%></i><br>
+               
             </aside>
 
           </div>
@@ -149,8 +150,14 @@
                 <a href="<%=day.url%>">Read more</a>
                 <% } } else { %>
                 
+                <% if (!!day.localTime) { %>
                  <i class="fa fa-clock-o" aria-hidden="true"></i> <b><%=day.event.localtime%> PST</b>, <%=day.event.riotime%> BRT<br>
-                <i class="fa fa-desktop" aria-hidden="true"></i><%=day.event.watch%>
+                
+                <i class="fa fa-desktop" aria-hidden="true"></i><%=day.event.watch%><br>
+                <% } else { %>
+                  Schedule TBD <br>
+                <% } %>
+                <a class="nbc" href="http://www.nbcolympics.com/live-stream-schedule">NBC Olymics Schedule</a>
                  <% } %>
                 
               </aside>
@@ -170,9 +177,9 @@
 
 
       </div>
-      <p class="expand">Expand</p>
+      <p class="expand">More athletes <i class="fa fa-angle-double-down" aria-hidden="true"></i></p>
+<div class="credit">ELIF KOC / THE SEATTLE TIMES</div>
     </div>
-
 
     <script> 
       window.olympians = <%= JSON.stringify(people) %>  

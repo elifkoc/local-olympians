@@ -87,7 +87,7 @@
     "athleteid": 30,
     "lastname": "Dygert",
     "firstname": "Chloe",
-    "sport": "Track Cycling",
+    "sport": "Track cycling",
     "team": "USA",
     "hometown": "Brownsburg, Ind.",
     "birthdate": "1/1/1997",
@@ -108,7 +108,7 @@
     "age": 25,
     "connection": "Lives in Seattle",
     "twitter": "@ThisJustine_",
-    "Photo": "no mug shot",
+    "Photo": "Y",
     "icon_name": "Athletics"
   },
   {
@@ -149,7 +149,7 @@
     "birthdate": "7/26/1994",
     "age": 22,
     "connection": "Attends Washington State University",
-    "twitter": "((@nbhare))",
+    "twitter": "@nbhare",
     "Photo": "Y",
     "icon_name": "Rowing"
   },
@@ -205,7 +205,6 @@
     "birthdate": "11/18/1992",
     "age": 23,
     "connection": "Lives in Olympia",
-    "twitter": "none",
     "Photo": "Y",
     "icon_name": "Shooting"
   },
@@ -261,7 +260,7 @@
     "birthdate": "6/15/1985",
     "age": 31,
     "connection": "Grew up in Richland, attended Kennewick High",
-    "twitter": "none",
+    "twitter": "@leilanim5",
     "Photo": "Y",
     "icon_name": "Basketball"
   },
@@ -317,7 +316,6 @@
     "birthdate": "3/24/1990",
     "age": 26,
     "connection": "Attended University of Washington",
-    "twitter": "none",
     "Photo": "Y",
     "icon_name": "Rowing"
   },
@@ -331,7 +329,7 @@
     "birthdate": "11/12/1991",
     "age": 24,
     "connection": "Attended University of Washington",
-    "twitter": "((@ctpan63))",
+    "twitter": "@ctpan63",
     "Photo": "Y",
     "icon_name": "Golf"
   },
@@ -355,12 +353,12 @@
     "firstname": "Diamara",
     "sport": "Track and field",
     "team": "Puerto Rico",
-    "hometown": "Dayamon, Puerto Rico",
+    "hometown": "Bayamon, Puerto Rico",
     "birthdate": "2/16/1993",
     "age": 23,
-    "connection": "University of Washington",
-    "twitter": "((@diami_pc))",
-    "Photo": "no official team site",
+    "connection": "Attends University of Washington",
+    "twitter": "@diami_pc",
+    "Photo": "Y",
     "icon_name": "Athletics"
   },
   {
@@ -386,8 +384,8 @@
     "hometown": "Langley, British Columbia, Canada",
     "birthdate": "9/17/1989",
     "age": 26,
-    "connection": "Washington State University",
-    "twitter": "((@LoveLisa28))",
+    "connection": "Attended Washington State University",
+    "twitter": "@LoveLisa28",
     "Photo": "Y",
     "icon_name": "Rowing"
   },
@@ -400,7 +398,7 @@
     "hometown": "Kirkland, Wash.",
     "birthdate": "6/15/1992",
     "age": 24,
-    "connection": "International Community School (Kirkland)",
+    "connection": "Attended International Community School",
     "twitter": "@HelenaScutt",
     "Photo": "Y",
     "icon_name": "Sailing"
@@ -414,7 +412,7 @@
     "hometown": "San Diego, Calif.",
     "birthdate": "4/3/89",
     "age": 27,
-    "connection": "University of Washington",
+    "connection": "Attended University of Washington",
     "twitter": "@simmonds_kerry",
     "Photo": "Y",
     "icon_name": "Rowing"
@@ -428,7 +426,7 @@
     "hometown": "Detroit, Mich.",
     "birthdate": "8/16/87",
     "age": 28,
-    "connection": "University of Washington",
+    "connection": "Attended University of Washington",
     "twitter": "@katelins",
     "Photo": "Y",
     "icon_name": "Rowing"
@@ -442,7 +440,7 @@
     "hometown": "Richland, Wash.",
     "birthdate": "7/30/1981",
     "age": 34,
-    "connection": "Richland High School, University of Washington, plays for Seattle Reign FC",
+    "connection": "Attended Richland High, University of Washington; plays for Seattle Reign FC",
     "twitter": "@hopesolo",
     "Photo": "Y",
     "icon_name": "Football"
@@ -456,7 +454,7 @@
     "hometown": "Bellevue, Wash.",
     "birthdate": "2/28/1986",
     "age": 30,
-    "connection": "From Tacoma",
+    "connection": "Grew up in Tacoma",
     "twitter": "@judosilencer",
     "Photo": "Y",
     "icon_name": "Judo"
@@ -484,7 +482,7 @@
     "hometown": "Kirkland, Wash.",
     "birthdate": "3/31/89",
     "age": 27,
-    "connection": "Bellevue Christian High School, University of Washington",
+    "connection": "Attended Bellevue Christian High, University of Washington",
     "twitter": "@HCGS89",
     "Photo": "Y",
     "icon_name": "Rowing"
@@ -498,7 +496,7 @@
     "hometown": "Renton, Wash.",
     "birthdate": "1/15/1990",
     "age": 26,
-    "connection": "Newport High School (Renton), University of Washington",
+    "connection": "Attended Newport High, University of Washington",
     "twitter": "@jeremyataiwo",
     "Photo": "Y",
     "icon_name": "Athletics"
@@ -512,7 +510,7 @@
     "hometown": "Los Angeles, Calif.",
     "birthdate": "2/8/1990",
     "age": 26,
-    "connection": "Washington State University",
+    "connection": "Attended Washington State University",
     "twitter": "@klaythompson",
     "Photo": "Y",
     "icon_name": "Basketball"
@@ -526,8 +524,8 @@
     "hometown": "Kent, Wash.",
     "birthdate": "11/4/1984",
     "age": 31,
-    "connection": "Kentlake High School, University of Washington",
-    "twitter": "((@CourtLThompson))",
+    "connection": "Attended Kentlake High, University of Washington",
+    "twitter": "@CourtLThompson",
     "Photo": "Y",
     "icon_name": "Volleyball"
   },
@@ -540,7 +538,7 @@
     "hometown": "Kita-ku, Tokyo, Japan",
     "birthdate": "6/11/1991",
     "age": 25,
-    "connection": "Plays for the Seattle Storm",
+    "connection": "Plays for Seattle Storm",
     "twitter": "@TOKASHIKI_10",
     "Photo": "Y",
     "icon_name": "Basketball"
@@ -554,8 +552,8 @@
     "hometown": "Redlands, Calif.",
     "birthdate": "3/31/1993",
     "age": 23,
-    "connection": "University of Washington",
-    "twitter": "((@kristaaaa16))",
+    "connection": "Attended University of Washington",
+    "twitter": "@kristaaaa16",
     "Photo": "Y",
     "icon_name": "Volleyball"
   },
@@ -568,7 +566,7 @@
     "hometown": "Vancouver, Wash.",
     "birthdate": "4/10/1986",
     "age": 30,
-    "connection": "Raised in Vancouver, Skyview High School",
+    "connection": "Attended Skyview High",
     "twitter": "@karathrowsjav",
     "Photo": "Y",
     "icon_name": "Athletics"
@@ -582,8 +580,8 @@
     "hometown": "Shoreline, Wash.",
     "birthdate": "1/10/1992",
     "age": 24,
-    "connection": "Raised in Shoreline",
-    "twitter": "((@kristinadiver))",
+    "connection": "Grew up in Shoreline",
+    "twitter": "@kristinadiver",
     "Photo": "Y",
     "icon_name": "Diving"
   }

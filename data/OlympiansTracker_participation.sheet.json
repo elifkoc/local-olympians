@@ -361,51 +361,51 @@
     "athleteid": 27,
     "eventid": 69,
     "qualify": "*",
-    "Note: enter medal as gold, silver, or bronze (leave empty if no medal)": "RESERVE"
+    "Note: enter medal as gold, silver, or bronze (leave empty if no medal), for url, include http part of url ": "RESERVE"
   },
   {
     "union": 141,
     "athleteid": 27,
     "eventid": 67,
     "qualify": "*",
-    "Note: enter medal as gold, silver, or bronze (leave empty if no medal)": "RESERVE"
+    "Note: enter medal as gold, silver, or bronze (leave empty if no medal), for url, include http part of url ": "RESERVE"
   },
   {
     "union": 139,
     "athleteid": 27,
     "eventid": 66,
     "qualify": "*",
-    "Note: enter medal as gold, silver, or bronze (leave empty if no medal)": "RESERVE"
+    "Note: enter medal as gold, silver, or bronze (leave empty if no medal), for url, include http part of url ": "RESERVE"
   },
   {
     "union": 137,
     "athleteid": 27,
     "eventid": 65,
-    "Note: enter medal as gold, silver, or bronze (leave empty if no medal)": "RESERVE"
+    "Note: enter medal as gold, silver, or bronze (leave empty if no medal), for url, include http part of url ": "RESERVE"
   },
   {
     "union": 135,
     "athleteid": 27,
     "eventid": 64,
-    "Note: enter medal as gold, silver, or bronze (leave empty if no medal)": "RESERVE"
+    "Note: enter medal as gold, silver, or bronze (leave empty if no medal), for url, include http part of url ": "RESERVE"
   },
   {
     "union": 133,
     "athleteid": 27,
     "eventid": 63,
-    "Note: enter medal as gold, silver, or bronze (leave empty if no medal)": "RESERVE"
+    "Note: enter medal as gold, silver, or bronze (leave empty if no medal), for url, include http part of url ": "RESERVE"
   },
   {
     "union": 131,
     "athleteid": 27,
     "eventid": 62,
-    "Note: enter medal as gold, silver, or bronze (leave empty if no medal)": "RESERVE"
+    "Note: enter medal as gold, silver, or bronze (leave empty if no medal), for url, include http part of url ": "RESERVE"
   },
   {
     "union": 129,
     "athleteid": 27,
     "eventid": 4,
-    "Note: enter medal as gold, silver, or bronze (leave empty if no medal)": "RESERVE"
+    "Note: enter medal as gold, silver, or bronze (leave empty if no medal), for url, include http part of url ": "RESERVE"
   },
   {
     "union": 127,
@@ -619,9 +619,7 @@
     "union": 86,
     "athleteid": 17,
     "eventid": 58,
-    "qualify": "*",
-    "medal": "gold",
-    "results": "Great day"
+    "qualify": "*"
   },
   {
     "union": 85,
