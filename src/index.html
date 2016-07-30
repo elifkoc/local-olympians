@@ -10,7 +10,7 @@
     <%= t.include("partials/_head.html") %>
   </head>
   <body>
-
+<responsive-child>
     <% 
     var people = json.OlympiansTracker_people;
     var events = {};  
@@ -209,5 +209,6 @@
     <%= !json.project.embedded ? t.include("partials/_foot.html") : "" %>
     <%= t.include("partials/_workHere.html") %>
     <% } %>
+      </responsive-child>
   </body>
 </html>
