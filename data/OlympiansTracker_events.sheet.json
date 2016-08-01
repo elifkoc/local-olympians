@@ -331,7 +331,7 @@
     "eventid": 50,
     "date": "8/19",
     "category": "Soccer",
-    "title": "USA vs. TBD ",
+    "title": "Finals",
     "medal": "x"
   },
   {
@@ -763,7 +763,8 @@
     "category": "Equestrian",
     "title": "Team dressage day 1 morning session",
     "localtime": "6:00 AM",
-    "riotime": "10:00 AM"
+    "riotime": "10:00 AM",
+    "undefined": "Equestrian schedule seems a little up in the air"
   },
   {
     "eventid": 104,
@@ -865,7 +866,8 @@
     "title": "Men's 50m rifle prone final",
     "localtime": "7:00 AM",
     "riotime": "11:00 AM",
-    "medal": "x"
+    "medal": "x",
+    "undefined": "May not be competing in this"
   },
   {
     "eventid": 116,
@@ -1142,5 +1144,69 @@
     "localtime": "1:45 PM",
     "riotime": "5:45 PM",
     "watch": "Basketball Specialty Channel (Delay: 4:45 PM PDT)"
+  },
+  {
+    "eventid": 156,
+    "date": "8/7",
+    "category": "Basketball",
+    "title": "Lithuania vs. Brazil (preliminary round)",
+    "localtime": "10:15 AM",
+    "riotime": "2:15 PM",
+    "watch": "NBCSN (Live), Basketball Specialty Channel (Live)"
+  },
+  {
+    "eventid": 157,
+    "date": "8/9",
+    "category": "Basketball",
+    "title": "Lithuania vs. Nigeria (preliminary round)",
+    "localtime": "3:00 PM",
+    "riotime": "7:00 PM",
+    "watch": "Basketball Specialty Channel (Live)"
+  },
+  {
+    "eventid": 158,
+    "date": "8/11",
+    "category": "Basketball",
+    "title": "Lithuania vs. Argentina (preliminary round)",
+    "localtime": "6:30 PM",
+    "riotime": "10:30 PM",
+    "watch": "Basketball Specialty Channel (Live)"
+  },
+  {
+    "eventid": 159,
+    "date": "8/13",
+    "category": "Basketball",
+    "title": "Lithuania vs. Spain (preliminary round)",
+    "localtime": "3:00 PM",
+    "riotime": "7:00 PM",
+    "watch": "NBCSN (Live), Basketball Specialty Channel (Live)"
+  },
+  {
+    "eventid": 160,
+    "date": "8/15",
+    "category": "Basketball",
+    "title": "Lithuania vs. Croatia (preliminary round)",
+    "localtime": "6:30 PM",
+    "riotime": "10:30 PM",
+    "watch": "Basketball Specialty Channel (Live)"
+  },
+  {
+    "eventid": 161,
+    "date": "8/17",
+    "category": "Basketball",
+    "title": "Quarterfinals"
+  },
+  {
+    "eventid": 162,
+    "date": "8/19",
+    "category": "Basketball",
+    "title": "Semifinals"
+  },
+  {
+    "eventid": 163,
+    "date": "8/21",
+    "category": "Basketball",
+    "title": "Finals",
+    "medal": "x"
   }
 ]
