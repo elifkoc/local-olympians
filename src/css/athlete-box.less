@@ -2,18 +2,12 @@
 .athlete-box {
   width: 100%;
   display: none;
+  
+  .flex-order(999);
+  .flex(0 0 100%);
+  
   &.show {
     display: block;
-    @media @mobile {
-      display: none;
-    }
-  }
-
-  &.mobile.show {
-    display: none;
-    @media @mobile {
-      display: block;
-    }  
   }
 
 

@@ -85,10 +85,11 @@ h2 {
     padding-top: 30px;
   }
 
-  &-column {
+  &-row {
     .display-flex;
     .align-content(center);
     .justify-content(center);
+    .flex-wrap(wrap);
     @media @mobile {
       display: block;
     }
@@ -108,7 +109,14 @@ h2 {
       }
     }
 
-
+    .schedule {
+      .flex(1 1 0%);
+      .display-flex();
+      
+      @media @mobile {
+        display: block;
+      }
+    }
 
     .row-item {
       .flex(1 1 0%);
@@ -166,10 +174,13 @@ h2 {
 
       &.event{
         @media @mobile {
-          border-left: solid black 6px;
-          display: none;
+          max-height: 0;
+          transition: all .5s ease-in-out;
+          overflow: hidden;
+          border: none;
           &.show {
-            display: block;
+            max-height: 300px;
+            border-left: solid black 6px;
           }
         }
 
@@ -179,7 +190,7 @@ h2 {
       }  
 
       &.noevent {
-        min-height: 77px;
+        min-height: 0;
         @media @mobile {
           display: none;
         }  
