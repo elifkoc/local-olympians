@@ -4,7 +4,6 @@
 
 require("component-responsive-frame/child");
 var dot = require("./lib/dot");
-var animate = require("./lib/animateScroll");
 var template = dot.compile(require("./_athletebox.html"));
 var qsa = require("./lib/qsa");
 
@@ -30,7 +29,6 @@ var openBox = function(e) {
       });
 
       item.classList.add("show");
-      item.innerHTML = template({athletes: window.olympians, id: pos});
     }
   }); 
 
@@ -44,7 +42,7 @@ var openBox = function(e) {
     else {
      
       item.classList.add("show");
-      animate(item.parentNode);
+      //animate(item.parentNode);
     }
   });
   }
