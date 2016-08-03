@@ -3,8 +3,6 @@
 // var track = require("./lib/tracking");
 
 require("component-responsive-frame/child");
-var dot = require("./lib/dot");
-var template = dot.compile(require("./_athletebox.html"));
 var qsa = require("./lib/qsa");
 
 //Athlete profiles
@@ -42,7 +40,6 @@ var openBox = function(e) {
     else {
      
       item.classList.add("show");
-      //animate(item.parentNode);
     }
   });
   }
