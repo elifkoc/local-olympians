@@ -1,111 +1,13 @@
 [
   {
-    "eventid": 2,
-    "date": "8/3",
-    "category": "Soccer",
-    "title": "USA vs. New Zealand (preliminary round)",
-    "localtime": "3:00 PM",
-    "riotime": "7:00 PM",
-    "watch": "NBCSN (Live), Soccer Specialty Channel (Live), NBC Universo (Live)"
-  },
-  {
-    "eventid": 3,
-    "date": "8/6",
-    "category": "Soccer",
-    "title": "USA vs. France (preliminary round)",
-    "localtime": "1:00 PM",
-    "riotime": "5:00 PM",
-    "watch": "NBCSN (Live), Soccer Specialty Channel (Live), NBC Universo (Live)"
-  },
-  {
-    "eventid": 4,
-    "date": "8/6",
-    "category": "Volleyball",
-    "title": "USA vs. Puerto Rico (preliminary round)",
-    "localtime": "1:00 PM",
-    "riotime": "5:00 PM",
-    "watch": "NBC (Live)"
-  },
-  {
-    "eventid": 5,
-    "date": "8/6",
-    "category": "Basketball",
-    "title": "USA vs. China (preliminary round)",
-    "localtime": "3:00 PM",
-    "riotime": "7:00 PM",
-    "watch": "NBCSN (Live), Basketball Specialty Channel (Live)"
-  },
-  {
-    "eventid": 6,
-    "date": "8/7",
-    "category": "Basketball",
-    "title": "USA vs. Senegal (preliminary round)",
-    "localtime": "8:00 AM",
-    "riotime": "12:00 PM",
-    "watch": "NBCSN (Live), Basketball Specialty Channel (Live)"
-  },
-  {
-    "eventid": 7,
-    "date": "8/8",
-    "category": "Judo",
-    "title": "Women's 57kg prelims and quarterfinals",
-    "localtime": "6:00 AM",
-    "riotime": "10:00 AM"
-  },
-  {
-    "eventid": 8,
-    "date": "8/8",
-    "category": "Basketball",
-    "title": "USA vs. Spain (preliminary round)",
-    "localtime": "8:00 AM",
-    "riotime": "12:00 PM",
-    "watch": "NBCSN (Live), Basketball Specialty Channel (Live)"
-  },
-  {
-    "eventid": 9,
-    "date": "8/8",
-    "category": "Judo",
-    "title": "Women's 57kg repechages, semifinals, and medal matches",
-    "localtime": "11:30 AM",
-    "riotime": "3:30 PM",
-    "watch": "MSNBC (Live)",
-    "medal": "x"
-  },
-  {
-    "eventid": 10,
-    "date": "8/8",
-    "category": "Basketball",
-    "title": "USA vs. Venezuela (preliminary round)",
-    "localtime": "3:00 PM",
-    "riotime": "7:00 PM",
-    "watch": "NBCSN (Live), Basketball Specialty Channel (Live)"
-  },
-  {
-    "eventid": 11,
-    "date": "8/9",
-    "category": "Judo",
-    "title": "Men's 81kg prelims and quarterfinals",
-    "localtime": "6:00 AM",
-    "riotime": "10:00 AM"
-  },
-  {
-    "eventid": 12,
-    "date": "8/9",
-    "category": "Judo",
-    "title": "Men's 81 kg repechages, semifinals, and medal matches",
-    "localtime": "11:30 AM",
-    "riotime": "3:30 PM",
-    "watch": "NBCSN (Delay- 5 PM PT)",
-    "medal": "x"
-  },
-  {
     "eventid": 13,
     "date": "8/10",
     "category": "Basketball",
     "title": "USA vs. Serbia (preliminary round)",
     "localtime": "11:30 AM",
     "riotime": "3:30 PM",
-    "watch": "NBCSN (Live), Basketball Specialty Channel (Live)"
+    "watch": "NBCSN (Live), Basketball Specialty Channel (Live)",
+    "completed": "x"
   },
   {
     "eventid": 14,
@@ -114,7 +16,183 @@
     "title": "USA vs. Australia (preliminary round)",
     "localtime": "3:00 PM",
     "riotime": "7:00 PM",
-    "watch": "NBCSN (Live), Basketball Specialty Channel (Live)"
+    "watch": "NBCSN (Live), Basketball Specialty Channel (Live)",
+    "completed": "x"
+  },
+  {
+    "eventid": 27,
+    "date": "8/11",
+    "category": "Rowing",
+    "title": "Men's eight repechages",
+    "localtime": "6:00 AM",
+    "riotime": "10:00 AM",
+    "completed": "x"
+  },
+  {
+    "eventid": 31,
+    "date": "8/11",
+    "category": "Rowing",
+    "title": "Women's quad sculls finals",
+    "localtime": "6:24 AM",
+    "riotime": "10:24 AM",
+    "medal": "x",
+    "completed": "x"
+  },
+  {
+    "eventid": 33,
+    "date": "8/11",
+    "category": "Rowing",
+    "title": "Women's eight repechages",
+    "localtime": "5:50 AM",
+    "riotime": "9:50 AM",
+    "completed": "x"
+  },
+  {
+    "eventid": 55,
+    "date": "8/10",
+    "category": "Swimming",
+    "title": "Men's 100m free final",
+    "localtime": "7:03 PM",
+    "riotime": "11:03 PM",
+    "watch": "NBC (Live)",
+    "medal": "x",
+    "completed": "x"
+  },
+  {
+    "eventid": 63,
+    "date": "8/10",
+    "category": "Volleyball",
+    "title": "USA vs. Serbia (preliminary round)",
+    "localtime": "11:00 AM",
+    "riotime": "3:00 PM",
+    "watch": "NBC (Live)",
+    "completed": "x"
+  },
+  {
+    "eventid": 82,
+    "date": "8/11",
+    "category": "Rowing",
+    "title": "Men's four semifinals",
+    "localtime": "5:30 AM",
+    "riotime": "9:30 AM",
+    "completed": "x"
+  },
+  {
+    "eventid": 86,
+    "date": "8/11",
+    "category": "Rowing",
+    "title": "Men's quadruple sculls B final",
+    "localtime": "8:30 AM",
+    "riotime": "12:30 PM",
+    "completed": "x"
+  },
+  {
+    "eventid": 98,
+    "date": "8/11",
+    "category": "Rowing",
+    "title": "Women's lightweight double sculls semifinals",
+    "localtime": "4:50 AM",
+    "riotime": "8:50 AM",
+    "completed": "x"
+  },
+  {
+    "eventid": 103,
+    "date": "8/10",
+    "category": "Equestrian",
+    "title": "Individual dressage: Grand Prix qualification",
+    "localtime": "6:00 AM",
+    "riotime": "10:00 AM",
+    "watch": "USA (Delay: 12 PM PDT)",
+    "completed": "x"
+  },
+  {
+    "eventid": 104,
+    "date": "8/10",
+    "category": "Equestrian",
+    "title": "Team dressage: Grand Prix qualification",
+    "localtime": "6:00 AM",
+    "riotime": "10:00 AM",
+    "watch": "USA (Delay: 12 PM PDT)",
+    "completed": "x"
+  },
+  {
+    "eventid": 57,
+    "date": "8/11",
+    "category": "Swimming",
+    "title": "Men's 50m free semfinals",
+    "localtime": "6:03 PM",
+    "riotime": "10:03 PM",
+    "watch": "NBC (Live)",
+    "completed": "x"
+  },
+  {
+    "eventid": 56,
+    "date": "8/11",
+    "category": "Swimming",
+    "title": "Men's 50m free heats",
+    "localtime": "9:02 AM",
+    "riotime": "1:02 PM",
+    "watch": "NBC (Live)",
+    "completed": "x"
+  },
+  {
+    "eventid": 90,
+    "date": "8/11",
+    "category": "Basketball",
+    "title": "Australia vs. Japan (preliminary round)",
+    "localtime": "1:45 PM",
+    "riotime": "5:45 PM",
+    "watch": "Basketball Specialty Channel (Delay: 4:45 PM PDT)",
+    "completed": "x"
+  },
+  {
+    "eventid": 100,
+    "date": "8/11",
+    "category": "Cycling",
+    "title": "Women's team pursuit qualifying",
+    "localtime": "12:19 PM",
+    "riotime": "4:19 PM",
+    "completed": "x"
+  },
+  {
+    "eventid": 105,
+    "date": "8/11",
+    "category": "Equestrian",
+    "title": "Individual dressage: Grand Prix qualification",
+    "localtime": "6:00 AM",
+    "riotime": "10:00 AM",
+    "watch": "USA (Delay: 12:45 PM PDT)",
+    "completed": "x"
+  },
+  {
+    "eventid": 106,
+    "date": "8/11",
+    "category": "Equestrian",
+    "title": "Team dressage: Grand Prix qualification",
+    "localtime": "6:00 AM",
+    "riotime": "10:00 AM",
+    "watch": "USA (Delay: 12:45 PM PDT)",
+    "completed": "x"
+  },
+  {
+    "eventid": 136,
+    "date": "8/11",
+    "category": "Golf",
+    "title": "Men's round one",
+    "localtime": "3:30 AM",
+    "riotime": "7:30 AM",
+    "watch": "Golf Channel (Live)",
+    "completed": "x"
+  },
+  {
+    "eventid": 158,
+    "date": "8/11",
+    "category": "Basketball",
+    "title": "Lithuania vs. Argentina (preliminary round)",
+    "localtime": "6:30 PM",
+    "riotime": "10:30 PM",
+    "watch": "Basketball Specialty Channel (Live)",
+    "completed": "x"
   },
   {
     "eventid": 15,
@@ -135,6 +213,218 @@
     "watch": "NBCSN (Live), Basketball Specialty Channel (Live)"
   },
   {
+    "eventid": 41,
+    "date": "8/12",
+    "category": "Sailing",
+    "title": "Races of women's 49er FX",
+    "localtime": "9:05 AM",
+    "riotime": "1:05 PM"
+  },
+  {
+    "eventid": 47,
+    "date": "8/12",
+    "category": "Soccer",
+    "title": "USA vs. Sweden (quarterfinals",
+    "localtime": "12:00 PM",
+    "riotime": "4:00 PM"
+  },
+  {
+    "eventid": 58,
+    "date": "8/12",
+    "category": "Swimming",
+    "title": "Men's 50m free final",
+    "localtime": "6:44 PM",
+    "riotime": "10:44 PM",
+    "watch": "NBC (Live)",
+    "medal": "x"
+  },
+  {
+    "eventid": 59,
+    "date": "8/12",
+    "category": "Swimming",
+    "title": "Men's 4x100 medley relay heats",
+    "localtime": "11:48 AM",
+    "riotime": "3:48 PM",
+    "watch": "NBC (Live)"
+  },
+  {
+    "eventid": 64,
+    "date": "8/12",
+    "category": "Volleyball",
+    "title": "USA vs. Italy (preliminary round)",
+    "localtime": "11:00 AM",
+    "riotime": "3:00 PM",
+    "watch": "NBC (Live)"
+  },
+  {
+    "eventid": 74,
+    "date": "8/12",
+    "category": "Basketball",
+    "title": "Australia vs. China (preliminary round)",
+    "localtime": "10:15 AM",
+    "riotime": "2:15 PM",
+    "watch": "Basketball Specialty Channel (Delay: 1:15 PM PDT)"
+  },
+  {
+    "eventid": 83,
+    "date": "8/12",
+    "category": "Rowing",
+    "title": "Men's four final",
+    "localtime": "6:44 AM",
+    "riotime": "10:44 AM",
+    "watch": "NBC (Delay: 12 PM PDT)",
+    "medal": "x",
+    "completed": "x"
+  },
+  {
+    "eventid": 99,
+    "date": "8/12",
+    "category": "Rowing",
+    "title": "Women's lightweight double sculls final",
+    "localtime": "5:52 AM",
+    "riotime": "9:52 AM",
+    "watch": "NBC (Delay: 12 PM PDT)",
+    "medal": "x",
+    "completed": "x"
+  },
+  {
+    "eventid": 107,
+    "date": "8/12",
+    "category": "Equestrian",
+    "title": "Individual dressage: Grand Prix special",
+    "localtime": "6:00 AM",
+    "riotime": "10:00 AM",
+    "medal": "x"
+  },
+  {
+    "eventid": 108,
+    "date": "8/12",
+    "category": "Equestrian",
+    "title": "Team dressage: Grand Prix special",
+    "localtime": "6:00 AM",
+    "riotime": "10:00 AM",
+    "medal": "x"
+  },
+  {
+    "eventid": 137,
+    "date": "8/12",
+    "category": "Golf",
+    "title": "Men's round two",
+    "localtime": "3:30 AM",
+    "riotime": "7:30 AM",
+    "watch": "Golf Channel (Live)"
+  },
+  {
+    "eventid": 164,
+    "date": "8/11",
+    "category": "Rowing",
+    "title": "Women's pair C final",
+    "localtime": "10:00 AM",
+    "riotime": "2:00 PM"
+  },
+  {
+    "eventid": 28,
+    "date": "8/13",
+    "category": "Rowing",
+    "title": "Men's eight finals",
+    "localtime": "7:24 AM",
+    "riotime": "11:24 AM",
+    "watch": "NBC (Delay: 10 AM PT)",
+    "medal": "x"
+  },
+  {
+    "eventid": 34,
+    "date": "8/13",
+    "category": "Rowing",
+    "title": "Women's eight finals",
+    "localtime": "7:04 AM",
+    "riotime": "11:04 AM",
+    "watch": "NBC (Delay: 10 AM PDT)",
+    "medal": "x"
+  },
+  {
+    "eventid": 42,
+    "date": "8/13",
+    "category": "Sailing",
+    "title": "Races of women's 49er FX",
+    "localtime": "9:05 AM",
+    "riotime": "1:05 PM",
+    "watch": "MSNBC (Delay: 1 PM PDT)"
+  },
+  {
+    "eventid": 60,
+    "date": "8/13",
+    "category": "Swimming",
+    "title": "Men's 4x100 medley relay final",
+    "localtime": "7:04 PM",
+    "riotime": "11:04 PM",
+    "watch": "NBC (Live)",
+    "medal": "x"
+  },
+  {
+    "eventid": 91,
+    "date": "8/13",
+    "category": "Basketball",
+    "title": "Australia vs. Belarus (preliminary round)",
+    "localtime": "8:15 AM",
+    "riotime": "12:15 PM",
+    "watch": "Basketball Specialty Channel (Live)"
+  },
+  {
+    "eventid": 102,
+    "date": "8/13",
+    "category": "Cycling",
+    "title": "Women's team pursuit final",
+    "localtime": "1:14 PM",
+    "riotime": "5:14 PM",
+    "medal": "x"
+  },
+  {
+    "eventid": 101,
+    "date": "8/13",
+    "category": "Cycling",
+    "title": "Women's team pursuit first round",
+    "localtime": "7:17 AM",
+    "riotime": "11:17 AM",
+    "medal": "x"
+  },
+  {
+    "eventid": 127,
+    "date": "8/13",
+    "category": "Track and field",
+    "title": "Women's triple jump qualification",
+    "localtime": "5:40 AM",
+    "riotime": "9:40 AM",
+    "watch": "NBC (Live)"
+  },
+  {
+    "eventid": 138,
+    "date": "8/13",
+    "category": "Golf",
+    "title": "Men's round three",
+    "localtime": "3:30 AM",
+    "riotime": "7:30 AM",
+    "watch": "Golf Channel (Live)"
+  },
+  {
+    "eventid": 155,
+    "date": "8/13",
+    "category": "Basketball",
+    "title": "Japan vs. France (preliminary round)",
+    "localtime": "1:45 PM",
+    "riotime": "5:45 PM",
+    "watch": "Basketball Specialty Channel (Delay: 4:45 PM PDT)"
+  },
+  {
+    "eventid": 159,
+    "date": "8/13",
+    "category": "Basketball",
+    "title": "Lithuania vs. Spain (preliminary round)",
+    "localtime": "3:00 PM",
+    "riotime": "7:00 PM",
+    "watch": "NBCSN (Live), Basketball Specialty Channel (Live)"
+  },
+  {
     "eventid": 17,
     "date": "8/14",
     "category": "Basketball",
@@ -144,182 +434,128 @@
     "watch": "NBCSN (Live), Basketball Specialty Channel (Live)"
   },
   {
-    "eventid": 18,
-    "date": "8/16",
-    "category": "Basketball",
-    "title": "Quarterfinals"
-  },
-  {
-    "eventid": 19,
-    "date": "8/17",
-    "category": "Basketball",
-    "title": "Quarterfinals"
-  },
-  {
-    "eventid": 20,
-    "date": "8/18",
-    "category": "Basketball",
-    "title": "Semifinals"
-  },
-  {
-    "eventid": 21,
-    "date": "8/19",
-    "category": "Basketball",
-    "title": "Semifinals"
-  },
-  {
-    "eventid": 23,
-    "date": "8/20",
-    "category": "Basketball",
-    "title": "Finals",
-    "medal": "x"
-  },
-  {
-    "eventid": 25,
-    "date": "8/21",
-    "category": "Basketball",
-    "title": "Finals",
-    "medal": "x"
-  },
-  {
-    "eventid": 26,
-    "date": "8/8",
-    "category": "Rowing",
-    "title": "Men's eight heats",
-    "localtime": "4:30 AM",
-    "riotime": "8:30 AM",
+    "eventid": 65,
+    "date": "8/14",
+    "category": "Volleyball",
+    "title": "USA vs. China (preliminary round)",
+    "localtime": "1:05 PM",
+    "riotime": "5:05 PM",
     "watch": "NBC (Live)"
   },
   {
-    "eventid": 27,
-    "date": "8/10",
-    "category": "Rowing",
-    "title": "Men's eight repechages",
-    "localtime": "4:30 AM",
-    "riotime": "8:30 AM"
+    "eventid": 71,
+    "date": "8/14",
+    "category": "Basketball",
+    "title": "USA vs. China (preliminary round)",
+    "localtime": "8:15 AM",
+    "riotime": "12:15 PM",
+    "watch": "NBC (Live), Basketball Specialty Channel (Live)"
   },
   {
-    "eventid": 28,
-    "date": "8/13",
-    "category": "Rowing",
-    "title": "Men's eight finals",
-    "localtime": "4:50 AM",
-    "riotime": "8:50 AM",
-    "watch": "NBC (Delay: 11 AM PT)",
-    "medal": "x"
+    "eventid": 75,
+    "date": "8/14",
+    "category": "Basketball",
+    "title": "Australia vs. Venezuela (preliminary round)",
+    "localtime": "3:00 PM",
+    "riotime": "7:00 PM",
+    "watch": "Basketball Specialty Channel (Live)"
   },
   {
-    "eventid": 29,
-    "date": "8/6",
-    "category": "Rowing",
-    "title": "Women's quad sculls heats",
-    "localtime": "4:30 AM",
-    "riotime": "8:30 AM",
-    "watch": "NBC (Live)"
-  },
-  {
-    "eventid": 30,
-    "date": "8/8",
-    "category": "Rowing",
-    "title": "Women's quad sculls repechages",
-    "localtime": "4:30 AM",
-    "riotime": "8:30 AM",
-    "watch": "NBC (Live)"
-  },
-  {
-    "eventid": 31,
-    "date": "8/10",
-    "category": "Rowing",
-    "title": "Women's quad sculls finals",
-    "localtime": "4:30 AM",
-    "riotime": "8:30 AM",
-    "watch": "NBC (Delay: 12:45 PM PDT)",
-    "medal": "x"
-  },
-  {
-    "eventid": 32,
-    "date": "8/8",
-    "category": "Rowing",
-    "title": "Women's eight heats",
-    "localtime": "4:30 AM",
-    "riotime": "8:30 AM",
-    "watch": "NBC (Live)"
-  },
-  {
-    "eventid": 33,
-    "date": "8/10",
-    "category": "Rowing",
-    "title": "Women's eight repechages",
-    "localtime": "4:30 AM",
-    "riotime": "8:30 AM"
-  },
-  {
-    "eventid": 34,
-    "date": "8/13",
-    "category": "Rowing",
-    "title": "Women's eight finals",
-    "localtime": "4:50 AM",
-    "riotime": "8:50 AM",
-    "watch": "NBC (Delay: 11 AM PDT)",
-    "medal": "x"
-  },
-  {
-    "eventid": 41,
-    "date": "8/12",
-    "category": "Sailing",
-    "title": "Races of women's 49er FX",
-    "localtime": "9:05 AM",
-    "riotime": "1:05 PM"
-  },
-  {
-    "eventid": 42,
-    "date": "8/13",
-    "category": "Sailing",
-    "title": "Races of women's 49er FX",
+    "eventid": 116,
+    "date": "8/14",
+    "category": "Shooting",
+    "title": "Men's 50m rifle 3-positions final",
     "localtime": "9:00 AM",
     "riotime": "1:00 PM",
-    "watch": "MSNBC (Delay: 1 PM PDT)"
+    "watch": "USA (Live)",
+    "medal": "x"
+  },
+  {
+    "eventid": 128,
+    "date": "8/14",
+    "category": "Track and field",
+    "title": "Women's triple jump final",
+    "localtime": "4:55:00 PM",
+    "riotime": "8:55 PM",
+    "watch": "NBC (Live)",
+    "medal": "x"
+  },
+  {
+    "eventid": 139,
+    "date": "8/14",
+    "category": "Golf",
+    "title": "Men's final round",
+    "localtime": "3:00 AM",
+    "riotime": "7:00 AM",
+    "watch": "NBC (Live at 10 AM PDT), Golf Channel (Live)",
+    "medal": "x"
+  },
+  {
+    "eventid": 166,
+    "date": "8/14",
+    "category": "Shooting",
+    "title": "Men's 50m rifle 3-positions qualification",
+    "localtime": "5:00 AM",
+    "riotime": "9:00 AM"
   },
   {
     "eventid": 43,
     "date": "8/15",
     "category": "Sailing",
     "title": "Races of women's 49er FX",
-    "localtime": "9:00 AM",
-    "riotime": "1:00 PM"
+    "localtime": "9:05 AM",
+    "riotime": "1:05 PM"
+  },
+  {
+    "eventid": 109,
+    "date": "8/15",
+    "category": "Equestrian",
+    "title": "Individual dressage: Grand Prix freestyle",
+    "localtime": "6:00 AM",
+    "riotime": "10:00 AM",
+    "watch": "USA (Delay: 7:30 PM PDT)",
+    "medal": "x"
+  },
+  {
+    "eventid": 160,
+    "date": "8/15",
+    "category": "Basketball",
+    "title": "Lithuania vs. Croatia (preliminary round)",
+    "localtime": "6:30 PM",
+    "riotime": "10:30 PM",
+    "watch": "Basketball Specialty Channel (Live)"
+  },
+  {
+    "eventid": 167,
+    "date": "8/15",
+    "category": "Track and field",
+    "title": "Men's 400m hurdles heats",
+    "localtime": "7:30 AM",
+    "riotime": "11:30 AM",
+    "watch": "NBCSN (Live)"
+  },
+  {
+    "eventid": 168,
+    "date": "8/15",
+    "category": "Track and field",
+    "title": "Men's 110m hurdles heats",
+    "localtime": "4:40 PM",
+    "riotime": "8:40 PM",
+    "watch": "NBC (Delay- 8 PM PT)"
+  },
+  {
+    "eventid": 18,
+    "date": "8/16",
+    "category": "Basketball",
+    "title": "Quarterfinals"
   },
   {
     "eventid": 44,
     "date": "8/16",
     "category": "Sailing",
     "title": "Races of women's 49er FX",
-    "localtime": "9:00 AM",
-    "riotime": "1:00 PM"
-  },
-  {
-    "eventid": 45,
-    "date": "8/18",
-    "category": "Sailing",
-    "title": "Medal races of women's 49er FX",
-    "localtime": "9:00 AM",
-    "riotime": "1:00 PM",
-    "watch": "MSNBC (Delay: 11 AM PDT)",
-    "medal": "x"
-  },
-  {
-    "eventid": 46,
-    "date": "8/9",
-    "category": "Soccer",
-    "title": "USA vs. Columbia (preliminary round)",
-    "localtime": "3:00 PM",
-    "riotime": "7:00 PM",
-    "watch": "NBCSN (Live), Soccer Specialty Channel (Live), NBC Universo (Live)"
-  },
-  {
-    "eventid": 47,
-    "date": "8/12",
-    "category": "Soccer",
-    "title": "Quarterfinals"
+    "localtime": "9:05 AM",
+    "riotime": "1:05 PM"
   },
   {
     "eventid": 48,
@@ -328,104 +564,163 @@
     "title": "Semifinals"
   },
   {
-    "eventid": 50,
-    "date": "8/19",
-    "category": "Soccer",
-    "title": "Finals",
+    "eventid": 66,
+    "date": "8/16",
+    "category": "Volleyball",
+    "title": "Quarterfinals"
+  },
+  {
+    "eventid": 92,
+    "date": "8/16",
+    "category": "Basketball",
+    "title": "Quarterfinals"
+  },
+  {
+    "eventid": 131,
+    "date": "8/16",
+    "category": "Track and field",
+    "title": "Women's javelin qualification",
+    "localtime": "4:35 PM",
+    "riotime": "8:35 PM"
+  },
+  {
+    "eventid": 140,
+    "date": "8/16",
+    "category": "Track and field",
+    "title": "Women's pole vault qualifying",
+    "localtime": "5:45 AM",
+    "riotime": "9:45 AM",
+    "watch": "NBCSN (Live)"
+  },
+  {
+    "eventid": 149,
+    "date": "8/16",
+    "category": "Basketball",
+    "title": "Quarterfinals"
+  },
+  {
+    "eventid": 169,
+    "date": "8/16",
+    "category": "Track and field",
+    "title": "Women's 100m hurdles heats",
+    "localtime": "7:05 AM",
+    "riotime": "11:05 AM",
+    "watch": "NBCSN (Live)"
+  },
+  {
+    "eventid": 171,
+    "date": "8/16",
+    "category": "Track and field",
+    "title": "Men's 400m hurdles semifinals",
+    "localtime": "5:35 PM",
+    "riotime": "9:35 PM",
+    "watch": "NBC (Delay- 8 PM PT)"
+  },
+  {
+    "eventid": 172,
+    "date": "8/16",
+    "category": "Track and field",
+    "title": "Men's 110m hurdles final",
+    "localtime": "6:45 PM",
+    "riotime": "10:45 PM",
+    "watch": "NBC (Delay- 8 PM PT)",
     "medal": "x"
   },
   {
-    "eventid": 51,
-    "date": "8/7",
-    "category": "Swimming",
-    "title": "Men's 4x100 free relay heats",
-    "localtime": "9:00 AM",
-    "riotime": "1:00 PM",
-    "watch": "NBC (Live)"
-  },
-  {
-    "eventid": 52,
-    "date": "8/7",
-    "category": "Swimming",
-    "title": "Men's 4x100 free relay final",
-    "localtime": "6:00 PM",
-    "riotime": "10:00 PM",
-    "watch": "NBC (Live)",
+    "eventid": 170,
+    "date": "8/16",
+    "category": "Track and field",
+    "title": "Men's 110m hurdles semifinals",
+    "localtime": "4:40 PM",
+    "riotime": "8:40 PM",
+    "watch": "NBC (Delay- 8 PM PT)",
     "medal": "x"
   },
   {
-    "eventid": 53,
-    "date": "8/9",
-    "category": "Swimming",
-    "title": "Men's 100m free heats",
-    "localtime": "9:00 AM",
-    "riotime": "1:00 PM",
-    "watch": "NBC (Live)"
+    "eventid": 19,
+    "date": "8/17",
+    "category": "Basketball",
+    "title": "Quarterfinals"
   },
   {
-    "eventid": 54,
-    "date": "8/9",
-    "category": "Swimming",
-    "title": "Men's 100m free semifinals",
-    "localtime": "6:00 PM",
-    "riotime": "10:00 PM",
-    "watch": "NBC (Live)"
+    "eventid": 76,
+    "date": "8/17",
+    "category": "Basketball",
+    "title": "Quarterfinals"
   },
   {
-    "eventid": 55,
-    "date": "8/10",
-    "category": "Swimming",
-    "title": "Men's 100m free final",
-    "localtime": "6:00 PM",
-    "riotime": "10:00 PM",
-    "watch": "NBC (Live)",
+    "eventid": 117,
+    "date": "8/17",
+    "category": "Track and field",
+    "title": "Men's decathlon day 1: 100m, long jump, shot put, high jump, 400m",
+    "localtime": "5:30 AM-5:35 PM",
+    "riotime": "9:30 AM-9:35 PM"
+  },
+  {
+    "eventid": 129,
+    "date": "8/17",
+    "category": "Track and field",
+    "title": "Men's 5000m round 1",
+    "localtime": "6:05 AM",
+    "riotime": "10:05 AM"
+  },
+  {
+    "eventid": 133,
+    "date": "8/17",
+    "category": "Diving",
+    "title": "Women's 10m platform prelims",
+    "localtime": "11:00 AM",
+    "riotime": "3:00 PM",
+    "watch": "NBC (Delay: 5 PM PDT)"
+  },
+  {
+    "eventid": 152,
+    "date": "8/17",
+    "category": "Track and field",
+    "title": "Women's 800m round 1",
+    "localtime": "6:55 AM",
+    "riotime": "10:55 AM"
+  },
+  {
+    "eventid": 161,
+    "date": "8/17",
+    "category": "Basketball",
+    "title": "Quarterfinals"
+  },
+  {
+    "eventid": 174,
+    "date": "8/17",
+    "category": "Track and field",
+    "title": "Women's 100m hurdles final",
+    "localtime": "6:55 PM",
+    "riotime": "10:55 PM",
+    "watch": "NBC (Delay- 8 PM PT)",
     "medal": "x"
   },
   {
-    "eventid": 56,
-    "date": "8/11",
-    "category": "Swimming",
-    "title": "Men's 50m free heats",
-    "localtime": "9:00 AM",
-    "riotime": "1:00 PM",
-    "watch": "NBC (Live)"
-  },
-  {
-    "eventid": 57,
-    "date": "8/11",
-    "category": "Swimming",
-    "title": "Men's 50m free semfinals",
-    "localtime": "6:00 PM",
-    "riotime": "10:00 PM",
-    "watch": "NBC (Live)"
-  },
-  {
-    "eventid": 58,
-    "date": "8/12",
-    "category": "Swimming",
-    "title": "Men's 50m free final",
-    "localtime": "6:00 PM",
-    "riotime": "10:00 PM",
-    "watch": "NBC (Live)",
+    "eventid": 173,
+    "date": "8/17",
+    "category": "Track and field",
+    "title": "Women's 100m hurdles semifinals",
+    "localtime": "4:45 PM",
+    "riotime": "8:45 PM",
+    "watch": "NBC (Delay- 8 PM PT)",
     "medal": "x"
   },
   {
-    "eventid": 59,
-    "date": "8/12",
-    "category": "Swimming",
-    "title": "Men's 4x100 medley relay heats",
-    "localtime": "9:00 AM",
-    "riotime": "1:00 PM",
-    "watch": "NBC (Live)"
+    "eventid": 20,
+    "date": "8/18",
+    "category": "Basketball",
+    "title": "Semifinals"
   },
   {
-    "eventid": 60,
-    "date": "8/13",
-    "category": "Swimming",
-    "title": "Men's 4x100 medley relay final",
-    "localtime": "6:00 PM",
-    "riotime": "10:00 PM",
-    "watch": "NBC (Live)",
+    "eventid": 45,
+    "date": "8/18",
+    "category": "Sailing",
+    "title": "Medal races of women's 49er FX",
+    "localtime": "10:05 AM",
+    "riotime": "2:05 PM",
+    "watch": "MSNBC (Delay: 11 AM PDT)",
     "medal": "x"
   },
   {
@@ -439,248 +734,10 @@
     "medal": "x"
   },
   {
-    "eventid": 62,
-    "date": "8/8",
-    "category": "Volleyball",
-    "title": "USA vs. Netherlands (preliminary round)",
-    "localtime": "11:00 AM",
-    "riotime": "3:00 PM",
-    "watch": "NBC (Live)"
-  },
-  {
-    "eventid": 63,
-    "date": "8/10",
-    "category": "Volleyball",
-    "title": "USA vs. Serbia (preliminary round)",
-    "localtime": "11:00 AM",
-    "riotime": "3:00 PM",
-    "watch": "NBC (Live)"
-  },
-  {
-    "eventid": 64,
-    "date": "8/12",
-    "category": "Volleyball",
-    "title": "USA vs. Italy (preliminary round)",
-    "localtime": "11:00 AM",
-    "riotime": "3:00 PM",
-    "watch": "NBC (Live)"
-  },
-  {
-    "eventid": 65,
-    "date": "8/14",
-    "category": "Volleyball",
-    "title": "USA vs. China (preliminary round)",
-    "localtime": "1:00 PM",
-    "riotime": "5:00 PM",
-    "watch": "NBC (Live)"
-  },
-  {
-    "eventid": 66,
-    "date": "8/16",
-    "category": "Volleyball",
-    "title": "Quarterfinals"
-  },
-  {
     "eventid": 67,
     "date": "8/18",
     "category": "Volleyball",
     "title": "Semifinals"
-  },
-  {
-    "eventid": 69,
-    "date": "8/20",
-    "category": "Volleyball",
-    "title": "Finals",
-    "medal": "x"
-  },
-  {
-    "eventid": 70,
-    "date": "8/6",
-    "category": "Weightlifting",
-    "title": "Women's 48kg Group A medal round",
-    "localtime": "3:00 PM",
-    "riotime": "7:00 PM",
-    "watch": "NBCSN (Delay: 5 PM PDT) ",
-    "medal": "x"
-  },
-  {
-    "eventid": 71,
-    "date": "8/14",
-    "category": "Basketball",
-    "title": "USA vs. China (preliminary round)",
-    "localtime": "8:15 AM",
-    "riotime": "12:15 PM",
-    "watch": "NBC (Live), Basketball Specialty Channel (Live)"
-  },
-  {
-    "eventid": 72,
-    "date": "8/6",
-    "category": "Basketball",
-    "title": "Australia vs. France (preliminary round)",
-    "localtime": "10:15 AM",
-    "riotime": "2:15 PM",
-    "watch": "NBCSN (Live), Basketball Specialty Channel (Live)"
-  },
-  {
-    "eventid": 73,
-    "date": "8/8",
-    "category": "Basketball",
-    "title": "Australia vs. Serbia (preliminary round)",
-    "localtime": "10:15 AM",
-    "riotime": "2:15 PM",
-    "watch": "MSNBC (Live), Basketball Specialty Channel (Live)"
-  },
-  {
-    "eventid": 74,
-    "date": "8/12",
-    "category": "Basketball",
-    "title": "Australia vs. China (preliminary round)",
-    "localtime": "10:15 AM",
-    "riotime": "2:15 PM",
-    "watch": "Basketball Specialty Channel (Delay: 1:15 PM PDT)"
-  },
-  {
-    "eventid": 75,
-    "date": "8/14",
-    "category": "Basketball",
-    "title": "Australia vs. Venezuela (preliminary round)",
-    "localtime": "3:00 PM",
-    "riotime": "7:00 PM",
-    "watch": "Basketball Specialty Channel (Live)"
-  },
-  {
-    "eventid": 76,
-    "date": "8/17",
-    "category": "Basketball",
-    "title": "Quarterfinals"
-  },
-  {
-    "eventid": 77,
-    "date": "8/19",
-    "category": "Basketball",
-    "title": "Semifinals"
-  },
-  {
-    "eventid": 79,
-    "date": "8/21",
-    "category": "Basketball",
-    "title": "Finals",
-    "medal": "x"
-  },
-  {
-    "eventid": 80,
-    "date": "8/7",
-    "category": "Rowing",
-    "title": "Men's four heats",
-    "localtime": "4:30 AM",
-    "riotime": "8:30 AM",
-    "watch": "NBC (Live)"
-  },
-  {
-    "eventid": 81,
-    "date": "8/8",
-    "category": "Rowing",
-    "title": "Men's four repechages",
-    "localtime": "4:30 AM",
-    "riotime": "8:30 AM",
-    "watch": "NBC (Live)"
-  },
-  {
-    "eventid": 82,
-    "date": "8/10",
-    "category": "Rowing",
-    "title": "Men's four semifinals",
-    "localtime": "4:30 AM",
-    "riotime": "8:30 AM"
-  },
-  {
-    "eventid": 83,
-    "date": "8/12",
-    "category": "Rowing",
-    "title": "Men's four final",
-    "localtime": "4:30 AM",
-    "riotime": "8:30 AM",
-    "watch": "NBC (Delay: 9 AM PDT)",
-    "medal": "x"
-  },
-  {
-    "eventid": 84,
-    "date": "8/6",
-    "category": "Rowing",
-    "title": "Men's quadruple sculls heats",
-    "localtime": "4:30 AM",
-    "riotime": "8:30 AM",
-    "watch": "NBC (Live)"
-  },
-  {
-    "eventid": 85,
-    "date": "8/8",
-    "category": "Rowing",
-    "title": "Men's quadruple sculls repechages",
-    "localtime": "4:30 AM",
-    "riotime": "8:30 AM",
-    "watch": "NBC (Live)"
-  },
-  {
-    "eventid": 86,
-    "date": "8/10",
-    "category": "Rowing",
-    "title": "Men's quadruple sculls final",
-    "localtime": "4:30 AM",
-    "riotime": "8:30 AM",
-    "watch": "NBC (Delay: 12:45 PM PDT)",
-    "medal": "x"
-  },
-  {
-    "eventid": 87,
-    "date": "8/6",
-    "category": "Basketball",
-    "title": "Australia vs. Brazil (preliminary round)",
-    "localtime": "1:45 PM",
-    "riotime": "5:45 PM",
-    "watch": "Basketball Specialty Channel (Delay: 4:45 PM PDT)"
-  },
-  {
-    "eventid": 88,
-    "date": "8/7",
-    "category": "Basketball",
-    "title": "Australia vs. Turkey (preliminary round)",
-    "localtime": "1:30 PM",
-    "riotime": "5:30 PM",
-    "watch": "Basketball Specialty Channel (Delay: 4:45 PM PDT)"
-  },
-  {
-    "eventid": 89,
-    "date": "8/9",
-    "category": "Basketball",
-    "title": "Australia vs. France (preliminary round)",
-    "localtime": "8:15 AM",
-    "riotime": "12:15 PM",
-    "watch": "Basketball Specialty Channel (Live)"
-  },
-  {
-    "eventid": 90,
-    "date": "8/11",
-    "category": "Basketball",
-    "title": "Australia vs. Japan (preliminary round)",
-    "localtime": "1:45 PM",
-    "riotime": "5:45 PM",
-    "watch": "Basketball Specialty Channel (Delay: 4:45 PM PDT)"
-  },
-  {
-    "eventid": 91,
-    "date": "8/13",
-    "category": "Basketball",
-    "title": "Australia vs. Belarus (preliminary round)",
-    "localtime": "8:15 AM",
-    "riotime": "12:15 PM",
-    "watch": "Basketball Specialty Channel (Live)"
-  },
-  {
-    "eventid": 92,
-    "date": "8/16",
-    "category": "Basketball",
-    "title": "Quarterfinals"
   },
   {
     "eventid": 93,
@@ -689,286 +746,24 @@
     "title": "Semifinals"
   },
   {
-    "eventid": 95,
-    "date": "8/20",
-    "category": "Basketball",
-    "title": "Finals",
-    "medal": "x"
-  },
-  {
-    "eventid": 96,
-    "date": "8/7",
-    "category": "Rowing",
-    "title": "Women's lightweight double sculls heats",
-    "localtime": "4:30 AM",
-    "riotime": "8:30 AM",
-    "watch": "NBC (Live)"
-  },
-  {
-    "eventid": 97,
-    "date": "8/8",
-    "category": "Rowing",
-    "title": "Women's lightweight double sculls repechages",
-    "localtime": "4:30 AM",
-    "riotime": "8:30 AM",
-    "watch": "NBC (Live)"
-  },
-  {
-    "eventid": 98,
-    "date": "8/9",
-    "category": "Rowing",
-    "title": "Women's lightweight double sculls semifinals",
-    "localtime": "4:30 AM",
-    "riotime": "8:30 AM",
-    "watch": "NBC (Delay: 9 AM PDT)"
-  },
-  {
-    "eventid": 99,
-    "date": "8/10",
-    "category": "Rowing",
-    "title": "Women's lightweight double sculls final",
-    "localtime": "4:30 AM",
-    "riotime": "8:30 AM",
-    "watch": "NBC (Delay: 12:45 PM PDT)",
-    "medal": "x"
-  },
-  {
-    "eventid": 100,
-    "date": "8/11",
-    "category": "Cycling",
-    "title": "Women's team pursuit qualifying",
-    "localtime": "12:00 PM",
-    "riotime": "4:00 PM"
-  },
-  {
-    "eventid": 101,
-    "date": "8/13",
-    "category": "Cycling",
-    "title": "Women's team pursuit first round",
-    "localtime": "6:00 AM",
-    "riotime": "10:00 AM"
-  },
-  {
-    "eventid": 102,
-    "date": "8/13",
-    "category": "Cycling",
-    "title": "Women's team pursuit final",
-    "localtime": "12:00 PM",
-    "riotime": "4:00 PM",
-    "medal": "x"
-  },
-  {
-    "eventid": 103,
-    "date": "8/6",
-    "category": "Equestrian",
-    "title": "Team dressage day 1 morning session",
-    "localtime": "6:00 AM",
-    "riotime": "10:00 AM",
-    "undefined": "Equestrian schedule seems a little up in the air"
-  },
-  {
-    "eventid": 104,
-    "date": "8/6",
-    "category": "Equestrian",
-    "title": "Team dressage day 1 afternoon session",
-    "localtime": "9:30 AM",
-    "riotime": "1:30 PM"
-  },
-  {
-    "eventid": 105,
-    "date": "8/7",
-    "category": "Equestrian",
-    "title": "Team dressage day 2 morning session",
-    "localtime": "6:00 AM",
-    "riotime": "10:00 AM",
-    "medal": "x"
-  },
-  {
-    "eventid": 106,
-    "date": "8/7",
-    "category": "Equestrian",
-    "title": "Team dressage day 2 afternoon session",
-    "localtime": "9:30 AM",
-    "riotime": "1:30 PM"
-  },
-  {
-    "eventid": 107,
-    "date": "8/10",
-    "category": "Equestrian",
-    "title": "Dressage Grand Prix morning session day 1",
-    "localtime": "6:00 AM",
-    "riotime": "10:00 AM"
-  },
-  {
-    "eventid": 108,
-    "date": "8/10",
-    "category": "Equestrian",
-    "title": "Dressage Grand Prix afternoon session day 1",
-    "localtime": "9:30 AM",
-    "riotime": "1:30 PM"
-  },
-  {
-    "eventid": 109,
-    "date": "8/11",
-    "category": "Equestrian",
-    "title": "Dressage Grand prix morning session day 2",
-    "localtime": "6:00 AM",
-    "riotime": "10:00 AM"
-  },
-  {
-    "eventid": 110,
-    "date": "8/11",
-    "category": "Equestrian",
-    "title": "Dressage Grand prix afternoon session day 2",
-    "localtime": "9:30 AM",
-    "riotime": "1:30 PM",
-    "watch": "MSNBC (Delay: 12:45 PM PDT)"
-  },
-  {
-    "eventid": 111,
-    "date": "8/12",
-    "category": "Equestrian",
-    "title": "Dressage Grand Prix special morning session",
-    "localtime": "6:00 AM",
-    "riotime": "10:00 AM"
-  },
-  {
-    "eventid": 112,
-    "date": "8/12",
-    "category": "Equestrian",
-    "title": "Dressage Grand Prix special afternoon session",
-    "localtime": "9:30 AM",
-    "riotime": "1:30 PM"
-  },
-  {
-    "eventid": 113,
-    "date": "8/15",
-    "category": "Equestrian",
-    "title": "Dressage individual Grand Prix freestyle",
-    "localtime": "6:00 AM",
-    "riotime": "10:00 AM",
-    "watch": "USA (Live)",
-    "medal": "x"
-  },
-  {
-    "eventid": 114,
-    "date": "8/8",
-    "category": "Shooting",
-    "title": "Men's 10m air rifle final",
-    "localtime": "8:00 AM",
-    "riotime": "12:00 PM",
-    "medal": "x"
-  },
-  {
-    "eventid": 115,
-    "date": "8/12",
-    "category": "Shooting",
-    "title": "Men's 50m rifle prone final",
-    "localtime": "7:00 AM",
-    "riotime": "11:00 AM",
-    "medal": "x",
-    "undefined": "May not be competing in this"
-  },
-  {
-    "eventid": 116,
-    "date": "8/14",
-    "category": "Shooting",
-    "title": "Men's 50m rifle 3-positions final",
-    "localtime": "9:00 AM",
-    "riotime": "1:00 PM",
-    "watch": "USA (Live)",
-    "medal": "x"
-  },
-  {
-    "eventid": 117,
-    "date": "8/17",
-    "category": "Track and field",
-    "title": "Men's decathlon day 1: 100m, long jump, shot put, high jump, 400m",
-    "localtime": "5:30 AM-4:20 PM",
-    "riotime": "9:30 AM-8:20 PM"
-  },
-  {
     "eventid": 122,
     "date": "8/18",
     "category": "Track and field",
     "title": "Men's decathlon day 2: 110m hurdles, discus, pole vault, javelin, 1500m",
-    "localtime": "5:30 AM-3:20 PM",
-    "riotime": "9:30 AM-7:20 PM",
+    "localtime": "5:30 AM-5:50 PM",
+    "riotime": "9:30 AM-9:50 PM",
     "watch": "NBC (Live at 5 PM PDT)",
     "medal": "x"
-  },
-  {
-    "eventid": 127,
-    "date": "8/13",
-    "category": "Track and field",
-    "title": "Women's triple jump qualification",
-    "localtime": "5:40 AM",
-    "riotime": "9:40 AM",
-    "watch": "NBC (Live)"
-  },
-  {
-    "eventid": 128,
-    "date": "8/14",
-    "category": "Track and field",
-    "title": "Women's triple jump final",
-    "localtime": "4:20 PM",
-    "riotime": "8:20 PM",
-    "watch": "NBC (Live)",
-    "medal": "x"
-  },
-  {
-    "eventid": 129,
-    "date": "8/17",
-    "category": "Track and field",
-    "title": "Men's 5000m round 1",
-    "localtime": "5:30 AM",
-    "riotime": "9:30 AM"
-  },
-  {
-    "eventid": 130,
-    "date": "8/20",
-    "category": "Track and field",
-    "title": "Men's 5000m final",
-    "localtime": "4:10 PM",
-    "riotime": "8:10 PM",
-    "watch": "NBC (Live) ",
-    "medal": "x"
-  },
-  {
-    "eventid": 131,
-    "date": "8/16",
-    "category": "Track and field",
-    "title": "Women's javelin qualification",
-    "localtime": "4:35 PM",
-    "riotime": "8:35 PM"
   },
   {
     "eventid": 132,
     "date": "8/18",
     "category": "Track and field",
     "title": "Women's javelin final",
-    "localtime": "2:35 PM",
-    "riotime": "6:35 PM",
+    "localtime": "5:10 PM",
+    "riotime": "9:10 PM",
     "watch": "NBC (Live)",
     "medal": "x"
-  },
-  {
-    "eventid": 133,
-    "date": "8/17",
-    "category": "Diving",
-    "title": "Women's 10m platform prelims",
-    "localtime": "11:00 AM",
-    "riotime": "3:00 PM",
-    "watch": "NBC (Delay: 5 PM PDT)"
-  },
-  {
-    "eventid": 134,
-    "date": "8/18",
-    "category": "Diving",
-    "title": "Women's 10m platform semifinal",
-    "localtime": "6:00 AM",
-    "riotime": "10:00 AM",
-    "watch": "NBC (Delay: 11 AM PDT)"
   },
   {
     "eventid": 135,
@@ -981,50 +776,57 @@
     "medal": "x"
   },
   {
-    "eventid": 136,
-    "date": "8/11",
-    "category": "Golf",
-    "title": "Men's round one",
-    "localtime": "4:00 AM",
-    "riotime": "8:00 AM",
-    "watch": "Golf Channel (Live)"
-  },
-  {
-    "eventid": 137,
-    "date": "8/12",
-    "category": "Golf",
-    "title": "Men's round two",
-    "localtime": "4:00 AM",
-    "riotime": "8:00 AM",
-    "watch": "Golf Channel (Live)"
-  },
-  {
-    "eventid": 138,
-    "date": "8/13",
-    "category": "Golf",
-    "title": "Men's round three",
-    "localtime": "4:00 AM",
-    "riotime": "8:00 AM",
-    "watch": "Golf Channel (Live)"
-  },
-  {
-    "eventid": 139,
-    "date": "8/14",
-    "category": "Golf",
-    "title": "Men's final round",
-    "localtime": "3:30 AM",
-    "riotime": "7:30 AM",
-    "watch": "NBC (Live at 10 AM PDT), Golf Channel (Live)",
+    "eventid": 134,
+    "date": "8/18",
+    "category": "Diving",
+    "title": "Women's 10m platform semifinal",
+    "localtime": "6:00 AM",
+    "riotime": "10:00 AM",
+    "watch": "NBC (Delay: 11 AM PDT)",
     "medal": "x"
   },
   {
-    "eventid": 140,
-    "date": "8/16",
+    "eventid": 150,
+    "date": "8/18",
+    "category": "Basketball",
+    "title": "Semifinals"
+  },
+  {
+    "eventid": 153,
+    "date": "8/18",
     "category": "Track and field",
-    "title": "Women's pole vault qualifying",
-    "localtime": "5:45 AM",
-    "riotime": "9:45 AM",
-    "watch": "NBCSN (Live)"
+    "title": "Women's 800m semifianl",
+    "localtime": "5:15 PM",
+    "riotime": "9:15 PM"
+  },
+  {
+    "eventid": 175,
+    "date": "8/18",
+    "category": "Track and field",
+    "title": "Men's 400m hurdles final",
+    "localtime": "8:00 AM",
+    "riotime": "12:00 PM",
+    "watch": "NBC (Delay- 10 AM PT)",
+    "medal": "x"
+  },
+  {
+    "eventid": 21,
+    "date": "8/19",
+    "category": "Basketball",
+    "title": "Semifinals"
+  },
+  {
+    "eventid": 50,
+    "date": "8/19",
+    "category": "Soccer",
+    "title": "Finals",
+    "medal": "x"
+  },
+  {
+    "eventid": 77,
+    "date": "8/19",
+    "category": "Basketball",
+    "title": "Semifinals"
   },
   {
     "eventid": 141,
@@ -1037,71 +839,41 @@
     "medal": "x"
   },
   {
-    "eventid": 142,
-    "date": "8/7",
-    "category": "Rowing",
-    "title": "Women's pair heats",
-    "localtime": "4:30 AM",
-    "riotime": "8:30 AM",
-    "watch": "NBC (Live)"
+    "eventid": 162,
+    "date": "8/19",
+    "category": "Basketball",
+    "title": "Semifinals"
   },
   {
-    "eventid": 143,
-    "date": "8/8",
-    "category": "Rowing",
-    "title": "Women's pair repechages",
-    "localtime": "4:30 AM",
-    "riotime": "8:30 AM",
-    "watch": "NBC (Live)"
-  },
-  {
-    "eventid": 144,
-    "date": "8/10",
-    "category": "Rowing",
-    "title": "Women's pair finals",
-    "localtime": "4:30 AM",
-    "riotime": "8:30 AM",
-    "watch": "NBC (Delay: 12:45 PM PDT)",
+    "eventid": 23,
+    "date": "8/20",
+    "category": "Basketball",
+    "title": "Finals",
     "medal": "x"
   },
   {
-    "eventid": 145,
-    "date": "8/6",
-    "category": "Basketball",
-    "title": "Japan vs. Belarus (preliminary round)",
-    "localtime": "3:45 PM",
-    "riotime": "7:45 PM",
-    "watch": "Basketball Specialty Channel (Delay: 8:15 PM PDT)"
+    "eventid": 69,
+    "date": "8/20",
+    "category": "Volleyball",
+    "title": "Finals",
+    "medal": "x"
   },
   {
-    "eventid": 146,
-    "date": "8/8",
+    "eventid": 95,
+    "date": "8/20",
     "category": "Basketball",
-    "title": "Japan vs. Brazil (preliminary round)",
-    "localtime": "1:30 PM",
-    "riotime": "5:30 PM",
-    "watch": "Basketball Specialty Channel (Delay: 4:45 PDT)"
+    "title": "Finals",
+    "medal": "x"
   },
   {
-    "eventid": 147,
-    "date": "8/9",
-    "category": "Basketball",
-    "title": "Japan vs. Turkey (preliminary round)",
-    "localtime": "1:45 PM",
-    "riotime": "5:45 PM",
-    "watch": "Basketball Specialty Channel (Delay: 4:45 PM PDT)"
-  },
-  {
-    "eventid": 149,
-    "date": "8/16",
-    "category": "Basketball",
-    "title": "Quarterfinals"
-  },
-  {
-    "eventid": 150,
-    "date": "8/18",
-    "category": "Basketball",
-    "title": "Semifinals"
+    "eventid": 130,
+    "date": "8/20",
+    "category": "Track and field",
+    "title": "Men's 5000m final",
+    "localtime": "5:30 PM",
+    "riotime": "9:30 PM",
+    "watch": "NBC (Live) ",
+    "medal": "x"
   },
   {
     "eventid": 151,
@@ -1111,39 +883,208 @@
     "medal": "x"
   },
   {
-    "eventid": 152,
-    "date": "8/17",
-    "category": "Track and field",
-    "title": "Women's 800m round 1",
-    "localtime": "5:30 AM",
-    "riotime": "9:30 AM"
-  },
-  {
-    "eventid": 153,
-    "date": "8/18",
-    "category": "Track and field",
-    "title": "Women's 800m semifianl",
-    "localtime": "3:20 PM",
-    "riotime": "7:20 PM"
-  },
-  {
     "eventid": 154,
     "date": "8/20",
     "category": "Track and field",
     "title": "Women's 800m final",
-    "localtime": "4:10 PM",
-    "riotime": "8:10 PM",
+    "localtime": "5:15 PM",
+    "riotime": "9:15 PM",
     "watch": "NBC (Live) ",
     "medal": "x"
   },
   {
-    "eventid": 155,
-    "date": "8/13",
+    "eventid": 25,
+    "date": "8/21",
     "category": "Basketball",
-    "title": "Japan vs. France (preliminary round)",
-    "localtime": "1:45 PM",
-    "riotime": "5:45 PM",
-    "watch": "Basketball Specialty Channel (Delay: 4:45 PM PDT)"
+    "title": "Finals",
+    "medal": "x"
+  },
+  {
+    "eventid": 79,
+    "date": "8/21",
+    "category": "Basketball",
+    "title": "Finals",
+    "medal": "x"
+  },
+  {
+    "eventid": 163,
+    "date": "8/21",
+    "category": "Basketball",
+    "title": "Finals",
+    "medal": "x"
+  },
+  {
+    "eventid": 2,
+    "date": "8/3",
+    "category": "Soccer",
+    "title": "USA vs. New Zealand (preliminary round)",
+    "localtime": "3:00 PM",
+    "riotime": "7:00 PM",
+    "watch": "NBCSN (Live), Soccer Specialty Channel (Live), NBC Universo (Live)",
+    "completed": "x"
+  },
+  {
+    "eventid": 3,
+    "date": "8/6",
+    "category": "Soccer",
+    "title": "USA vs. France (preliminary round)",
+    "localtime": "1:00 PM",
+    "riotime": "5:00 PM",
+    "watch": "NBCSN (Live), Soccer Specialty Channel (Live), NBC Universo (Live)",
+    "completed": "x"
+  },
+  {
+    "eventid": 4,
+    "date": "8/6",
+    "category": "Volleyball",
+    "title": "USA vs. Puerto Rico (preliminary round)",
+    "localtime": "1:05 PM",
+    "riotime": "5:05 PM",
+    "watch": "NBC (Live)",
+    "completed": "x"
+  },
+  {
+    "eventid": 5,
+    "date": "8/6",
+    "category": "Basketball",
+    "title": "USA vs. China (preliminary round)",
+    "localtime": "3:00 PM",
+    "riotime": "7:00 PM",
+    "watch": "NBCSN (Live), Basketball Specialty Channel (Live)",
+    "completed": "x"
+  },
+  {
+    "eventid": 29,
+    "date": "8/6",
+    "category": "Rowing",
+    "title": "Women's quad sculls heats",
+    "localtime": "8:50 AM",
+    "riotime": "12:50 PM",
+    "watch": "NBC (Live)",
+    "completed": "x"
+  },
+  {
+    "eventid": 70,
+    "date": "8/6",
+    "category": "Weightlifting",
+    "title": "Women's 48kg Group A medal round",
+    "localtime": "3:00 PM",
+    "riotime": "7:00 PM",
+    "watch": "NBCSN (Delay: 5 PM PDT) ",
+    "medal": "x",
+    "completed": "x"
+  },
+  {
+    "eventid": 72,
+    "date": "8/6",
+    "category": "Basketball",
+    "title": "Australia vs. France (preliminary round)",
+    "localtime": "10:15 AM",
+    "riotime": "2:15 PM",
+    "watch": "NBCSN (Live), Basketball Specialty Channel (Live)",
+    "completed": "x"
+  },
+  {
+    "eventid": 84,
+    "date": "8/6",
+    "category": "Rowing",
+    "title": "Men's quadruple sculls heats",
+    "localtime": "8:30 AM",
+    "riotime": "12:30 PM",
+    "watch": "NBC (Live)",
+    "completed": "x"
+  },
+  {
+    "eventid": 87,
+    "date": "8/6",
+    "category": "Basketball",
+    "title": "Australia vs. Brazil (preliminary round)",
+    "localtime": "1:30 PM",
+    "riotime": "5:30 PM",
+    "watch": "Basketball Specialty Channel (Delay: 4:45 PM PDT)",
+    "completed": "x"
+  },
+  {
+    "eventid": 145,
+    "date": "8/6",
+    "category": "Basketball",
+    "title": "Japan vs. Belarus (preliminary round)",
+    "localtime": "3:45 PM",
+    "riotime": "7:45 PM",
+    "watch": "Basketball Specialty Channel (Delay: 8:15 PM PDT)",
+    "completed": "x"
+  },
+  {
+    "eventid": 6,
+    "date": "8/7",
+    "category": "Basketball",
+    "title": "USA vs. Senegal (preliminary round)",
+    "localtime": "8:00 AM",
+    "riotime": "12:00 PM",
+    "watch": "NBCSN (Live), Basketball Specialty Channel (Live)",
+    "completed": "x"
+  },
+  {
+    "eventid": 52,
+    "date": "8/7",
+    "category": "Swimming",
+    "title": "Men's 4x100 free relay final",
+    "localtime": "7:54 PM",
+    "riotime": "11:54 PM",
+    "watch": "NBC (Live)",
+    "medal": "x",
+    "completed": "x"
+  },
+  {
+    "eventid": 51,
+    "date": "8/7",
+    "category": "Swimming",
+    "title": "Men's 4x100 free relay heats",
+    "localtime": "11:05 AM",
+    "riotime": "3:05 PM",
+    "watch": "NBC (Live)",
+    "medal": "x",
+    "completed": "x"
+  },
+  {
+    "eventid": 80,
+    "date": "8/8",
+    "category": "Rowing",
+    "title": "Men's four heats",
+    "localtime": "9:00 AM",
+    "riotime": "1:00 PM",
+    "watch": "NBC (Delay: 10:00 AM PDT)",
+    "completed": "x"
+  },
+  {
+    "eventid": 88,
+    "date": "8/7",
+    "category": "Basketball",
+    "title": "Australia vs. Turkey (preliminary round)",
+    "localtime": "1:30 PM",
+    "riotime": "5:30 PM",
+    "watch": "Basketball Specialty Channel (Delay: 4:45 PM PDT)",
+    "completed": "x"
+  },
+  {
+    "eventid": 96,
+    "date": "8/8",
+    "category": "Rowing",
+    "title": "Women's lightweight double sculls heats",
+    "localtime": "7:10 AM",
+    "riotime": "11:10 AM",
+    "watch": "NBC (Delay: 10:00 AM PDT)",
+    "completed": "x"
+  },
+  {
+    "eventid": 142,
+    "date": "8/8",
+    "category": "Rowing",
+    "title": "Women's pair heats",
+    "localtime": "8:30 AM",
+    "riotime": "12:30 PM",
+    "watch": "NBC (Delay: 10:00 AM PDT)",
+    "completed": "x"
   },
   {
     "eventid": 156,
@@ -1152,7 +1093,187 @@
     "title": "Lithuania vs. Brazil (preliminary round)",
     "localtime": "10:15 AM",
     "riotime": "2:15 PM",
-    "watch": "NBCSN (Live), Basketball Specialty Channel (Live)"
+    "watch": "NBCSN (Live), Basketball Specialty Channel (Live)",
+    "completed": "x"
+  },
+  {
+    "eventid": 7,
+    "date": "8/8",
+    "category": "Judo",
+    "title": "Women's 57kg prelims and quarterfinals",
+    "localtime": "6:00 AM",
+    "riotime": "10:00 AM",
+    "completed": "x"
+  },
+  {
+    "eventid": 8,
+    "date": "8/8",
+    "category": "Basketball",
+    "title": "USA vs. Spain (preliminary round)",
+    "localtime": "8:00 AM",
+    "riotime": "12:00 PM",
+    "watch": "NBCSN (Live), Basketball Specialty Channel (Live)",
+    "completed": "x"
+  },
+  {
+    "eventid": 10,
+    "date": "8/8",
+    "category": "Basketball",
+    "title": "USA vs. Venezuela (preliminary round)",
+    "localtime": "3:00 PM",
+    "riotime": "7:00 PM",
+    "watch": "NBCSN (Live), Basketball Specialty Channel (Live)",
+    "completed": "x"
+  },
+  {
+    "eventid": 26,
+    "date": "8/8",
+    "category": "Rowing",
+    "title": "Men's eight heats",
+    "localtime": "5:10 AM",
+    "riotime": "9:10 AM",
+    "watch": "NBC (Delay: 10:00 AM PDT)",
+    "completed": "x"
+  },
+  {
+    "eventid": 30,
+    "date": "8/8",
+    "category": "Rowing",
+    "title": "Women's quad sculls repechages",
+    "localtime": "4:40 AM",
+    "riotime": "8:40 AM",
+    "watch": "NBC (Delay: 10:00 AM PDT)",
+    "completed": "x"
+  },
+  {
+    "eventid": 32,
+    "date": "8/8",
+    "category": "Rowing",
+    "title": "Women's eight heats",
+    "localtime": "4:50 AM",
+    "riotime": "8:50 AM",
+    "watch": "NBC (Delay: 10:00 AM PDT)",
+    "completed": "x"
+  },
+  {
+    "eventid": 62,
+    "date": "8/8",
+    "category": "Volleyball",
+    "title": "USA vs. Netherlands (preliminary round)",
+    "localtime": "11:00 AM",
+    "riotime": "3:00 PM",
+    "watch": "NBC (Live)",
+    "completed": "x"
+  },
+  {
+    "eventid": 73,
+    "date": "8/8",
+    "category": "Basketball",
+    "title": "Australia vs. Serbia (preliminary round)",
+    "localtime": "10:15 AM",
+    "riotime": "2:15 PM",
+    "watch": "MSNBC (Live), Basketball Specialty Channel (Live)",
+    "completed": "x"
+  },
+  {
+    "eventid": 85,
+    "date": "8/8",
+    "category": "Rowing",
+    "title": "Men's quadruple sculls repechages",
+    "localtime": "4:30 AM",
+    "riotime": "8:30 AM",
+    "watch": "NBC (Delay: 10:00 AM PDT)",
+    "completed": "x"
+  },
+  {
+    "eventid": 143,
+    "date": "8/9",
+    "category": "Rowing",
+    "title": "Women's pair repechages",
+    "localtime": "7:10 AM",
+    "riotime": "11:10 AM",
+    "watch": "NBC (Delay: 10:00 AM PDT)",
+    "completed": "x"
+  },
+  {
+    "eventid": 146,
+    "date": "8/8",
+    "category": "Basketball",
+    "title": "Japan vs. Brazil (preliminary round)",
+    "localtime": "1:30 PM",
+    "riotime": "5:30 PM",
+    "watch": "Basketball Specialty Channel (Delay: 4:45 PDT)",
+    "completed": "x"
+  },
+  {
+    "eventid": 165,
+    "date": "8/8",
+    "category": "Shooting",
+    "title": "Men's 10m air rifle qualification",
+    "localtime": "5:00 AM",
+    "riotime": "9:00 AM",
+    "completed": "x"
+  },
+  {
+    "eventid": 12,
+    "date": "8/9",
+    "category": "Judo",
+    "title": "Men's 81 kg repechages, semifinals, and medal matches",
+    "localtime": "11:30 AM",
+    "riotime": "3:30 PM",
+    "watch": "NBCSN (Delay- 5 PM PT)",
+    "medal": "x",
+    "completed": "x"
+  },
+  {
+    "eventid": 46,
+    "date": "8/9",
+    "category": "Soccer",
+    "title": "USA vs. Columbia (preliminary round)",
+    "localtime": "3:00 PM",
+    "riotime": "7:00 PM",
+    "watch": "NBCSN (Live), Soccer Specialty Channel (Live), NBC Universo (Live)",
+    "completed": "x"
+  },
+  {
+    "eventid": 54,
+    "date": "8/9",
+    "category": "Swimming",
+    "title": "Men's 100m free semifinals",
+    "localtime": "6:03 PM",
+    "riotime": "10:03 PM",
+    "watch": "NBC (Live)",
+    "completed": "x"
+  },
+  {
+    "eventid": 53,
+    "date": "8/9",
+    "category": "Swimming",
+    "title": "Men's 100m free heats",
+    "localtime": "9:02 AM",
+    "riotime": "1:02 PM",
+    "watch": "NBC (Live)",
+    "completed": "x"
+  },
+  {
+    "eventid": 89,
+    "date": "8/9",
+    "category": "Basketball",
+    "title": "Australia vs. France (preliminary round)",
+    "localtime": "8:15 AM",
+    "riotime": "12:15 PM",
+    "watch": "Basketball Specialty Channel (Live)",
+    "completed": "x"
+  },
+  {
+    "eventid": 147,
+    "date": "8/9",
+    "category": "Basketball",
+    "title": "Japan vs. Turkey (preliminary round)",
+    "localtime": "1:45 PM",
+    "riotime": "5:45 PM",
+    "watch": "Basketball Specialty Channel (Delay: 4:45 PM PDT)",
+    "completed": "x"
   },
   {
     "eventid": 157,
@@ -1161,52 +1282,7 @@
     "title": "Lithuania vs. Nigeria (preliminary round)",
     "localtime": "3:00 PM",
     "riotime": "7:00 PM",
-    "watch": "Basketball Specialty Channel (Live)"
-  },
-  {
-    "eventid": 158,
-    "date": "8/11",
-    "category": "Basketball",
-    "title": "Lithuania vs. Argentina (preliminary round)",
-    "localtime": "6:30 PM",
-    "riotime": "10:30 PM",
-    "watch": "Basketball Specialty Channel (Live)"
-  },
-  {
-    "eventid": 159,
-    "date": "8/13",
-    "category": "Basketball",
-    "title": "Lithuania vs. Spain (preliminary round)",
-    "localtime": "3:00 PM",
-    "riotime": "7:00 PM",
-    "watch": "NBCSN (Live), Basketball Specialty Channel (Live)"
-  },
-  {
-    "eventid": 160,
-    "date": "8/15",
-    "category": "Basketball",
-    "title": "Lithuania vs. Croatia (preliminary round)",
-    "localtime": "6:30 PM",
-    "riotime": "10:30 PM",
-    "watch": "Basketball Specialty Channel (Live)"
-  },
-  {
-    "eventid": 161,
-    "date": "8/17",
-    "category": "Basketball",
-    "title": "Quarterfinals"
-  },
-  {
-    "eventid": 162,
-    "date": "8/19",
-    "category": "Basketball",
-    "title": "Semifinals"
-  },
-  {
-    "eventid": 163,
-    "date": "8/21",
-    "category": "Basketball",
-    "title": "Finals",
-    "medal": "x"
+    "watch": "Basketball Specialty Channel (Live)",
+    "completed": "x"
   }
 ]

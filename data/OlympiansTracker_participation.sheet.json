@@ -1,5 +1,74 @@
 [
   {
+    "union": 240,
+    "athleteid": 49,
+    "eventid": 174,
+    "qualify": "*"
+  },
+  {
+    "union": 239,
+    "athleteid": 49,
+    "eventid": 173,
+    "qualify": "*"
+  },
+  {
+    "union": 238,
+    "athleteid": 49,
+    "eventid": 169
+  },
+  {
+    "union": 237,
+    "athleteid": 48,
+    "eventid": 172,
+    "qualify": "*"
+  },
+  {
+    "union": 236,
+    "athleteid": 48,
+    "eventid": 170,
+    "qualify": "*"
+  },
+  {
+    "union": 235,
+    "athleteid": 48,
+    "eventid": 168
+  },
+  {
+    "union": 234,
+    "athleteid": 47,
+    "eventid": 175,
+    "qualify": "*"
+  },
+  {
+    "union": 233,
+    "athleteid": 47,
+    "eventid": 171,
+    "qualify": "*"
+  },
+  {
+    "union": 232,
+    "athleteid": 47,
+    "eventid": 167
+  },
+  {
+    "union": 231,
+    "athleteid": 32,
+    "eventid": 166
+  },
+  {
+    "union": 230,
+    "athleteid": 32,
+    "eventid": 165,
+    "results": "Finished 34th, did not qualify for final"
+  },
+  {
+    "union": 229,
+    "athleteid": 43,
+    "eventid": 164,
+    "qualify": "*",
+    "results": "Finished 2nd in C final"
+  },
+  {
     "union": 228,
     "athleteid": 46,
     "eventid": 163,
@@ -30,17 +99,20 @@
   {
     "union": 223,
     "athleteid": 46,
-    "eventid": 158
+    "eventid": 158,
+    "results": "Lithuania wins 81-73"
   },
   {
     "union": 222,
     "athleteid": 46,
-    "eventid": 157
+    "eventid": 157,
+    "results": "Lithuania wins 89-80"
   },
   {
     "union": 221,
     "athleteid": 46,
-    "eventid": 156
+    "eventid": 156,
+    "results": "Lithuania wins 82-76"
   },
   {
     "union": 220,
@@ -85,22 +157,26 @@
   {
     "union": 213,
     "athleteid": 44,
-    "eventid": 90
+    "eventid": 90,
+    "results": "Australia wins 92-86"
   },
   {
     "union": 212,
     "athleteid": 44,
-    "eventid": 147
+    "eventid": 147,
+    "results": "Japan loses 76-62"
   },
   {
     "union": 211,
     "athleteid": 44,
-    "eventid": 146
+    "eventid": 146,
+    "results": "Japan wins 82-66"
   },
   {
     "union": 210,
     "athleteid": 44,
-    "eventid": 145
+    "eventid": 145,
+    "results": "Japan wins 77-73"
   },
   {
     "union": 209,
@@ -112,29 +188,27 @@
     "union": 208,
     "athleteid": 42,
     "eventid": 33,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "1st in repechage, qualified for A final"
   },
   {
     "union": 207,
     "athleteid": 42,
-    "eventid": 32
-  },
-  {
-    "union": 206,
-    "athleteid": 43,
-    "eventid": 144,
-    "qualify": "*"
+    "eventid": 32,
+    "results": "3rd in Heat 2, qualified for repechage"
   },
   {
     "union": 205,
     "athleteid": 43,
     "eventid": 143,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "4th in Heat 1, qualified for A Final"
   },
   {
     "union": 204,
     "athleteid": 43,
-    "eventid": 142
+    "eventid": 142,
+    "results": "4th in Heat 1, qualified for repechage"
   },
   {
     "union": 203,
@@ -167,7 +241,8 @@
   {
     "union": 198,
     "athleteid": 40,
-    "eventid": 136
+    "eventid": 136,
+    "results": "Shoots 2-under-par 69, tied for 11th "
   },
   {
     "union": 197,
@@ -217,17 +292,21 @@
   {
     "union": 188,
     "athleteid": 37,
-    "eventid": 14
+    "eventid": 14,
+    "results": "US wins 98-88",
+    "url": "http://www.seattletimes.com/sports/olympics/us-men-hold-off-australia-in-basketball/"
   },
   {
     "union": 187,
     "athleteid": 37,
-    "eventid": 73
+    "eventid": 73,
+    "results": "Australia wins 95-80"
   },
   {
     "union": 186,
     "athleteid": 37,
-    "eventid": 72
+    "eventid": 72,
+    "results": "Australia wins 87-66"
   },
   {
     "union": 185,
@@ -275,37 +354,8 @@
   {
     "union": 169,
     "athleteid": 32,
-    "eventid": 116
-  },
-  {
-    "union": 168,
-    "athleteid": 32,
-    "eventid": 115
-  },
-  {
-    "union": 167,
-    "athleteid": 32,
-    "eventid": 114
-  },
-  {
-    "union": 166,
-    "athleteid": 31,
-    "eventid": 113
-  },
-  {
-    "union": 165,
-    "athleteid": 31,
-    "eventid": 112
-  },
-  {
-    "union": 164,
-    "athleteid": 31,
-    "eventid": 111
-  },
-  {
-    "union": 163,
-    "athleteid": 31,
-    "eventid": 110
+    "eventid": 116,
+    "qualify": "*"
   },
   {
     "union": 162,
@@ -325,22 +375,26 @@
   {
     "union": 159,
     "athleteid": 31,
-    "eventid": 106
+    "eventid": 106,
+    "results": "Team scored 76.971, in third after Day 2"
   },
   {
     "union": 158,
     "athleteid": 31,
-    "eventid": 105
+    "eventid": 105,
+    "results": "Did not compete, score of 75.229 now 17th after Day 2"
   },
   {
     "union": 157,
     "athleteid": 31,
-    "eventid": 104
+    "eventid": 104,
+    "results": "Team scored 73.957, in fourth after Day 1"
   },
   {
     "union": 156,
     "athleteid": 31,
-    "eventid": 103
+    "eventid": 103,
+    "results": "Scored 75.229, in fifth after Day 1"
   },
   {
     "union": 155,
@@ -357,30 +411,29 @@
   {
     "union": 153,
     "athleteid": 30,
-    "eventid": 100
+    "eventid": 100,
+    "results": "Team finishes in 4:14.286, qualifies in second for next round"
   },
   {
     "union": 152,
     "athleteid": 29,
     "eventid": 99,
-    "qualify": "*"
+    "qualify": "*",
+    "medal": "silver",
+    "results": "2nd-place finish in 7:05.880, behind Netherlands and ahead of China"
   },
   {
     "union": 151,
     "athleteid": 29,
     "eventid": 98,
-    "qualify": "*"
-  },
-  {
-    "union": 150,
-    "athleteid": 29,
-    "eventid": 97,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "2nd in semifinal 2, qualified for A final"
   },
   {
     "union": 149,
     "athleteid": 29,
-    "eventid": 96
+    "eventid": 96,
+    "results": "1st in Heat 4, qualified for A/B semifinal "
   },
   {
     "union": 148,
@@ -392,63 +445,14 @@
     "union": 147,
     "athleteid": 28,
     "eventid": 27,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "1st in repechage, qualified for A final"
   },
   {
     "union": 146,
     "athleteid": 28,
-    "eventid": 26
-  },
-  {
-    "union": 145,
-    "athleteid": 27,
-    "eventid": 69,
-    "qualify": "*",
-    "Note: enter medal as gold, silver, or bronze (leave empty if no medal), for url, include http part of url ": "RESERVE"
-  },
-  {
-    "union": 141,
-    "athleteid": 27,
-    "eventid": 67,
-    "qualify": "*",
-    "Note: enter medal as gold, silver, or bronze (leave empty if no medal), for url, include http part of url ": "RESERVE"
-  },
-  {
-    "union": 139,
-    "athleteid": 27,
-    "eventid": 66,
-    "qualify": "*",
-    "Note: enter medal as gold, silver, or bronze (leave empty if no medal), for url, include http part of url ": "RESERVE"
-  },
-  {
-    "union": 137,
-    "athleteid": 27,
-    "eventid": 65,
-    "Note: enter medal as gold, silver, or bronze (leave empty if no medal), for url, include http part of url ": "RESERVE"
-  },
-  {
-    "union": 135,
-    "athleteid": 27,
-    "eventid": 64,
-    "Note: enter medal as gold, silver, or bronze (leave empty if no medal), for url, include http part of url ": "RESERVE"
-  },
-  {
-    "union": 133,
-    "athleteid": 27,
-    "eventid": 63,
-    "Note: enter medal as gold, silver, or bronze (leave empty if no medal), for url, include http part of url ": "RESERVE"
-  },
-  {
-    "union": 131,
-    "athleteid": 27,
-    "eventid": 62,
-    "Note: enter medal as gold, silver, or bronze (leave empty if no medal), for url, include http part of url ": "RESERVE"
-  },
-  {
-    "union": 129,
-    "athleteid": 27,
-    "eventid": 4,
-    "Note: enter medal as gold, silver, or bronze (leave empty if no medal), for url, include http part of url ": "RESERVE"
+    "eventid": 26,
+    "results": "2nd in Heat 2, qualified for repechage"
   },
   {
     "union": 127,
@@ -476,85 +480,87 @@
   {
     "union": 122,
     "athleteid": 24,
-    "eventid": 90
+    "eventid": 90,
+    "results": "Australia wins 92-86"
   },
   {
     "union": 121,
     "athleteid": 24,
-    "eventid": 89
+    "eventid": 89,
+    "results": "Australia wins 89-71"
   },
   {
     "union": 120,
     "athleteid": 24,
-    "eventid": 88
+    "eventid": 88,
+    "results": "Australia wins 61-56"
   },
   {
     "union": 119,
     "athleteid": 24,
-    "eventid": 87
+    "eventid": 87,
+    "results": "Australia wins 84-66",
+    "url": "http://www.seattletimes.com/sports/storm/former-kennewick-star-leilani-mitchell-led-australia-to-olympic-opener-win-against-brazil/"
   },
   {
     "union": 118,
     "athleteid": 23,
     "eventid": 86,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "Finished 2nd in B final"
   },
   {
     "union": 117,
     "athleteid": 23,
     "eventid": 85,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "5th in repechage, qualified for B final"
   },
   {
     "union": 116,
     "athleteid": 23,
-    "eventid": 84
+    "eventid": 84,
+    "results": "5th in Heat 2, qualified for repechage"
   },
   {
     "union": 115,
     "athleteid": 25,
     "eventid": 83,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "Finished 6th in men's four final"
   },
   {
     "union": 114,
     "athleteid": 22,
     "eventid": 83,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "Finished 6th in men's four final"
   },
   {
     "union": 113,
     "athleteid": 25,
     "eventid": 82,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "2nd in Semifinal 2, qualified for A final "
   },
   {
     "union": 112,
     "athleteid": 22,
     "eventid": 82,
-    "qualify": "*"
-  },
-  {
-    "union": 111,
-    "athleteid": 25,
-    "eventid": 81,
-    "qualify": "*"
-  },
-  {
-    "union": 110,
-    "athleteid": 22,
-    "eventid": 81,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "2nd in Semifinal 2, qualified for A final"
   },
   {
     "union": 109,
     "athleteid": 25,
-    "eventid": 80
+    "eventid": 80,
+    "results": "2nd in Heat 2, qualified for A/B semifinal"
   },
   {
     "union": 108,
     "athleteid": 22,
-    "eventid": 80
+    "eventid": 80,
+    "results": "2nd in Heat 2, qualified for A/B semifinal"
   },
   {
     "union": 107,
@@ -587,22 +593,28 @@
   {
     "union": 101,
     "athleteid": 21,
-    "eventid": 14
+    "eventid": 14,
+    "results": "US wins 98-88",
+    "url": "http://www.seattletimes.com/sports/olympics/us-men-hold-off-australia-in-basketball/"
   },
   {
     "union": 100,
     "athleteid": 21,
-    "eventid": 73
+    "eventid": 73,
+    "results": "Australia wins 95-80"
   },
   {
     "union": 99,
     "athleteid": 21,
-    "eventid": 72
+    "eventid": 72,
+    "results": "Australia wins 87-66"
   },
   {
     "union": 98,
     "athleteid": 20,
-    "eventid": 70
+    "eventid": 70,
+    "results": "Finished 6th with a total lift of 183kg",
+    "url": "http://www.seattletimes.com/sports/olympics/redmonds-morghan-king-finishes-sixth-in-womens-48kg-weightlifting/"
   },
   {
     "union": 97,
@@ -635,17 +647,21 @@
   {
     "union": 91,
     "athleteid": 19,
-    "eventid": 63
+    "eventid": 63,
+    "results": "US wins 3-1"
   },
   {
     "union": 90,
     "athleteid": 19,
-    "eventid": 62
+    "eventid": 62,
+    "results": "US wins 3-2",
+    "url": "http://www.seattletimes.com/sports/olympics/us-survives-netherlands-wins-in-five-sets-to-stay-unbeaten/"
   },
   {
     "union": 89,
     "athleteid": 19,
-    "eventid": 4
+    "eventid": 4,
+    "results": "US wins 3-0"
   },
   {
     "union": 88,
@@ -668,40 +684,52 @@
     "union": 85,
     "athleteid": 17,
     "eventid": 57,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "Swims 21.47, qualifies for finals"
   },
   {
     "union": 84,
     "athleteid": 17,
-    "eventid": 56
+    "eventid": 56,
+    "results": "Swims 21.61, qualifies as 2 seed for semifinals"
   },
   {
     "union": 83,
     "athleteid": 17,
     "eventid": 55,
-    "qualify": "*"
+    "qualify": "*",
+    "medal": "bronze",
+    "results": "Swims 47.85, finishes third",
+    "url": "http://www.seattletimes.com/sports/olympics/bremertons-nathan-adrian-wins-bronze-in-100-meter-freestyle-as-golden-repeat-proves-elusive/"
   },
   {
     "union": 82,
     "athleteid": 17,
     "eventid": 54,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "Swims 47.83, qualifies as top seed for finals",
+    "url": "http://www.seattletimes.com/sports/olympics/michael-phelps-adds-2-gold-medals-katie-ledecky-wins-200-meter-freestyle-final/"
   },
   {
     "union": 81,
     "athleteid": 17,
-    "eventid": 53
+    "eventid": 53,
+    "results": "Swims 48.58, qualifies for semifinals"
   },
   {
     "union": 80,
     "athleteid": 17,
     "eventid": 52,
-    "qualify": "*"
+    "qualify": "*",
+    "medal": "gold",
+    "results": "Team swims 3:09.92, wins gold medal",
+    "url": "http://www.seattletimes.com/sports/olympics/nathan-adrian-michael-phelps-help-us-win-relay-gold/"
   },
   {
     "union": 79,
     "athleteid": 17,
-    "eventid": 51
+    "eventid": 51,
+    "results": "Team swims 3:12.38, qualifies for finals"
   },
   {
     "union": 78,
@@ -742,32 +770,44 @@
   {
     "union": 70,
     "athleteid": 16,
-    "eventid": 46
+    "eventid": 46,
+    "results": "US and Colombia tie 2-2",
+    "url": "http://www.seattletimes.com/sports/olympics/goalkeeper-hope-solo-allows-two-scores-in-draw-but-us-still-wins-group-g/"
   },
   {
     "union": 69,
     "athleteid": 15,
-    "eventid": 46
+    "eventid": 46,
+    "results": "US and Colombia tie 2-2",
+    "url": "http://www.seattletimes.com/sports/olympics/goalkeeper-hope-solo-allows-two-scores-in-draw-but-us-still-wins-group-g/"
   },
   {
     "union": 68,
     "athleteid": 16,
-    "eventid": 3
+    "eventid": 3,
+    "results": "US wins 1-0",
+    "url": "http://www.seattletimes.com/sports/olympics/hope-solo-quiets-the-crowd-and-france-in-record-setting-1-0-win-for-u-s-women/"
   },
   {
     "union": 67,
     "athleteid": 15,
-    "eventid": 3
+    "eventid": 3,
+    "results": "US wins 1-0",
+    "url": "http://www.seattletimes.com/sports/olympics/hope-solo-quiets-the-crowd-and-france-in-record-setting-1-0-win-for-u-s-women/"
   },
   {
     "union": 66,
     "athleteid": 16,
-    "eventid": 2
+    "eventid": 2,
+    "results": "US wins 2-0",
+    "url": "http://www.seattletimes.com/sports/us-women-beats-new-zealand-2-0-in-olympic-soccer-tournament/"
   },
   {
     "union": 65,
     "athleteid": 15,
-    "eventid": 2
+    "eventid": 2,
+    "results": "US wins 2-0",
+    "url": "http://www.seattletimes.com/sports/us-women-beats-new-zealand-2-0-in-olympic-soccer-tournament/"
   },
   {
     "union": 64,
@@ -788,60 +828,56 @@
     "qualify": "*"
   },
   {
-    "union": 55,
-    "athleteid": 12,
-    "eventid": 33,
-    "qualify": "*"
-  },
-  {
-    "union": 54,
-    "athleteid": 9,
-    "eventid": 33,
-    "qualify": "*"
-  },
-  {
     "union": 53,
     "athleteid": 12,
-    "eventid": 32
+    "eventid": 32,
+    "results": "1st in Heat 1, qualified for A final"
   },
   {
     "union": 52,
     "athleteid": 9,
-    "eventid": 32
+    "eventid": 32,
+    "results": "1st in Heat 1, qualified for A final"
   },
   {
     "union": 51,
     "athleteid": 10,
     "eventid": 31,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "Finished 5th in A final"
   },
   {
     "union": 50,
     "athleteid": 8,
     "eventid": 31,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "Finished 5th in A final"
   },
   {
     "union": 49,
     "athleteid": 10,
     "eventid": 30,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "4th in repechage, qualified for A final"
   },
   {
     "union": 48,
     "athleteid": 8,
     "eventid": 30,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "4th in repechage, qualified for A final"
   },
   {
     "union": 47,
     "athleteid": 10,
-    "eventid": 29
+    "eventid": 29,
+    "results": "3rd in Heat 2, qualified for repechage"
   },
   {
     "union": 46,
     "athleteid": 8,
-    "eventid": 29
+    "eventid": 29,
+    "results": "3rd in Heat 2, qualified for repechage"
   },
   {
     "union": 45,
@@ -865,45 +901,47 @@
     "union": 42,
     "athleteid": 11,
     "eventid": 27,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "1st in repechage, qualified for A final"
   },
   {
     "union": 41,
     "athleteid": 7,
     "eventid": 27,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "1st in repechage, qualified for A final"
   },
   {
     "union": 40,
     "athleteid": 6,
     "eventid": 27,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "1st in repechage, qualified for A final"
   },
   {
     "union": 39,
     "athleteid": 11,
-    "eventid": 26
+    "eventid": 26,
+    "results": "2nd in Heat 2, qualified for repechage"
   },
   {
     "union": 38,
     "athleteid": 7,
-    "eventid": 26
+    "eventid": 26,
+    "results": "2nd in Heat 2, qualified for repechage"
   },
   {
     "union": 37,
     "athleteid": 6,
-    "eventid": 26
-  },
-  {
-    "union": 36,
-    "athleteid": 5,
-    "eventid": 9,
-    "qualify": "*"
+    "eventid": 26,
+    "results": "2nd in Heat 2, qualified for repechage"
   },
   {
     "union": 35,
     "athleteid": 5,
-    "eventid": 7
+    "eventid": 7,
+    "results": "Eliminated in round of 16",
+    "url": "http://www.seattletimes.com/sports/oak-harbor-judoka-marti-malloy-eliminated-early-at-olympic-games/"
   },
   {
     "union": 34,
@@ -964,32 +1002,44 @@
   {
     "union": 22,
     "athleteid": 3,
-    "eventid": 13
+    "eventid": 13,
+    "results": "US wins 110-84",
+    "url": "http://www.seattletimes.com/sports/olympics/diana-taurasi-helps-us-womens-basketball-team-pull-away-from-serbia-in-olympic-play/"
   },
   {
     "union": 21,
     "athleteid": 2,
-    "eventid": 13
+    "eventid": 13,
+    "results": "US wins 110-84",
+    "url": "http://www.seattletimes.com/sports/olympics/diana-taurasi-helps-us-womens-basketball-team-pull-away-from-serbia-in-olympic-play/"
   },
   {
     "union": 20,
     "athleteid": 3,
-    "eventid": 8
+    "eventid": 8,
+    "results": "US wins 103-63",
+    "url": "http://www.seattletimes.com/sports/olympics/sue-bird-and-us-womens-basketball-rolls-past-spain/"
   },
   {
     "union": 19,
     "athleteid": 2,
-    "eventid": 8
+    "eventid": 8,
+    "results": "US wins 103-63",
+    "url": "http://www.seattletimes.com/sports/olympics/sue-bird-and-us-womens-basketball-rolls-past-spain/"
   },
   {
     "union": 18,
     "athleteid": 3,
-    "eventid": 6
+    "eventid": 6,
+    "results": "US wins 121-56",
+    "url": "http://www.seattletimes.com/sports/olympics/breanna-stewart-scores-15-as-us-routs-senegal-in-olympic-womens-basketball-opener/"
   },
   {
     "union": 17,
     "athleteid": 2,
-    "eventid": 6
+    "eventid": 6,
+    "results": "US wins 121-56",
+    "url": "http://www.seattletimes.com/sports/olympics/breanna-stewart-scores-15-as-us-routs-senegal-in-olympic-womens-basketball-opener/"
   },
   {
     "union": 16,
@@ -1022,7 +1072,9 @@
   {
     "union": 10,
     "athleteid": 1,
-    "eventid": 14
+    "eventid": 14,
+    "results": "US wins 98-88",
+    "url": "http://www.seattletimes.com/sports/olympics/us-men-hold-off-australia-in-basketball/"
   },
   {
     "union": 9,
@@ -1053,21 +1105,21 @@
     "union": 4,
     "athleteid": 4,
     "eventid": 12,
-    "qualify": "*"
-  },
-  {
-    "union": 3,
-    "athleteid": 4,
-    "eventid": 11
+    "qualify": "*",
+    "medal": "silver",
+    "results": "Wins silver medal",
+    "url": "http://www.seattletimes.com/sports/olympics/tacomas-travis-stevens-takes-silver-in-judo-at-the-rio-olympics/"
   },
   {
     "union": 2,
     "athleteid": 1,
-    "eventid": 10
+    "eventid": 10,
+    "results": "US wins 113-69"
   },
   {
     "union": 1,
     "athleteid": 1,
-    "eventid": 5
+    "eventid": 5,
+    "results": "US wins 119-62"
   }
 ]
