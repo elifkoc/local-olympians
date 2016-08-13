@@ -78,21 +78,25 @@ qsa(".athlete-name").forEach(function(el) {
 
 //Highlighting
 var colHover = function(e) {
-  var pos = this.getAttribute("data-id");
-  var others = qsa('.row-item');
-  var items = qsa(`.row-item[data-id="${pos}"]`);
 
-  others.forEach(function(i) {
-    i.classList.remove("highlight");
+  var items = qsa(`.row-item`);
 
-  });
 
-  others.forEach(function(i) {
+  items.forEach(function(i) {
+    for (var j = 3; j < 22; j++) {
+      var dateString = "8/" + j;
+      
+    if (i.getAttribute("data-id") === "8/12") {
+    i.classList.add("highlight");
+    }
+    }
   });
 }
 
 
-qsa(".dates .row-item").forEach(function(el) {
+
+
+qsa(".row-item").forEach(function(el) {
   el.addEventListener("mouseover", colHover);
 } );
 

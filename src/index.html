@@ -123,7 +123,7 @@
             <div class="schedule">
 
             <!--Event rows-->
-              <% var hasMedal; var hasResult; var wonMedal; 
+              <% var hasMedal; var hasResult; var wonMedal; var done = false;
               for (var i = 3; i < 22; i++) {
 
                 if ( i == 4 || i == 5) {
@@ -134,13 +134,14 @@
                 var hasEvent = !!athlete.days[dateString]; 
                 var athletes = athlete.days[dateString]; 
 
+                if ()
                 if (hasEvent) {
                   athletes.forEach(function(t) {
                     hasMedal = !!t.medal;  
                   }); 
                 }%>
 
-              <div class="row-item <%= hasEvent ? "event" : "noevent" %> <%= hasMedal ? "medal" : "" %>">
+              <div class="row-item <%= hasEvent ? "event" : "noevent" %> <%= hasMedal ? "medal" : "" %> <%= done ? "done" : "" %>" data-id="<%=dateString%>">
 
                 <%  if (hasEvent) { %>
 

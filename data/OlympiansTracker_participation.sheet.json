@@ -670,11 +670,6 @@
     "qualify": "*"
   },
   {
-    "union": 87,
-    "athleteid": 17,
-    "eventid": 59
-  },
-  {
     "union": 86,
     "athleteid": 17,
     "eventid": 58,
@@ -732,40 +727,20 @@
     "results": "Team swims 3:12.38, qualifies for finals"
   },
   {
-    "union": 78,
-    "athleteid": 16,
-    "eventid": 50,
-    "qualify": "*"
-  },
-  {
-    "union": 77,
-    "athleteid": 15,
-    "eventid": 50,
-    "qualify": "*"
-  },
-  {
-    "union": 74,
-    "athleteid": 16,
-    "eventid": 48,
-    "qualify": "*"
-  },
-  {
-    "union": 73,
-    "athleteid": 15,
-    "eventid": 48,
-    "qualify": "*"
-  },
-  {
     "union": 72,
     "athleteid": 16,
     "eventid": 47,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "Sweden wins 4-3 on penalty kicks after 1-1 tie. US eliminated.",
+    "url": "http://www.seattletimes.com/sports/olympics/us-womens-soccer-stunned-by-sweden-in-quarterfinals-will-not-medal-in-olympics/"
   },
   {
     "union": 71,
     "athleteid": 15,
     "eventid": 47,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "Sweden wins 4-3 on penalty kicks after 1-1 tie. US eliminated.",
+    "url": "http://www.seattletimes.com/sports/olympics/us-womens-soccer-stunned-by-sweden-in-quarterfinals-will-not-medal-in-olympics/"
   },
   {
     "union": 70,
