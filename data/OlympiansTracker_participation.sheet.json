@@ -34,6 +34,15 @@
     "eventid": 168
   },
   {
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    "union": 232,
+    "athleteid": 47,
+    "eventid": 167,
+    "results": "Disqualified, does not qualify for semifinal"
+=======
+>>>>>>> Stashed changes
     "union": 234,
     "athleteid": 47,
     "eventid": 175,
@@ -49,11 +58,24 @@
     "union": 232,
     "athleteid": 47,
     "eventid": 167
+<<<<<<< Updated upstream
+=======
+>>>>>>> origin/master
+>>>>>>> Stashed changes
   },
   {
     "union": 231,
     "athleteid": 32,
+<<<<<<< Updated upstream
     "eventid": 166
+=======
+<<<<<<< HEAD
+    "eventid": 166,
+    "results": "Finished 28th, did not qualify for final"
+=======
+    "eventid": 166
+>>>>>>> origin/master
+>>>>>>> Stashed changes
   },
   {
     "union": 230,
@@ -94,7 +116,8 @@
   {
     "union": 224,
     "athleteid": 46,
-    "eventid": 159
+    "eventid": 159,
+    "results": "Lithuania loses 109-59"
   },
   {
     "union": 223,
@@ -117,7 +140,8 @@
   {
     "union": 220,
     "athleteid": 44,
-    "eventid": 155
+    "eventid": 155,
+    "results": "Japan wins 79-71"
   },
   {
     "union": 219,
@@ -182,7 +206,8 @@
     "union": 209,
     "athleteid": 42,
     "eventid": 34,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "Canada finishes 5th in 6:06.04"
   },
   {
     "union": 208,
@@ -225,24 +250,35 @@
     "union": 201,
     "athleteid": 40,
     "eventid": 139,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "Shoots 74 (3 over par), finishes tied for 30th"
   },
   {
     "union": 200,
     "athleteid": 40,
     "eventid": 138,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "Shoots even par 71, tied for 12th"
   },
   {
     "union": 199,
     "athleteid": 40,
-    "eventid": 137
+    "eventid": 137,
+    "results": "Shoots 69 (2 under par), tied for 12th"
   },
   {
     "union": 198,
     "athleteid": 40,
     "eventid": 136,
+<<<<<<< Updated upstream
     "results": "Shoots 2-under-par 69, tied for 11th "
+=======
+<<<<<<< HEAD
+    "results": "Shoots 69 (2 under par), tied for 11th"
+=======
+    "results": "Shoots 2-under-par 69, tied for 11th "
+>>>>>>> origin/master
+>>>>>>> Stashed changes
   },
   {
     "union": 197,
@@ -282,12 +318,14 @@
   {
     "union": 190,
     "athleteid": 37,
-    "eventid": 75
+    "eventid": 75,
+    "results": "Australia wins, 81-56"
   },
   {
     "union": 189,
     "athleteid": 37,
-    "eventid": 74
+    "eventid": 74,
+    "results": "Australia wins 93-68"
   },
   {
     "union": 188,
@@ -331,15 +369,10 @@
     "eventid": 129
   },
   {
-    "union": 181,
-    "athleteid": 34,
-    "eventid": 128,
-    "qualify": "*"
-  },
-  {
     "union": 180,
     "athleteid": 34,
-    "eventid": 127
+    "eventid": 127,
+    "results": "Jumps 13.93, finishes 21st"
   },
   {
     "union": 175,
@@ -352,6 +385,8 @@
     "eventid": 117
   },
   {
+<<<<<<< HEAD
+=======
     "union": 169,
     "athleteid": 32,
     "eventid": 116,
@@ -363,14 +398,18 @@
     "eventid": 109
   },
   {
+>>>>>>> origin/master
     "union": 161,
     "athleteid": 31,
-    "eventid": 108
+    "eventid": 108,
+    "medal": "bronze",
+    "results": "US earns bronze medal with score of 76.667"
   },
   {
     "union": 160,
     "athleteid": 31,
-    "eventid": 107
+    "eventid": 107,
+    "results": "Scored 73.235, did not qualify for freestyle phase"
   },
   {
     "union": 159,
@@ -400,13 +439,16 @@
     "union": 155,
     "athleteid": 30,
     "eventid": 102,
-    "qualify": "*"
+    "qualify": "*",
+    "medal": "silver",
+    "results": "US finishes 2nd in 4:12.454"
   },
   {
     "union": 154,
     "athleteid": 30,
     "eventid": 101,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "US wins Heat 3, qualifies for gold medal final"
   },
   {
     "union": 153,
@@ -439,7 +481,8 @@
     "union": 148,
     "athleteid": 28,
     "eventid": 28,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "US finishes 4th in 5:34.23"
   },
   {
     "union": 147,
@@ -475,7 +518,8 @@
   {
     "union": 123,
     "athleteid": 24,
-    "eventid": 91
+    "eventid": 91,
+    "results": "Australia wins 74-66"
   },
   {
     "union": 122,
@@ -583,12 +627,14 @@
   {
     "union": 103,
     "athleteid": 21,
-    "eventid": 75
+    "eventid": 75,
+    "results": "Australia wins, 81-56"
   },
   {
     "union": 102,
     "athleteid": 21,
-    "eventid": 74
+    "eventid": 74,
+    "results": "Australia wins 93-68"
   },
   {
     "union": 101,
@@ -637,12 +683,14 @@
   {
     "union": 93,
     "athleteid": 19,
-    "eventid": 65
+    "eventid": 65,
+    "results": "US wins 3-1"
   },
   {
     "union": 92,
     "athleteid": 19,
-    "eventid": 64
+    "eventid": 64,
+    "results": "US wins 3-1"
   },
   {
     "union": 91,
@@ -667,13 +715,29 @@
     "union": 88,
     "athleteid": 17,
     "eventid": 60,
-    "qualify": "*"
+    "medal": "gold",
+    "results": "Adrian swims anchor leg, US finishes first in 3:27.95"
   },
   {
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    "union": 87,
+    "athleteid": 17,
+    "eventid": 59,
+    "results": "Does not swim in heats, US qualifies for finals"
+  },
+  {
+=======
+>>>>>>> origin/master
+>>>>>>> Stashed changes
     "union": 86,
     "athleteid": 17,
     "eventid": 58,
-    "qualify": "*"
+    "qualify": "*",
+    "medal": "bronze",
+    "results": "Swims 21.49, wins bronze",
+    "url": "http://www.seattletimes.com/sports/olympics/sixteen-years-later-anthony-ervin-wins-another-gold/"
   },
   {
     "union": 85,
@@ -794,13 +858,24 @@
     "union": 57,
     "athleteid": 12,
     "eventid": 34,
-    "qualify": "*"
+    "qualify": "*",
+    "medal": "gold",
+    "results": "US wins in 6:01.49"
   },
   {
     "union": 56,
     "athleteid": 9,
     "eventid": 34,
+<<<<<<< HEAD
+    "qualify": "*",
+    "medal": "gold",
+    "results": "US wins in 6:01.49"
+=======
     "qualify": "*"
+<<<<<<< Updated upstream
+=======
+>>>>>>> origin/master
+>>>>>>> Stashed changes
   },
   {
     "union": 53,
@@ -858,19 +933,22 @@
     "union": 45,
     "athleteid": 11,
     "eventid": 28,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "US finishes 4th in 5:34.23"
   },
   {
     "union": 44,
     "athleteid": 7,
     "eventid": 28,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "US finishes 4th in 5:34.23"
   },
   {
     "union": 43,
     "athleteid": 6,
     "eventid": 28,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "US finishes 4th in 5:34.23"
   },
   {
     "union": 42,
@@ -957,22 +1035,28 @@
   {
     "union": 26,
     "athleteid": 3,
-    "eventid": 71
+    "eventid": 71,
+    "results": "US wins 105-62"
   },
   {
     "union": 25,
     "athleteid": 2,
-    "eventid": 71
+    "eventid": 71,
+    "results": "US wins 105-62"
   },
   {
     "union": 24,
     "athleteid": 3,
-    "eventid": 15
+    "eventid": 15,
+    "results": "US wins 81-51",
+    "url": "http://www.seattletimes.com/sports/olympics/us-womens-defense-come-through-in-basketball-win-over-canada/"
   },
   {
     "union": 23,
     "athleteid": 2,
-    "eventid": 15
+    "eventid": 15,
+    "results": "US wins 81-51",
+    "url": "http://www.seattletimes.com/sports/olympics/us-womens-defense-come-through-in-basketball-win-over-canada/"
   },
   {
     "union": 22,
@@ -1037,12 +1121,15 @@
   {
     "union": 12,
     "athleteid": 1,
-    "eventid": 17
+    "eventid": 17,
+    "results": "US wins 100-97",
+    "url": "http://www.seattletimes.com/sports/olympics/klay-thompson-scores-30-to-help-us-mens-basketball-hold-off-france/"
   },
   {
     "union": 11,
     "athleteid": 1,
-    "eventid": 16
+    "eventid": 16,
+    "results": "US wins 94-91"
   },
   {
     "union": 10,
@@ -1064,17 +1151,21 @@
   {
     "union": 7,
     "athleteid": 14,
-    "eventid": 43
+    "eventid": 43,
+    "results": "US finishes 11th, 8th, and 8th; 9th overall after Day 2"
   },
   {
     "union": 6,
     "athleteid": 14,
-    "eventid": 42
+    "eventid": 42,
+    "results": "US has a high finish of 1st in four races, 9th overall after Day 2",
+    "url": "http://www.seattletimes.com/sports/first-us-race-win-in-olympic-regatta-comes-in-49erfx-class/"
   },
   {
     "union": 5,
     "athleteid": 14,
-    "eventid": 41
+    "eventid": 41,
+    "results": "US finishes 13th (32:52) and 16th (34:26) in two races"
   },
   {
     "union": 4,

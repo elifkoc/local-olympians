@@ -1,5 +1,42 @@
 [
   {
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    "athleteid": 47,
+    "lastname": "Andrade",
+    "firstname": "Jordin",
+    "sport": "Track and field",
+    "team": "Cape Verde",
+    "hometown": "Bonney Lake, Wash.",
+    "birthdate": "5/5/1992",
+    "age": 24,
+    "connection": "Attended Bonney Lake High",
+    "twitter": "@jordinandradej",
+    "Photo": "Y",
+    "icon_name": "Athletics"
+  },
+  {
+    "athleteid": 48,
+    "lastname": "Allen",
+    "firstname": "Devon",
+    "sport": "Track and field",
+    "team": "United States",
+    "hometown": "Phoenix, Ariz.",
+    "birthdate": "12/12/1994",
+    "age": 21,
+    "connection": "Grew up in Seattle",
+    "twitter": "@DevonAllen13",
+    "Photo": "Y",
+    "icon_name": "Athletics"
+  },
+  {
+    "athleteid": 14,
+    "lastname": "Scutt",
+    "firstname": "Helena",
+    "sport": "Sailing",
+=======
+>>>>>>> Stashed changes
     "athleteid": 17,
     "lastname": "Adrian",
     "firstname": "Nathan",
@@ -18,30 +55,144 @@
     "lastname": "Solo",
     "firstname": "Hope",
     "sport": "Soccer",
+>>>>>>> origin/master
     "team": "USA",
-    "hometown": "Richland, Wash.",
-    "birthdate": "7/30/1981",
+    "hometown": "Kirkland, Wash.",
+    "birthdate": "6/15/1992",
+    "age": 24,
+    "connection": "Attended International Community School",
+    "twitter": "@HelenaScutt",
+    "Photo": "Y",
+    "icon_name": "Sailing"
+  },
+  {
+    "athleteid": 46,
+    "lastname": "Sabonis",
+    "firstname": "Domantas",
+    "sport": "Basketball",
+    "team": "Lithuania",
+    "hometown": "Portland, Ore.",
+    "birthdate": "5/3/1996",
+    "age": 20,
+    "connection": "Attended Gonzaga University",
+    "twitter": "@Dsabonis11",
+    "Photo": "Y",
+    "icon_name": "Basketball"
+  },
+  {
+    "athleteid": 2,
+    "lastname": "Bird",
+    "firstname": "Sue",
+    "sport": "Basketball",
+    "team": "USA",
+    "hometown": "Syosset, N.Y.",
+    "birthdate": "10/16/1980",
     "age": 35,
-    "connection": "Attended Richland High, University of Washington; plays for Seattle Reign FC",
-    "twitter": "@hopesolo",
+    "connection": "Plays for Seattle Storm",
+    "twitter": "@s10bird",
     "Photo": "Y",
-    "icon_name": "Football"
+    "icon_name": "Basketball"
   },
   {
-    "athleteid": 16,
-    "lastname": "Rapinoe",
-    "firstname": "Megan",
-    "sport": "Soccer",
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    "athleteid": 3,
+    "lastname": "Stewart",
+    "firstname": "Breanna",
+    "sport": "Basketball",
     "team": "USA",
-    "hometown": "Redding, Calif.",
-    "birthdate": "7/5/1985",
-    "age": 31,
-    "connection": "Plays for Seattle Reign FC",
-    "twitter": "@mPinoe",
+    "hometown": "Syracuse, N.Y.",
+    "birthdate": "8/27/1994",
+    "age": 21,
+    "connection": "Plays for Seattle Storm",
+    "twitter": "@bre_stewart30",
     "Photo": "Y",
-    "icon_name": "Football"
+    "icon_name": "Basketball"
   },
   {
+    "athleteid": 19,
+    "lastname": "Thompson",
+    "firstname": "Courtney",
+    "sport": "Volleyball",
+    "team": "USA",
+    "hometown": "Kent, Wash.",
+    "birthdate": "11/4/1984",
+    "age": 31,
+    "connection": "Attended Kentlake High, University of Washington",
+    "twitter": "@CourtLThompson",
+    "Photo": "Y",
+    "icon_name": "Volleyball"
+  },
+  {
+    "athleteid": 36,
+    "lastname": "Winger",
+    "firstname": "Kara",
+    "sport": "Track and field",
+    "team": "USA",
+    "hometown": "Vancouver, Wash.",
+    "birthdate": "4/10/1986",
+    "age": 30,
+    "connection": "Attended Skyview High",
+    "twitter": "@karathrowsjav",
+    "Photo": "Y",
+    "icon_name": "Athletics"
+  },
+  {
+    "athleteid": 49,
+    "lastname": "Whyte",
+    "firstname": "Angela",
+    "sport": "Track and field",
+    "team": "Canada",
+    "hometown": "Edmonton, Alberta, Canada",
+    "birthdate": "5/22/1980",
+    "age": 36,
+    "connection": "Assistant track coach at Washington State University",
+    "twitter": "none",
+    "Photo": "Y",
+    "icon_name": "Athletics"
+  },
+  {
+    "athleteid": 41,
+    "lastname": "Planell Cruz",
+    "firstname": "Diamara",
+    "sport": "Track and field",
+    "team": "Puerto Rico",
+    "hometown": "Bayamon, Puerto Rico",
+    "birthdate": "2/16/1993",
+    "age": 23,
+    "connection": "Attends University of Washington",
+    "twitter": "@diami_pc",
+    "Photo": "Y",
+    "icon_name": "Athletics"
+  },
+  {
+    "athleteid": 24,
+    "lastname": "Mitchell",
+    "firstname": "Leilani",
+    "sport": "Basketball",
+    "team": "Australia",
+    "hometown": "Richland, Wash.",
+    "birthdate": "6/15/1985",
+    "age": 31,
+    "connection": "Grew up in Richland, attended Kennewick High",
+    "twitter": "@leilanim5",
+    "Photo": "Y",
+    "icon_name": "Basketball"
+  },
+  {
+    "athleteid": 44,
+    "lastname": "Tokashiki",
+    "firstname": "Ramu",
+    "sport": "Basketball",
+    "team": "Japan",
+    "hometown": "Kita-ku, Tokyo, Japan",
+    "birthdate": "6/11/1991",
+    "age": 25,
+    "connection": "Plays for Seattle Storm",
+    "twitter": "@TOKASHIKI_10",
+=======
+>>>>>>> Stashed changes
     "athleteid": 22,
     "lastname": "Crothers",
     "firstname": "Will",
@@ -80,64 +231,12 @@
     "age": 24,
     "connection": "Attended University of Washington",
     "twitter": "@obee1111",
-    "Photo": "Y",
-    "icon_name": "Rowing"
-  },
-  {
-    "athleteid": 31,
-    "lastname": "Perry-Glass",
-    "firstname": "Kasey",
-    "sport": "Dressage",
-    "team": "USA",
-    "hometown": "Orangevale, Calif.",
-    "birthdate": "10/12/1987",
-    "age": 28,
-    "connection": "Lives and trains in Spokane",
-    "twitter": "@Kaseypdressage",
-    "Photo": "Y",
-    "icon_name": "Dressage"
-  },
-  {
-    "athleteid": 2,
-    "lastname": "Bird",
-    "firstname": "Sue",
-    "sport": "Basketball",
-    "team": "USA",
-    "hometown": "Syosset, N.Y.",
-    "birthdate": "10/16/1980",
-    "age": 35,
-    "connection": "Plays for Seattle Storm",
-    "twitter": "@s10bird",
+<<<<<<< Updated upstream
+=======
+>>>>>>> origin/master
+>>>>>>> Stashed changes
     "Photo": "Y",
     "icon_name": "Basketball"
-  },
-  {
-    "athleteid": 3,
-    "lastname": "Stewart",
-    "firstname": "Breanna",
-    "sport": "Basketball",
-    "team": "USA",
-    "hometown": "Syracuse, N.Y.",
-    "birthdate": "8/27/1994",
-    "age": 21,
-    "connection": "Plays for Seattle Storm",
-    "twitter": "@bre_stewart30",
-    "Photo": "Y",
-    "icon_name": "Basketball"
-  },
-  {
-    "athleteid": 19,
-    "lastname": "Thompson",
-    "firstname": "Courtney",
-    "sport": "Volleyball",
-    "team": "USA",
-    "hometown": "Kent, Wash.",
-    "birthdate": "11/4/1984",
-    "age": 31,
-    "connection": "Attended Kentlake High, University of Washington",
-    "twitter": "@CourtLThompson",
-    "Photo": "Y",
-    "icon_name": "Volleyball"
   },
   {
     "athleteid": 1,
@@ -154,34 +253,9 @@
     "icon_name": "Basketball"
   },
   {
-    "athleteid": 40,
-    "lastname": "Pan",
-    "firstname": "Cheng-Tsung",
-    "sport": "Golf",
-    "team": "Chinese Taipei",
-    "hometown": "Miaoli County, Taiwan",
-    "birthdate": "11/12/1991",
-    "age": 24,
-    "connection": "Attended University of Washington",
-    "twitter": "@ctpan63",
-    "Photo": "Y",
-    "icon_name": "Golf"
-  },
-  {
-    "athleteid": 14,
-    "lastname": "Scutt",
-    "firstname": "Helena",
-    "sport": "Sailing",
-    "team": "USA",
-    "hometown": "Kirkland, Wash.",
-    "birthdate": "6/15/1992",
-    "age": 24,
-    "connection": "Attended International Community School",
-    "twitter": "@HelenaScutt",
-    "Photo": "Y",
-    "icon_name": "Sailing"
-  },
-  {
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
     "athleteid": 21,
     "lastname": "Baynes",
     "firstname": "Aron",
@@ -210,6 +284,407 @@
     "icon_name": "Basketball"
   },
   {
+    "athleteid": 35,
+    "lastname": "Lagat",
+    "firstname": "Bernard",
+    "sport": "Track and field",
+    "team": "USA",
+    "hometown": "Kapsabet, Kenya",
+    "birthdate": "12/12/1974",
+    "age": 41,
+    "connection": "Attended Washington State University",
+    "twitter": "@lagat1500",
+    "Photo": "Y",
+    "icon_name": "Athletics"
+  },
+  {
+    "athleteid": 33,
+    "lastname": "Taiwo",
+    "firstname": "Jeremy",
+    "sport": "Track and field",
+    "team": "USA",
+    "hometown": "Renton, Wash.",
+    "birthdate": "1/15/1990",
+    "age": 26,
+    "connection": "Attended Newport High, University of Washington",
+    "twitter": "@jeremyataiwo",
+    "Photo": "Y",
+    "icon_name": "Athletics"
+  },
+  {
+    "athleteid": 45,
+    "lastname": "Fedronic",
+    "firstname": "Justine",
+    "sport": "Track and field",
+    "team": "France",
+    "hometown": "Palo Alto, Calif.",
+    "birthdate": "5/11/1991",
+    "age": 25,
+    "connection": "Lives in Seattle",
+    "twitter": "@ThisJustine_",
+    "Photo": "Y",
+    "icon_name": "Athletics"
+  },
+  {
+    "athleteid": 38,
+    "lastname": "Young",
+    "firstname": "Katrina",
+    "sport": "Diving",
+    "team": "USA",
+    "hometown": "Shoreline, Wash.",
+    "birthdate": "1/10/1992",
+    "age": 24,
+    "connection": "Grew up in Shoreline",
+    "twitter": "@kristinadiver",
+    "Photo": "Y",
+    "icon_name": "Diving"
+  },
+  {
+    "athleteid": 18,
+    "lastname": "Billington",
+    "firstname": "Greg",
+    "sport": "Triathlon",
+    "team": "USA",
+    "hometown": "Spokane, Wash.",
+    "birthdate": "5/30/1988",
+    "age": 28,
+    "connection": "Born in Spokane",
+    "twitter": "@grillington",
+    "Photo": "Y",
+    "icon_name": "Triathlon"
+  },
+  {
+    "athleteid": 20,
+    "lastname": "King",
+    "firstname": "Morghan",
+    "sport": "Weightlifting",
+=======
+>>>>>>> Stashed changes
+    "athleteid": 2,
+    "lastname": "Bird",
+    "firstname": "Sue",
+    "sport": "Basketball",
+>>>>>>> origin/master
+    "team": "USA",
+    "hometown": "Seattle, Wash.",
+    "birthdate": "10/8/1985",
+    "age": 30,
+    "connection": "Born in Seattle",
+    "twitter": "@kingmorghan",
+    "Photo": "Y",
+    "icon_name": "Weightlifting"
+  },
+  {
+    "athleteid": 5,
+    "lastname": "Malloy",
+    "firstname": "Marti",
+    "sport": "Judo",
+    "team": "USA",
+    "hometown": "Oak Harbor, Wash.",
+    "birthdate": "6/23/1986",
+    "age": 30,
+    "connection": "Grew up in Oak Harbor",
+    "twitter": "@martidamus",
+    "Photo": "Y",
+    "icon_name": "Judo"
+  },
+  {
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    "athleteid": 4,
+    "lastname": "Stevens",
+    "firstname": "Travis",
+    "sport": "Judo",
+    "team": "USA",
+    "hometown": "Bellevue, Wash.",
+    "birthdate": "2/28/1986",
+    "age": 30,
+    "connection": "Grew up in Tacoma",
+    "twitter": "@judosilencer",
+=======
+>>>>>>> Stashed changes
+    "athleteid": 19,
+    "lastname": "Thompson",
+    "firstname": "Courtney",
+    "sport": "Volleyball",
+    "team": "USA",
+    "hometown": "Kent, Wash.",
+    "birthdate": "11/4/1984",
+    "age": 31,
+    "connection": "Attended Kentlake High, University of Washington",
+    "twitter": "@CourtLThompson",
+    "Photo": "Y",
+    "icon_name": "Volleyball"
+  },
+  {
+    "athleteid": 1,
+    "lastname": "Thompson",
+    "firstname": "Klay",
+    "sport": "Basketball",
+    "team": "USA",
+    "hometown": "Los Angeles, Calif.",
+    "birthdate": "2/8/1990",
+    "age": 26,
+    "connection": "Attended Washington State University",
+    "twitter": "@klaythompson",
+<<<<<<< Updated upstream
+=======
+>>>>>>> origin/master
+>>>>>>> Stashed changes
+    "Photo": "Y",
+    "icon_name": "Judo"
+  },
+  {
+<<<<<<< HEAD
+    "athleteid": 8,
+    "lastname": "Martelli",
+    "firstname": "Adrienne",
+    "sport": "Rowing",
+    "team": "USA",
+    "hometown": "University Place, Wash.",
+    "birthdate": "12/3/87",
+    "age": 28,
+    "connection": "Attended Curtis Senior High, University of Washington",
+    "twitter": "@HammerMartelli",
+    "Photo": "Y",
+    "icon_name": "Rowing"
+  },
+  {
+    "athleteid": 10,
+    "lastname": "Kalmoe",
+    "firstname": "Megan",
+    "sport": "Rowing",
+    "team": "USA",
+    "hometown": "St. Croix Falls, Wis.",
+    "birthdate": "8/21/83",
+    "age": 32,
+    "connection": "Attended University of Washington",
+    "twitter": "@megankalmoe",
+=======
+    "athleteid": 40,
+    "lastname": "Pan",
+    "firstname": "Cheng-Tsung",
+    "sport": "Golf",
+    "team": "Chinese Taipei",
+    "hometown": "Miaoli County, Taiwan",
+    "birthdate": "11/12/1991",
+    "age": 24,
+    "connection": "Attended University of Washington",
+    "twitter": "@ctpan63",
+>>>>>>> origin/master
+    "Photo": "Y",
+    "icon_name": "Golf"
+  },
+  {
+<<<<<<< HEAD
+    "athleteid": 23,
+    "lastname": "Gibson",
+    "firstname": "Rob",
+    "sport": "Rowing",
+    "team": "Canada",
+    "hometown": "Kingston, Ontario, Canada",
+    "birthdate": "2/2/1986",
+    "age": 30,
+    "connection": "Attended University of Washington",
+    "twitter": "@RobGibson86",
+=======
+    "athleteid": 14,
+    "lastname": "Scutt",
+    "firstname": "Helena",
+    "sport": "Sailing",
+    "team": "USA",
+    "hometown": "Kirkland, Wash.",
+    "birthdate": "6/15/1992",
+    "age": 24,
+    "connection": "Attended International Community School",
+    "twitter": "@HelenaScutt",
+>>>>>>> origin/master
+    "Photo": "Y",
+    "icon_name": "Sailing"
+  },
+  {
+<<<<<<< HEAD
+    "athleteid": 43,
+    "lastname": "Hare",
+    "firstname": "Nicole",
+    "sport": "Rowing",
+    "team": "Canada",
+    "hometown": "Calgary, Alberta, Canada",
+    "birthdate": "7/26/1994",
+    "age": 22,
+    "connection": "Attends Washington State University",
+    "twitter": "@nbhare",
+    "Photo": "Y",
+    "icon_name": "Rowing"
+  },
+  {
+    "athleteid": 15,
+    "lastname": "Solo",
+    "firstname": "Hope",
+    "sport": "Soccer",
+    "team": "USA",
+    "hometown": "Richland, Wash.",
+    "birthdate": "7/30/1981",
+    "age": 35,
+    "connection": "Attended Richland High, University of Washington; plays for Seattle Reign FC",
+    "twitter": "@hopesolo",
+    "Photo": "Y",
+    "icon_name": "Football"
+  },
+  {
+    "athleteid": 16,
+    "lastname": "Rapinoe",
+    "firstname": "Megan",
+    "sport": "Soccer",
+    "team": "USA",
+    "hometown": "Redding, Calif.",
+    "birthdate": "7/5/1985",
+    "age": 31,
+    "connection": "Plays for Seattle Reign FC",
+    "twitter": "@mPinoe",
+    "Photo": "Y",
+    "icon_name": "Football"
+  },
+  {
+    "athleteid": 40,
+    "lastname": "Pan",
+    "firstname": "Cheng-Tsung",
+    "sport": "Golf",
+    "team": "Chinese Taipei",
+    "hometown": "Miaoli County, Taiwan",
+    "birthdate": "11/12/1991",
+    "age": 24,
+    "connection": "Attended University of Washington",
+    "twitter": "@ctpan63",
+    "Photo": "Y",
+    "icon_name": "Golf"
+  },
+  {
+<<<<<<< Updated upstream
+    "athleteid": 14,
+    "lastname": "Scutt",
+    "firstname": "Helena",
+    "sport": "Sailing",
+    "team": "USA",
+    "hometown": "Kirkland, Wash.",
+    "birthdate": "6/15/1992",
+    "age": 24,
+    "connection": "Attended International Community School",
+    "twitter": "@HelenaScutt",
+    "Photo": "Y",
+    "icon_name": "Sailing"
+  },
+  {
+    "athleteid": 21,
+    "lastname": "Baynes",
+    "firstname": "Aron",
+    "sport": "Basketball",
+    "team": "Australia",
+    "hometown": "Cairns, Australia",
+    "birthdate": "12/09/1986",
+    "age": 29,
+    "connection": "Attended Washington State University",
+    "twitter": "@aronbaynes",
+=======
+    "athleteid": 25,
+    "lastname": "McCabe",
+    "firstname": "Conlin",
+    "sport": "Rowing",
+    "team": "Canada",
+    "hometown": "Brockville, Ontario, Canada",
+    "birthdate": "8/20/1990",
+    "age": 25,
+    "connection": "Attended University of Washington",
+    "twitter": "@conlinmccabe",
+=======
+    "athleteid": 21,
+    "lastname": "Baynes",
+    "firstname": "Aron",
+    "sport": "Basketball",
+    "team": "Australia",
+    "hometown": "Cairns, Australia",
+    "birthdate": "12/09/1986",
+    "age": 29,
+    "connection": "Attended Washington State University",
+    "twitter": "@aronbaynes",
+>>>>>>> origin/master
+    "Photo": "Y",
+    "icon_name": "Basketball"
+  },
+  {
+    "athleteid": 37,
+    "lastname": "Motum",
+    "firstname": "Brock",
+    "sport": "Basketball",
+    "team": "Australia",
+    "hometown": "Brisbane, Australia",
+    "birthdate": "10/16/1990",
+    "age": 25,
+    "connection": "Attended Washington State University",
+    "twitter": "@brockm12",
+>>>>>>> Stashed changes
+    "Photo": "Y",
+    "icon_name": "Basketball"
+  },
+  {
+<<<<<<< Updated upstream
+    "athleteid": 37,
+    "lastname": "Motum",
+    "firstname": "Brock",
+    "sport": "Basketball",
+    "team": "Australia",
+    "hometown": "Brisbane, Australia",
+    "birthdate": "10/16/1990",
+    "age": 25,
+    "connection": "Attended Washington State University",
+    "twitter": "@brockm12",
+=======
+<<<<<<< HEAD
+    "athleteid": 31,
+    "lastname": "Perry-Glass",
+    "firstname": "Kasey",
+    "sport": "Dressage",
+    "team": "USA",
+    "hometown": "Orangevale, Calif.",
+    "birthdate": "10/12/1987",
+    "age": 28,
+    "connection": "Lives and trains in Spokane",
+    "twitter": "@Kaseypdressage",
+    "Photo": "Y",
+    "icon_name": "Dressage"
+  },
+  {
+    "athleteid": 17,
+    "lastname": "Adrian",
+    "firstname": "Nathan",
+    "sport": "Swimming",
+    "team": "USA",
+    "hometown": "Bremerton, Wash.",
+    "birthdate": "12/7/1988",
+    "age": 27,
+    "connection": "Attended Bremerton High",
+    "twitter": "@nathangadrian",
+    "Photo": "Y",
+    "icon_name": "Swimming"
+  },
+  {
+    "athleteid": 12,
+    "lastname": "Simmonds",
+    "firstname": "Kerry",
+    "sport": "Rowing",
+    "team": "USA",
+    "hometown": "San Diego, Calif.",
+    "birthdate": "4/3/89",
+    "age": 27,
+    "connection": "Attended University of Washington",
+    "twitter": "@simmonds_kerry",
+>>>>>>> Stashed changes
+    "Photo": "Y",
+    "icon_name": "Basketball"
+  },
+  {
+<<<<<<< Updated upstream
     "athleteid": 12,
     "lastname": "Simmonds",
     "firstname": "Kerry",
@@ -221,6 +696,31 @@
     "connection": "Attended University of Washington",
     "twitter": "@simmonds_kerry",
     "Photo": "Y",
+=======
+    "athleteid": 9,
+    "lastname": "Snyder",
+    "firstname": "Katelin",
+    "sport": "Rowing",
+    "team": "USA",
+    "hometown": "Detroit, Mich.",
+    "birthdate": "8/16/87",
+    "age": 28,
+    "connection": "Attended University of Washington",
+    "twitter": "@katelins",
+    "Photo": "Y",
+=======
+    "athleteid": 12,
+    "lastname": "Simmonds",
+    "firstname": "Kerry",
+    "sport": "Rowing",
+    "team": "USA",
+    "hometown": "San Diego, Calif.",
+    "birthdate": "4/3/89",
+    "age": 27,
+    "connection": "Attended University of Washington",
+    "twitter": "@simmonds_kerry",
+    "Photo": "Y",
+>>>>>>> Stashed changes
     "icon_name": "Rowing"
   },
   {
@@ -235,6 +735,10 @@
     "connection": "Attended University of Washington",
     "twitter": "@katelins",
     "Photo": "Y",
+<<<<<<< Updated upstream
+=======
+>>>>>>> origin/master
+>>>>>>> Stashed changes
     "icon_name": "Rowing"
   },
   {
@@ -335,6 +839,11 @@
     "icon_name": "Athletics"
   },
   {
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
     "athleteid": 46,
     "lastname": "Sabonis",
     "firstname": "Domantas",
@@ -377,10 +886,22 @@
     "icon_name": "Basketball"
   },
   {
+<<<<<<< Updated upstream
+=======
+>>>>>>> origin/master
+>>>>>>> Stashed changes
     "athleteid": 32,
     "lastname": "Lowe",
     "firstname": "Dan",
     "sport": "Shooting",
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    "team": "USA",
+    "hometown": "Olympia, Wash.",
+    "birthdate": "11/18/1992",
+=======
+>>>>>>> Stashed changes
     "team": "USA",
     "hometown": "Olympia, Wash.",
     "birthdate": "11/18/1992",
@@ -453,80 +974,27 @@
     "team": "Puerto Rico",
     "hometown": "Bayamon, Puerto Rico",
     "birthdate": "2/16/1993",
+>>>>>>> origin/master
     "age": 23,
-    "connection": "Attends University of Washington",
-    "twitter": "@diami_pc",
+    "connection": "Lives in Olympia",
     "Photo": "Y",
-    "icon_name": "Athletics"
+    "icon_name": "Shooting"
   },
   {
-    "athleteid": 35,
-    "lastname": "Lagat",
-    "firstname": "Bernard",
-    "sport": "Track and field",
-    "team": "USA",
-    "hometown": "Kapsabet, Kenya",
-    "birthdate": "12/12/1974",
-    "age": 41,
-    "connection": "Attended Washington State University",
-    "twitter": "@lagat1500",
-    "Photo": "Y",
-    "icon_name": "Athletics"
-  },
-  {
-    "athleteid": 33,
-    "lastname": "Taiwo",
-    "firstname": "Jeremy",
-    "sport": "Track and field",
-    "team": "USA",
-    "hometown": "Renton, Wash.",
-    "birthdate": "1/15/1990",
-    "age": 26,
-    "connection": "Attended Newport High, University of Washington",
-    "twitter": "@jeremyataiwo",
-    "Photo": "Y",
-    "icon_name": "Athletics"
-  },
-  {
-    "athleteid": 45,
-    "lastname": "Fedronic",
-    "firstname": "Justine",
-    "sport": "Track and field",
-    "team": "France",
-    "hometown": "Palo Alto, Calif.",
-    "birthdate": "5/11/1991",
-    "age": 25,
-    "connection": "Lives in Seattle",
-    "twitter": "@ThisJustine_",
-    "Photo": "Y",
-    "icon_name": "Athletics"
-  },
-  {
-    "athleteid": 38,
-    "lastname": "Young",
-    "firstname": "Katrina",
-    "sport": "Diving",
-    "team": "USA",
-    "hometown": "Shoreline, Wash.",
-    "birthdate": "1/10/1992",
+    "athleteid": 40,
+    "lastname": "Pan",
+    "firstname": "Cheng-Tsung",
+    "sport": "Golf",
+    "team": "Chinese Taipei",
+    "hometown": "Miaoli County, Taiwan",
+    "birthdate": "11/12/1991",
     "age": 24,
-    "connection": "Grew up in Shoreline",
-    "twitter": "@kristinadiver",
+    "connection": "Attended University of Washington",
+    "twitter": "@ctpan63",
     "Photo": "Y",
-    "icon_name": "Diving"
-  },
-  {
-    "athleteid": 18,
-    "lastname": "Billington",
-    "firstname": "Greg",
-    "sport": "Triathlon",
-    "team": "USA",
-    "hometown": "Spokane, Wash.",
-    "birthdate": "5/30/1988",
-    "age": 28,
-    "connection": "Born in Spokane",
-    "twitter": "@grillington",
-    "Photo": "Y",
+<<<<<<< HEAD
+    "icon_name": "Golf"
+=======
     "icon_name": "Triathlon"
   },
   {
@@ -583,6 +1051,65 @@
     "connection": "Attended Curtis Senior High, University of Washington",
     "twitter": "@HammerMartelli",
     "Photo": "Y",
+<<<<<<< Updated upstream
+    "icon_name": "Triathlon"
+  },
+  {
+    "athleteid": 20,
+    "lastname": "King",
+    "firstname": "Morghan",
+    "sport": "Weightlifting",
+    "team": "USA",
+    "hometown": "Seattle, Wash.",
+    "birthdate": "10/8/1985",
+    "age": 30,
+    "connection": "Born in Seattle",
+    "twitter": "@kingmorghan",
+    "Photo": "Y",
+    "icon_name": "Weightlifting"
+  },
+  {
+    "athleteid": 5,
+    "lastname": "Malloy",
+    "firstname": "Marti",
+    "sport": "Judo",
+    "team": "USA",
+    "hometown": "Oak Harbor, Wash.",
+    "birthdate": "6/23/1986",
+    "age": 30,
+    "connection": "Grew up in Oak Harbor",
+    "twitter": "@martidamus",
+    "Photo": "Y",
+    "icon_name": "Judo"
+  },
+  {
+    "athleteid": 4,
+    "lastname": "Stevens",
+    "firstname": "Travis",
+    "sport": "Judo",
+    "team": "USA",
+    "hometown": "Bellevue, Wash.",
+    "birthdate": "2/28/1986",
+    "age": 30,
+    "connection": "Grew up in Tacoma",
+    "twitter": "@judosilencer",
+    "Photo": "Y",
+    "icon_name": "Judo"
+  },
+  {
+    "athleteid": 8,
+    "lastname": "Martelli",
+    "firstname": "Adrienne",
+    "sport": "Rowing",
+    "team": "USA",
+    "hometown": "University Place, Wash.",
+    "birthdate": "12/3/87",
+    "age": 28,
+    "connection": "Attended Curtis Senior High, University of Washington",
+    "twitter": "@HammerMartelli",
+    "Photo": "Y",
+=======
+>>>>>>> Stashed changes
     "icon_name": "Rowing"
   },
   {
@@ -626,5 +1153,9 @@
     "twitter": "@nbhare",
     "Photo": "Y",
     "icon_name": "Rowing"
+<<<<<<< Updated upstream
+=======
+>>>>>>> origin/master
+>>>>>>> Stashed changes
   }
 ]
