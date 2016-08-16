@@ -24,7 +24,8 @@
   {
     "union": 238,
     "athleteid": 49,
-    "eventid": 169
+    "eventid": 169,
+    "results": "Finished tied for 30th, did not qualify for semifinals"
   },
   {
     "union": 237,
@@ -224,7 +225,8 @@
   {
     "union": 202,
     "athleteid": 41,
-    "eventid": 140
+    "eventid": 140,
+    "results": "Finishes tied for 29th, doesn't qualify for final"
   },
   {
     "union": 201,
@@ -471,7 +473,8 @@
     "union": 124,
     "athleteid": 24,
     "eventid": 92,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "Australia loses 73-71, eliminated"
   },
   {
     "union": 123,
@@ -636,7 +639,8 @@
     "union": 94,
     "athleteid": 19,
     "eventid": 66,
-    "qualify": "*"
+    "qualify": "*",
+    "results": "US wins 3-0, advances to semifinals"
   },
   {
     "union": 93,
@@ -1091,13 +1095,14 @@
   {
     "union": 8,
     "athleteid": 14,
-    "eventid": 44
+    "eventid": 44,
+    "results": "US finishes 12th, 12th, and 6th; 9th overall after Day 4"
   },
   {
     "union": 7,
     "athleteid": 14,
     "eventid": 43,
-    "results": "US finishes 11th, 8th, and 8th; 9th overall after Day 2"
+    "results": "US finishes 11th, 8th, and 8th; 9th overall after Day 3"
   },
   {
     "union": 6,

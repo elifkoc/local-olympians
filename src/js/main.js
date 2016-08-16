@@ -76,6 +76,7 @@ qsa(".athlete-name").forEach(function(el) {
 });
 
 
+<<<<<<< Updated upstream
 //Highlighting
 var colHover = function(e) {
 
@@ -96,6 +97,8 @@ var colHover = function(e) {
 
 
 
+=======
+>>>>>>> Stashed changes
 
 qsa(".row-item").forEach(function(el) {
   el.addEventListener("mouseover", colHover);
