@@ -101,7 +101,15 @@ var colHover = function(e) {
 >>>>>>> Stashed changes
 
 qsa(".row-item").forEach(function(el) {
-  el.addEventListener("mouseover", colHover);
+
+
+    var date = new Date();
+    var shortDate = (date.getMonth() + 1) + '/' + date.getDate();
+    console.log(shortDate);
+    if (el.getAttribute("data-id") === shortDate) {
+      el.classList.add("highlight");
+    }
+
 } );
 
 

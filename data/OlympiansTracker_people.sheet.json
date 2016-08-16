@@ -98,18 +98,18 @@
     "icon_name": "Athletics"
   },
   {
-    "athleteid": 49,
-    "lastname": "Whyte",
-    "firstname": "Angela",
-    "sport": "Track and field",
-    "team": "Canada",
-    "hometown": "Edmonton, Alberta, Canada",
-    "birthdate": "5/22/1980",
-    "age": 36,
-    "connection": "Assistant track coach at Washington State University",
-    "twitter": "none",
+    "athleteid": 17,
+    "lastname": "Adrian",
+    "firstname": "Nathan",
+    "sport": "Swimming",
+    "team": "USA",
+    "hometown": "Bremerton, Wash.",
+    "birthdate": "12/7/1988",
+    "age": 27,
+    "connection": "Attended Bremerton High",
+    "twitter": "@nathangadrian",
     "Photo": "Y",
-    "icon_name": "Athletics"
+    "icon_name": "Swimming"
   },
   {
     "athleteid": 41,
@@ -126,18 +126,18 @@
     "icon_name": "Athletics"
   },
   {
-    "athleteid": 24,
-    "lastname": "Mitchell",
-    "firstname": "Leilani",
-    "sport": "Basketball",
-    "team": "Australia",
-    "hometown": "Richland, Wash.",
-    "birthdate": "6/15/1985",
-    "age": 31,
-    "connection": "Grew up in Richland, attended Kennewick High",
-    "twitter": "@leilanim5",
+    "athleteid": 31,
+    "lastname": "Perry-Glass",
+    "firstname": "Kasey",
+    "sport": "Dressage",
+    "team": "USA",
+    "hometown": "Orangevale, Calif.",
+    "birthdate": "10/12/1987",
+    "age": 28,
+    "connection": "Lives and trains in Spokane",
+    "twitter": "@Kaseypdressage",
     "Photo": "Y",
-    "icon_name": "Basketball"
+    "icon_name": "Dressage"
   },
   {
     "athleteid": 44,
@@ -448,34 +448,6 @@
     "icon_name": "Rowing"
   },
   {
-    "athleteid": 31,
-    "lastname": "Perry-Glass",
-    "firstname": "Kasey",
-    "sport": "Dressage",
-    "team": "USA",
-    "hometown": "Orangevale, Calif.",
-    "birthdate": "10/12/1987",
-    "age": 28,
-    "connection": "Lives and trains in Spokane",
-    "twitter": "@Kaseypdressage",
-    "Photo": "Y",
-    "icon_name": "Dressage"
-  },
-  {
-    "athleteid": 17,
-    "lastname": "Adrian",
-    "firstname": "Nathan",
-    "sport": "Swimming",
-    "team": "USA",
-    "hometown": "Bremerton, Wash.",
-    "birthdate": "12/7/1988",
-    "age": 27,
-    "connection": "Attended Bremerton High",
-    "twitter": "@nathangadrian",
-    "Photo": "Y",
-    "icon_name": "Swimming"
-  },
-  {
     "athleteid": 12,
     "lastname": "Simmonds",
     "firstname": "Kerry",
@@ -626,5 +598,33 @@
     "twitter": "@ctpan63",
     "Photo": "Y",
     "icon_name": "Golf"
+  },
+  {
+    "athleteid": 49,
+    "lastname": "Whyte",
+    "firstname": "Angela",
+    "sport": "Track and field",
+    "team": "Canada",
+    "hometown": "Edmonton, Alberta, Canada",
+    "birthdate": "5/22/1980",
+    "age": 36,
+    "connection": "Assistant track coach at Washington State University",
+    "twitter": "none",
+    "Photo": "Y",
+    "icon_name": "Athletics"
+  },
+  {
+    "athleteid": 24,
+    "lastname": "Mitchell",
+    "firstname": "Leilani",
+    "sport": "Basketball",
+    "team": "Australia",
+    "hometown": "Richland, Wash.",
+    "birthdate": "6/15/1985",
+    "age": 31,
+    "connection": "Grew up in Richland, attended Kennewick High",
+    "twitter": "@leilanim5",
+    "Photo": "Y",
+    "icon_name": "Basketball"
   }
 ]
