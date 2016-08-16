@@ -7,7 +7,8 @@
     "localtime": "11:30 AM",
     "riotime": "3:30 PM",
     "watch": "NBCSN (Live), Basketball Specialty Channel (Live)",
-    "completed": "x"
+    "completed": "x",
+    "today": "8/16/2016"
   },
   {
     "eventid": 14,
@@ -459,104 +460,8 @@
     "localtime": "3:00 PM",
     "riotime": "7:00 PM",
     "watch": "Basketball Specialty Channel (Live)"
-<<<<<<< Updated upstream
   },
   {
-    "eventid": 116,
-    "date": "8/14",
-    "category": "Shooting",
-    "title": "Men's 50m rifle 3-positions final",
-    "localtime": "9:00 AM",
-    "riotime": "1:00 PM",
-    "watch": "USA (Live)",
-    "medal": "x"
-  },
-  {
-    "eventid": 128,
-    "date": "8/14",
-    "category": "Track and field",
-    "title": "Women's triple jump final",
-    "localtime": "4:55:00 PM",
-    "riotime": "8:55 PM",
-    "watch": "NBC (Live)",
-    "medal": "x"
-  },
-  {
-    "eventid": 139,
-    "date": "8/14",
-    "category": "Golf",
-    "title": "Men's final round",
-    "localtime": "3:00 AM",
-    "riotime": "7:00 AM",
-    "watch": "NBC (Live at 10 AM PDT), Golf Channel (Live)",
-    "medal": "x"
-  },
-  {
-    "eventid": 166,
-    "date": "8/14",
-    "category": "Shooting",
-    "title": "Men's 50m rifle 3-positions qualification",
-    "localtime": "5:00 AM",
-    "riotime": "9:00 AM"
-  },
-  {
-    "eventid": 43,
-    "date": "8/15",
-    "category": "Sailing",
-    "title": "Races of women's 49er FX",
-    "localtime": "9:05 AM",
-    "riotime": "1:05 PM"
-  },
-  {
-    "eventid": 109,
-    "date": "8/15",
-    "category": "Equestrian",
-    "title": "Individual dressage: Grand Prix freestyle",
-    "localtime": "6:00 AM",
-    "riotime": "10:00 AM",
-    "watch": "USA (Delay: 7:30 PM PDT)",
-    "medal": "x"
-  },
-  {
-    "eventid": 160,
-    "date": "8/15",
-    "category": "Basketball",
-    "title": "Lithuania vs. Croatia (preliminary round)",
-    "localtime": "6:30 PM",
-    "riotime": "10:30 PM",
-    "watch": "Basketball Specialty Channel (Live)"
-  },
-  {
-    "eventid": 167,
-    "date": "8/15",
-    "category": "Track and field",
-    "title": "Men's 400m hurdles heats",
-    "localtime": "7:30 AM",
-    "riotime": "11:30 AM",
-    "watch": "NBCSN (Live)"
-  },
-  {
-    "eventid": 168,
-    "date": "8/15",
-    "category": "Track and field",
-    "title": "Men's 110m hurdles heats",
-    "localtime": "4:40 PM",
-    "riotime": "8:40 PM",
-    "watch": "NBC (Delay- 8 PM PT)"
-  },
-  {
-    "eventid": 18,
-    "date": "8/16",
-    "category": "Basketball",
-    "title": "Quarterfinals"
-  },
-  {
-    "eventid": 44,
-    "date": "8/16",
-=======
-  },
-  {
-<<<<<<< HEAD
     "eventid": 139,
     "date": "8/14",
     "category": "Golf",
@@ -686,243 +591,12 @@
     "watch": "NBCSN (Live)"
   },
   {
-    "eventid": 172,
-    "date": "8/16",
-    "category": "Track and field",
-    "title": "Men's 110m hurdles final",
-    "localtime": "6:45 PM",
-    "riotime": "10:45 PM",
-    "watch": "NBC (Delay- 8 PM PT)",
-    "medal": "x"
-  },
-  {
-    "eventid": 170,
-    "date": "8/16",
-    "category": "Track and field",
-    "title": "Men's 110m hurdles semifinals",
-    "localtime": "4:40 PM",
-    "riotime": "8:40 PM",
-    "watch": "NBC (Delay- 8 PM PT)",
-    "medal": "x"
-  },
-  {
-    "eventid": 19,
-    "date": "8/17",
-    "category": "Basketball",
-    "title": "Quarterfinals"
-=======
-    "eventid": 116,
-    "date": "8/14",
-    "category": "Shooting",
-    "title": "Men's 50m rifle 3-positions final",
-    "localtime": "9:00 AM",
-    "riotime": "1:00 PM",
-    "watch": "USA (Live)",
-    "medal": "x"
-  },
-  {
-    "eventid": 128,
-    "date": "8/14",
-    "category": "Track and field",
-    "title": "Women's triple jump final",
-    "localtime": "4:55:00 PM",
-    "riotime": "8:55 PM",
-    "watch": "NBC (Live)",
-    "medal": "x"
-  },
-  {
-    "eventid": 139,
-    "date": "8/14",
-    "category": "Golf",
-    "title": "Men's final round",
-    "localtime": "3:00 AM",
-    "riotime": "7:00 AM",
-    "watch": "NBC (Live at 10 AM PDT), Golf Channel (Live)",
-    "medal": "x"
-  },
-  {
-    "eventid": 166,
-    "date": "8/14",
-    "category": "Shooting",
-    "title": "Men's 50m rifle 3-positions qualification",
-    "localtime": "5:00 AM",
-    "riotime": "9:00 AM"
-  },
-  {
-    "eventid": 43,
-    "date": "8/15",
->>>>>>> Stashed changes
-    "category": "Sailing",
-    "title": "Races of women's 49er FX",
-    "localtime": "9:05 AM",
-    "riotime": "1:05 PM"
-<<<<<<< Updated upstream
-  },
-  {
-    "eventid": 48,
-    "date": "8/16",
-    "category": "Soccer",
-    "title": "Semifinals"
-  },
-  {
-    "eventid": 66,
-    "date": "8/16",
-    "category": "Volleyball",
-    "title": "Quarterfinals"
-  },
-  {
-    "eventid": 92,
-    "date": "8/16",
-    "category": "Basketball",
-    "title": "Quarterfinals"
-  },
-  {
-    "eventid": 131,
-    "date": "8/16",
-    "category": "Track and field",
-    "title": "Women's javelin qualification",
-    "localtime": "4:35 PM",
-    "riotime": "8:35 PM"
-  },
-  {
-    "eventid": 140,
-    "date": "8/16",
-    "category": "Track and field",
-    "title": "Women's pole vault qualifying",
-    "localtime": "5:45 AM",
-    "riotime": "9:45 AM",
-    "watch": "NBCSN (Live)"
-  },
-  {
-    "eventid": 149,
-=======
-  },
-  {
-    "eventid": 109,
-    "date": "8/15",
-    "category": "Equestrian",
-    "title": "Individual dressage: Grand Prix freestyle",
-    "localtime": "6:00 AM",
-    "riotime": "10:00 AM",
-    "watch": "USA (Delay: 7:30 PM PDT)",
-    "medal": "x"
-  },
-  {
-    "eventid": 160,
-    "date": "8/15",
-    "category": "Basketball",
-    "title": "Lithuania vs. Croatia (preliminary round)",
-    "localtime": "6:30 PM",
-    "riotime": "10:30 PM",
-    "watch": "Basketball Specialty Channel (Live)"
-  },
-  {
-    "eventid": 167,
-    "date": "8/15",
-    "category": "Track and field",
-    "title": "Men's 400m hurdles heats",
-    "localtime": "7:30 AM",
-    "riotime": "11:30 AM",
-    "watch": "NBCSN (Live)"
-  },
-  {
-    "eventid": 168,
-    "date": "8/15",
-    "category": "Track and field",
-    "title": "Men's 110m hurdles heats",
-    "localtime": "4:40 PM",
-    "riotime": "8:40 PM",
-    "watch": "NBC (Delay- 8 PM PT)"
-  },
-  {
-    "eventid": 18,
-    "date": "8/16",
-    "category": "Basketball",
-    "title": "Quarterfinals"
-  },
-  {
-    "eventid": 44,
-    "date": "8/16",
-    "category": "Sailing",
-    "title": "Races of women's 49er FX",
-    "localtime": "9:05 AM",
-    "riotime": "1:05 PM"
->>>>>>> origin/master
-  },
-  {
-    "eventid": 48,
-    "date": "8/16",
-    "category": "Soccer",
-    "title": "Semifinals"
-  },
-  {
-<<<<<<< HEAD
-    "eventid": 117,
-    "date": "8/17",
-    "category": "Track and field",
-    "title": "Men's decathlon day 1: 100m, long jump, shot put, high jump, 400m",
-    "localtime": "5:30 AM-5:35 PM",
-    "riotime": "9:30 AM-9:35 PM"
-  },
-  {
-    "eventid": 129,
-    "date": "8/17",
-    "category": "Track and field",
-    "title": "Men's 5000m round 1",
-    "localtime": "6:05 AM",
-    "riotime": "10:05 AM"
-  },
-  {
-    "eventid": 133,
-    "date": "8/17",
-    "category": "Diving",
-    "title": "Women's 10m platform prelims",
-    "localtime": "11:00 AM",
-    "riotime": "3:00 PM",
-    "watch": "NBC (Delay: 5 PM PDT)"
-  },
-  {
-    "eventid": 152,
-    "date": "8/17",
-    "category": "Track and field",
-    "title": "Women's 800m round 1",
-    "localtime": "6:55 AM",
-    "riotime": "10:55 AM"
-  },
-  {
-    "eventid": 161,
-    "date": "8/17",
-=======
-    "eventid": 66,
-    "date": "8/16",
-    "category": "Volleyball",
-    "title": "Quarterfinals"
-  },
-  {
-    "eventid": 92,
->>>>>>> Stashed changes
-    "date": "8/16",
-    "category": "Basketball",
-    "title": "Quarterfinals"
-  },
-  {
-<<<<<<< Updated upstream
-    "eventid": 169,
-    "date": "8/16",
-    "category": "Track and field",
-    "title": "Women's 100m hurdles heats",
-    "localtime": "7:05 AM",
-    "riotime": "11:05 AM",
-    "watch": "NBCSN (Live)"
-  },
-  {
-    "eventid": 171,
+    "eventid": 175,
     "date": "8/16",
     "category": "Track and field",
     "title": "Men's 400m hurdles semifinals",
     "localtime": "5:35 PM",
-    "riotime": "9:35 PM",
-    "watch": "NBC (Delay- 8 PM PT)"
+    "riotime": "9:35 PM"
   },
   {
     "eventid": 172,
@@ -941,54 +615,24 @@
     "title": "Men's 110m hurdles semifinals",
     "localtime": "4:40 PM",
     "riotime": "8:40 PM",
-=======
-    "eventid": 131,
-    "date": "8/16",
-    "category": "Track and field",
-    "title": "Women's javelin qualification",
-    "localtime": "4:35 PM",
-    "riotime": "8:35 PM"
-  },
-  {
-    "eventid": 140,
-    "date": "8/16",
-    "category": "Track and field",
-    "title": "Women's pole vault qualifying",
-    "localtime": "5:45 AM",
-    "riotime": "9:45 AM",
-    "watch": "NBCSN (Live)"
-  },
-  {
-    "eventid": 149,
-    "date": "8/16",
->>>>>>> origin/master
-    "category": "Basketball",
-    "title": "Quarterfinals"
-  },
-  {
-<<<<<<< HEAD
-    "eventid": 174,
-    "date": "8/17",
-    "category": "Track and field",
-    "title": "Women's 100m hurdles final",
-    "localtime": "6:55 PM",
-    "riotime": "10:55 PM",
->>>>>>> Stashed changes
     "watch": "NBC (Delay- 8 PM PT)",
     "medal": "x"
   },
   {
-<<<<<<< Updated upstream
     "eventid": 19,
     "date": "8/17",
     "category": "Basketball",
-    "title": "Quarterfinals"
+    "title": "USA vs. Argentina (quarterfinals)",
+    "localtime": "2:45 PM",
+    "riotime": "6:45 PM"
   },
   {
     "eventid": 76,
     "date": "8/17",
     "category": "Basketball",
-    "title": "Quarterfinals"
+    "title": "Australia vs. Lithuania (quarterfinals)",
+    "localtime": "7:00 AM",
+    "riotime": "11:00 AM"
   },
   {
     "eventid": 117,
@@ -1027,7 +671,9 @@
     "eventid": 161,
     "date": "8/17",
     "category": "Basketball",
-    "title": "Quarterfinals"
+    "title": "Lithuania vs. Australia (quarterfinals)",
+    "localtime": "7:00 AM",
+    "riotime": "11:00 AM"
   },
   {
     "eventid": 174,
@@ -1046,145 +692,16 @@
     "title": "Women's 100m hurdles semifinals",
     "localtime": "4:45 PM",
     "riotime": "8:45 PM",
-=======
-    "eventid": 173,
-    "date": "8/17",
-    "category": "Track and field",
-    "title": "Women's 100m hurdles semifinals",
-    "localtime": "4:45 PM",
-    "riotime": "8:45 PM",
-=======
-    "eventid": 169,
-    "date": "8/16",
-    "category": "Track and field",
-    "title": "Women's 100m hurdles heats",
-    "localtime": "7:05 AM",
-    "riotime": "11:05 AM",
-    "watch": "NBCSN (Live)"
-  },
-  {
-    "eventid": 171,
-    "date": "8/16",
-    "category": "Track and field",
-    "title": "Men's 400m hurdles semifinals",
-    "localtime": "5:35 PM",
-    "riotime": "9:35 PM",
-    "watch": "NBC (Delay- 8 PM PT)"
-  },
-  {
-    "eventid": 172,
-    "date": "8/16",
-    "category": "Track and field",
-    "title": "Men's 110m hurdles final",
-    "localtime": "6:45 PM",
-    "riotime": "10:45 PM",
     "watch": "NBC (Delay- 8 PM PT)",
     "medal": "x"
   },
   {
-    "eventid": 170,
-    "date": "8/16",
-    "category": "Track and field",
-    "title": "Men's 110m hurdles semifinals",
-    "localtime": "4:40 PM",
-    "riotime": "8:40 PM",
->>>>>>> origin/master
-    "watch": "NBC (Delay- 8 PM PT)",
-    "medal": "x"
-  },
-  {
-<<<<<<< HEAD
-    "eventid": 20,
-    "date": "8/18",
-=======
-    "eventid": 19,
-    "date": "8/17",
-    "category": "Basketball",
-    "title": "Quarterfinals"
-  },
-  {
-    "eventid": 76,
-    "date": "8/17",
-    "category": "Basketball",
-    "title": "Quarterfinals"
-  },
-  {
-    "eventid": 117,
-    "date": "8/17",
-    "category": "Track and field",
-    "title": "Men's decathlon day 1: 100m, long jump, shot put, high jump, 400m",
-    "localtime": "5:30 AM-5:35 PM",
-    "riotime": "9:30 AM-9:35 PM"
-  },
-  {
-    "eventid": 129,
-    "date": "8/17",
-    "category": "Track and field",
-    "title": "Men's 5000m round 1",
-    "localtime": "6:05 AM",
-    "riotime": "10:05 AM"
-  },
-  {
-    "eventid": 133,
-    "date": "8/17",
-    "category": "Diving",
-    "title": "Women's 10m platform prelims",
-    "localtime": "11:00 AM",
-    "riotime": "3:00 PM",
-    "watch": "NBC (Delay: 5 PM PDT)"
-  },
-  {
-    "eventid": 152,
-    "date": "8/17",
-    "category": "Track and field",
-    "title": "Women's 800m round 1",
-    "localtime": "6:55 AM",
-    "riotime": "10:55 AM"
-  },
-  {
-    "eventid": 161,
-    "date": "8/17",
->>>>>>> origin/master
-    "category": "Basketball",
-    "title": "Quarterfinals"
-  },
-  {
-<<<<<<< HEAD
-=======
-    "eventid": 174,
-    "date": "8/17",
-    "category": "Track and field",
-    "title": "Women's 100m hurdles final",
-    "localtime": "6:55 PM",
-    "riotime": "10:55 PM",
->>>>>>> Stashed changes
-    "watch": "NBC (Delay- 8 PM PT)",
-    "medal": "x"
-  },
-  {
-<<<<<<< Updated upstream
-=======
-    "eventid": 173,
-    "date": "8/17",
-    "category": "Track and field",
-    "title": "Women's 100m hurdles semifinals",
-    "localtime": "4:45 PM",
-    "riotime": "8:45 PM",
-    "watch": "NBC (Delay- 8 PM PT)",
-    "medal": "x"
-  },
-  {
->>>>>>> Stashed changes
     "eventid": 20,
     "date": "8/18",
     "category": "Basketball",
     "title": "Semifinals"
   },
   {
-<<<<<<< Updated upstream
-=======
->>>>>>> origin/master
->>>>>>> Stashed changes
     "eventid": 45,
     "date": "8/18",
     "category": "Sailing",
@@ -1203,7 +720,6 @@
     "riotime": "11:00 AM",
     "watch": "USA (Live)",
     "medal": "x"
-<<<<<<< Updated upstream
   },
   {
     "eventid": 67,
@@ -1238,148 +754,53 @@
     "medal": "x"
   },
   {
-    "eventid": 135,
-    "date": "8/18",
-    "category": "Diving",
-    "title": "Women's 10m platform final",
-    "localtime": "12:00 PM",
-    "riotime": "4:00 PM",
-    "watch": "NBC (Delay: 5 PM PDT)",
-    "medal": "x"
-  },
-  {
-    "eventid": 134,
-    "date": "8/18",
-    "category": "Diving",
-    "title": "Women's 10m platform semifinal",
-    "localtime": "6:00 AM",
-    "riotime": "10:00 AM",
-    "watch": "NBC (Delay: 11 AM PDT)",
-    "medal": "x"
-  },
-  {
-    "eventid": 150,
-    "date": "8/18",
-    "category": "Basketball",
-    "title": "Semifinals"
-  },
-  {
-    "eventid": 153,
-    "date": "8/18",
-    "category": "Track and field",
-    "title": "Women's 800m semifianl",
-    "localtime": "5:15 PM",
-    "riotime": "9:15 PM"
-  },
-  {
-=======
-  },
-  {
-    "eventid": 67,
-    "date": "8/18",
-    "category": "Volleyball",
-    "title": "Semifinals"
-  },
-  {
-    "eventid": 93,
-    "date": "8/18",
-    "category": "Basketball",
-    "title": "Semifinals"
-  },
-  {
-    "eventid": 122,
-    "date": "8/18",
-    "category": "Track and field",
-    "title": "Men's decathlon day 2: 110m hurdles, discus, pole vault, javelin, 1500m",
-    "localtime": "5:30 AM-5:50 PM",
-    "riotime": "9:30 AM-9:50 PM",
-    "watch": "NBC (Live at 5 PM PDT)",
-    "medal": "x"
-  },
-  {
-    "eventid": 132,
-    "date": "8/18",
-    "category": "Track and field",
-    "title": "Women's javelin final",
-    "localtime": "5:10 PM",
-    "riotime": "9:10 PM",
-    "watch": "NBC (Live)",
-    "medal": "x"
-  },
-  {
-    "eventid": 135,
-    "date": "8/18",
-    "category": "Diving",
-    "title": "Women's 10m platform final",
-    "localtime": "12:00 PM",
-    "riotime": "4:00 PM",
-    "watch": "NBC (Delay: 5 PM PDT)",
-    "medal": "x"
-  },
-  {
-    "eventid": 134,
-    "date": "8/18",
-    "category": "Diving",
-    "title": "Women's 10m platform semifinal",
-    "localtime": "6:00 AM",
-    "riotime": "10:00 AM",
-    "watch": "NBC (Delay: 11 AM PDT)",
-    "medal": "x"
-  },
-  {
-    "eventid": 150,
-    "date": "8/18",
-    "category": "Basketball",
-    "title": "Semifinals"
-<<<<<<< HEAD
-  },
-  {
-    "eventid": 153,
-    "date": "8/18",
-    "category": "Track and field",
-    "title": "Women's 800m semifianl",
-    "localtime": "5:15 PM",
-    "riotime": "9:15 PM"
-  },
-  {
-    "eventid": 21,
-    "date": "8/19",
-    "category": "Basketball",
-    "title": "Semifinals"
-=======
-  },
-  {
-    "eventid": 153,
-    "date": "8/18",
-    "category": "Track and field",
-    "title": "Women's 800m semifianl",
-    "localtime": "5:15 PM",
-    "riotime": "9:15 PM"
-  },
-  {
->>>>>>> Stashed changes
-    "eventid": 175,
+    "eventid": 176,
     "date": "8/18",
     "category": "Track and field",
     "title": "Men's 400m hurdles final",
     "localtime": "8:00 AM",
     "riotime": "12:00 PM",
-    "watch": "NBC (Delay- 10 AM PT)",
     "medal": "x"
+  },
+  {
+    "eventid": 135,
+    "date": "8/18",
+    "category": "Diving",
+    "title": "Women's 10m platform final",
+    "localtime": "12:00 PM",
+    "riotime": "4:00 PM",
+    "watch": "NBC (Delay: 5 PM PDT)",
+    "medal": "x"
+  },
+  {
+    "eventid": 134,
+    "date": "8/18",
+    "category": "Diving",
+    "title": "Women's 10m platform semifinal",
+    "localtime": "6:00 AM",
+    "riotime": "10:00 AM",
+    "watch": "NBC (Delay: 11 AM PDT)",
+    "medal": "x"
+  },
+  {
+    "eventid": 150,
+    "date": "8/18",
+    "category": "Basketball",
+    "title": "Semifinals"
+  },
+  {
+    "eventid": 153,
+    "date": "8/18",
+    "category": "Track and field",
+    "title": "Women's 800m semifianl",
+    "localtime": "5:15 PM",
+    "riotime": "9:15 PM"
   },
   {
     "eventid": 21,
     "date": "8/19",
     "category": "Basketball",
     "title": "Semifinals"
-  },
-  {
-    "eventid": 50,
-    "date": "8/19",
-    "category": "Soccer",
-    "title": "Finals",
-    "medal": "x"
->>>>>>> origin/master
   },
   {
     "eventid": 77,

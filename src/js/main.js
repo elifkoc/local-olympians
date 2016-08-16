@@ -31,17 +31,17 @@ var openBox = function(e) {
   }); 
 
   if (screen.width < 500) { 
-  rows.forEach(function(item) {
+    rows.forEach(function(item) {
 
-    if (item.classList.contains("show")) {
-      item.classList.remove("show");
-    }
+      if (item.classList.contains("show")) {
+        item.classList.remove("show");
+      }
 
-    else {
-     
-      item.classList.add("show");
-    }
-  });
+      else {
+
+        item.classList.add("show");
+      }
+    });
   }
 };
 
@@ -62,7 +62,7 @@ var iconToggle = function(e) {
     icon.classList.add("fa-plus-circle");
 
   }
-    others.forEach(function(i) {
+  others.forEach(function(i) {
 
     i.classList.remove("fa-minus-circle");
     i.classList.add("fa-plus-circle");     
@@ -83,13 +83,14 @@ var colHover = function(e) {
 
 
   items.forEach(function(i) {
-    for (var j = 3; j < 22; j++) {
-      var dateString = "8/" + j;
-      
-    if (i.getAttribute("data-id") === "8/12") {
-    i.classList.add("highlight");
+
+    var date = new Date();
+    var shortDate = (date.getMonth() + 1) + '/' + date.getDate();
+    console.log(shortDate);
+    if (i.getAttribute("data-id") === shortDate) {
+      i.classList.add("highlight");
     }
-    }
+
   });
 }
 

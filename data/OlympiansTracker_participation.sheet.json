@@ -1,5 +1,15 @@
 [
   {
+    "union": 242,
+    "athleteid": 47,
+    "eventid": 176
+  },
+  {
+    "union": 241,
+    "athleteid": 47,
+    "eventid": 175
+  },
+  {
     "union": 240,
     "athleteid": 49,
     "eventid": 174,
@@ -31,51 +41,20 @@
   {
     "union": 235,
     "athleteid": 48,
-    "eventid": 168
+    "eventid": 168,
+    "results": "Runs 13.41, qualifies for semifinals"
   },
   {
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
     "union": 232,
     "athleteid": 47,
     "eventid": 167,
-    "results": "Disqualified, does not qualify for semifinal"
-=======
->>>>>>> Stashed changes
-    "union": 234,
-    "athleteid": 47,
-    "eventid": 175,
-    "qualify": "*"
-  },
-  {
-    "union": 233,
-    "athleteid": 47,
-    "eventid": 171,
-    "qualify": "*"
-  },
-  {
-    "union": 232,
-    "athleteid": 47,
-    "eventid": 167
-<<<<<<< Updated upstream
-=======
->>>>>>> origin/master
->>>>>>> Stashed changes
+    "results": "Runs 49.35, qualifies for semifinals"
   },
   {
     "union": 231,
     "athleteid": 32,
-<<<<<<< Updated upstream
-    "eventid": 166
-=======
-<<<<<<< HEAD
     "eventid": 166,
     "results": "Finished 28th, did not qualify for final"
-=======
-    "eventid": 166
->>>>>>> origin/master
->>>>>>> Stashed changes
   },
   {
     "union": 230,
@@ -111,7 +90,8 @@
   {
     "union": 225,
     "athleteid": 46,
-    "eventid": 160
+    "eventid": 160,
+    "results": "Lithuania loses 90-81"
   },
   {
     "union": 224,
@@ -270,15 +250,7 @@
     "union": 198,
     "athleteid": 40,
     "eventid": 136,
-<<<<<<< Updated upstream
-    "results": "Shoots 2-under-par 69, tied for 11th "
-=======
-<<<<<<< HEAD
     "results": "Shoots 69 (2 under par), tied for 11th"
-=======
-    "results": "Shoots 2-under-par 69, tied for 11th "
->>>>>>> origin/master
->>>>>>> Stashed changes
   },
   {
     "union": 197,
@@ -385,20 +357,6 @@
     "eventid": 117
   },
   {
-<<<<<<< HEAD
-=======
-    "union": 169,
-    "athleteid": 32,
-    "eventid": 116,
-    "qualify": "*"
-  },
-  {
-    "union": 162,
-    "athleteid": 31,
-    "eventid": 109
-  },
-  {
->>>>>>> origin/master
     "union": 161,
     "athleteid": 31,
     "eventid": 108,
@@ -719,18 +677,12 @@
     "results": "Adrian swims anchor leg, US finishes first in 3:27.95"
   },
   {
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
     "union": 87,
     "athleteid": 17,
     "eventid": 59,
     "results": "Does not swim in heats, US qualifies for finals"
   },
   {
-=======
->>>>>>> origin/master
->>>>>>> Stashed changes
     "union": 86,
     "athleteid": 17,
     "eventid": 58,
@@ -866,16 +818,9 @@
     "union": 56,
     "athleteid": 9,
     "eventid": 34,
-<<<<<<< HEAD
     "qualify": "*",
     "medal": "gold",
     "results": "US wins in 6:01.49"
-=======
-    "qualify": "*"
-<<<<<<< Updated upstream
-=======
->>>>>>> origin/master
->>>>>>> Stashed changes
   },
   {
     "union": 53,
