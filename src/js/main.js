@@ -76,42 +76,6 @@ qsa(".athlete-name").forEach(function(el) {
 });
 
 
-<<<<<<< Updated upstream
-//Highlighting
-var colHover = function(e) {
-
-  var items = qsa(`.row-item`);
-
-
-  items.forEach(function(i) {
-
-    var date = new Date();
-    var shortDate = (date.getMonth() + 1) + '/' + date.getDate();
-    console.log(shortDate);
-    if (i.getAttribute("data-id") === shortDate) {
-      i.classList.add("highlight");
-    }
-
-  });
-}
-
-
-
-=======
->>>>>>> Stashed changes
-
-qsa(".row-item").forEach(function(el) {
-
-
-    var date = new Date();
-    var shortDate = (date.getMonth() + 1) + '/' + date.getDate();
-    console.log(shortDate);
-    if (el.getAttribute("data-id") === shortDate) {
-      el.classList.add("highlight");
-    }
-
-} );
-
 
 //Expand collapse
 var expand = function(e) {
