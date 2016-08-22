@@ -8,7 +8,7 @@
     "riotime": "3:30 PM",
     "watch": "NBCSN (Live), Basketball Specialty Channel (Live)",
     "completed": "x",
-    "today": "8/16/2016"
+    "today": "8/22/2016"
   },
   {
     "eventid": 14,
@@ -225,7 +225,7 @@
     "eventid": 47,
     "date": "8/12",
     "category": "Soccer",
-    "title": "USA vs. Sweden (quarterfinals",
+    "title": "USA vs. Sweden (quarterfinals)",
     "localtime": "9:00 AM",
     "riotime": "1:00 PM"
   },
@@ -676,30 +676,12 @@
     "riotime": "11:00 AM"
   },
   {
-    "eventid": 174,
-    "date": "8/17",
-    "category": "Track and field",
-    "title": "Women's 100m hurdles final",
-    "localtime": "6:55 PM",
-    "riotime": "10:55 PM",
-    "watch": "NBC (Delay- 8 PM PT)",
-    "medal": "x"
-  },
-  {
-    "eventid": 173,
-    "date": "8/17",
-    "category": "Track and field",
-    "title": "Women's 100m hurdles semifinals",
-    "localtime": "4:45 PM",
-    "riotime": "8:45 PM",
-    "watch": "NBC (Delay- 8 PM PT)",
-    "medal": "x"
-  },
-  {
     "eventid": 20,
     "date": "8/18",
     "category": "Basketball",
-    "title": "Semifinals"
+    "title": "USA vs. France (semifinals)",
+    "localtime": "3:00 PM",
+    "riotime": "7:00 PM"
   },
   {
     "eventid": 45,
@@ -725,13 +707,9 @@
     "eventid": 67,
     "date": "8/18",
     "category": "Volleyball",
-    "title": "Semifinals"
-  },
-  {
-    "eventid": 93,
-    "date": "8/18",
-    "category": "Basketball",
-    "title": "Semifinals"
+    "title": "USA vs. Serbia (semifinals)",
+    "localtime": "9:00 AM",
+    "riotime": "1:00 PM"
   },
   {
     "eventid": 122,
@@ -741,25 +719,6 @@
     "localtime": "5:30 AM-5:50 PM",
     "riotime": "9:30 AM-9:50 PM",
     "watch": "NBC (Live at 5 PM PDT)",
-    "medal": "x"
-  },
-  {
-    "eventid": 132,
-    "date": "8/18",
-    "category": "Track and field",
-    "title": "Women's javelin final",
-    "localtime": "5:10 PM",
-    "riotime": "9:10 PM",
-    "watch": "NBC (Live)",
-    "medal": "x"
-  },
-  {
-    "eventid": 176,
-    "date": "8/18",
-    "category": "Track and field",
-    "title": "Men's 400m hurdles final",
-    "localtime": "8:00 AM",
-    "riotime": "12:00 PM",
     "medal": "x"
   },
   {
@@ -783,66 +742,38 @@
     "medal": "x"
   },
   {
-    "eventid": 150,
-    "date": "8/18",
-    "category": "Basketball",
-    "title": "Semifinals"
-  },
-  {
-    "eventid": 153,
-    "date": "8/18",
-    "category": "Track and field",
-    "title": "Women's 800m semifianl",
-    "localtime": "5:15 PM",
-    "riotime": "9:15 PM"
-  },
-  {
     "eventid": 21,
     "date": "8/19",
     "category": "Basketball",
-    "title": "Semifinals"
+    "title": "USA vs. Spain (semifinals)",
+    "localtime": "11:30 AM",
+    "riotime": "3:30 PM",
+    "watch": "NBCSN (Live), Basketball Specialty Channel (Live)"
   },
   {
     "eventid": 77,
     "date": "8/19",
     "category": "Basketball",
-    "title": "Semifinals"
-  },
-  {
-    "eventid": 141,
-    "date": "8/19",
-    "category": "Track and field",
-    "title": "Women's pole vault final",
-    "localtime": "4:30 PM",
-    "riotime": "8:30 PM",
-    "watch": "NBC (Live) ",
-    "medal": "x"
-  },
-  {
-    "eventid": 162,
-    "date": "8/19",
-    "category": "Basketball",
-    "title": "Semifinals"
+    "title": "Australia vs. Serbia (semifinals)",
+    "localtime": "3:00 PM",
+    "riotime": "7:00 PM"
   },
   {
     "eventid": 23,
     "date": "8/20",
     "category": "Basketball",
-    "title": "Finals",
+    "title": "USA vs. Spain (final)",
+    "localtime": "11:30 AM",
+    "riotime": "3:30 PM",
     "medal": "x"
   },
   {
     "eventid": 69,
     "date": "8/20",
     "category": "Volleyball",
-    "title": "Finals",
-    "medal": "x"
-  },
-  {
-    "eventid": 95,
-    "date": "8/20",
-    "category": "Basketball",
-    "title": "Finals",
+    "title": "USA vs. Netherlands (bronze medal game)",
+    "localtime": "9:00 AM",
+    "riotime": "1:00 PM",
     "medal": "x"
   },
   {
@@ -856,41 +787,21 @@
     "medal": "x"
   },
   {
-    "eventid": 151,
-    "date": "8/20",
-    "category": "Basketball",
-    "title": "Finals",
-    "medal": "x"
-  },
-  {
-    "eventid": 154,
-    "date": "8/20",
-    "category": "Track and field",
-    "title": "Women's 800m final",
-    "localtime": "5:15 PM",
-    "riotime": "9:15 PM",
-    "watch": "NBC (Live) ",
-    "medal": "x"
-  },
-  {
     "eventid": 25,
     "date": "8/21",
     "category": "Basketball",
-    "title": "Finals",
+    "title": "USA vs. Serbia (final)",
+    "localtime": "11:45 AM",
+    "riotime": "3:45 PM",
     "medal": "x"
   },
   {
     "eventid": 79,
     "date": "8/21",
     "category": "Basketball",
-    "title": "Finals",
-    "medal": "x"
-  },
-  {
-    "eventid": 163,
-    "date": "8/21",
-    "category": "Basketball",
-    "title": "Finals",
+    "title": "Australia vs. Spain (bronze medal game)",
+    "localtime": "7:30 AM",
+    "riotime": "11:30 AM",
     "medal": "x"
   },
   {
