@@ -40,7 +40,26 @@
     margin-left: -150px;
     opacity: 0;
     transition: opacity .5s, ease-out .5s;
-    
+
+    &.lefty {
+      width: 200px;
+      margin-left: -200px;
+
+      &:after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color:  transparent;
+        @media @mobile {
+          display: none;
+        }
+      }
+    }
+
     @media @mobile {
       width: auto;
       visibility: visible;
