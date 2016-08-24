@@ -11,14 +11,14 @@
   </head>
   <body>
     <responsive-child>
-      <% 
+      <%
       var people = json.OlympiansTracker_people;
-      var events = {};  
+      var events = {};
 
       var participation = json.OlympiansTracker_participation;
       json.OlympiansTracker_events.forEach(function(item) {
         events[item.eventid] = item;
-      });      
+      });
 
       people.forEach(function(person) {
 
@@ -50,10 +50,10 @@
       <div class="container">
         <h2>Washington locals in the Rio Olympics</h2>
         <p class="chatter mobile">
-          Use the table below to explore when these Olympians with Washington ties are competing in Rio and how they are performing. Tap on the boxes below to see each athlete’s bio, event schedule and results.        
-        </p>      
+          Use the table below to explore how these Olympians with Washington ties performed in Rio and whether they earned a medal. Tap on the boxes below to see each athlete’s bio, events and results.
+        </p>
         <p class="chatter">
-          Use the table below to explore when these Olympians with Washington ties are competing in Rio and how they are performing. Hover over the icons for more information on specific events, timing, results and how to watch.
+          Use the table below to explore how these Olympians with Washington ties performed in Rio and whether they earned a medal. Hover over the icons to see each athlete's events and results.
         </p>
         <div class="legend">
           <h2>Legend</h2>
@@ -72,7 +72,7 @@
 
           <% for (var j = 0; j < people.length; j++) {
             var athlete = people[j];
-            var firstTen = !!(j < 10); 
+            var firstTen = !!(j < 10);
 
             if (j % 10 == 0) { %>
           <div class="table-row headers <%= firstTen ? "" : "off" %>">
@@ -89,7 +89,7 @@
             <div class="row-item" data-id="8/14">8/14</div>
             <div class="row-item" data-id="8/15">8/15</div>
             <div class="row-item" data-id="8/16">8/16</div>
-            <div class="row-item" data-id="8/17">8/17</div>    
+            <div class="row-item" data-id="8/17">8/17</div>
             <div class="row-item" data-id="8/18">8/18</div>
             <div class="row-item" data-id="8/19">8/19</div>
             <div class="row-item" data-id="8/20">8/20</div>
@@ -104,7 +104,7 @@
 
               <img src="assets/faces/<%=athlete.athleteid%>_athleteid_resized.jpg"/>
 
-              <aside class="stats">              
+              <aside class="stats">
                 <div class="name"><%=athlete.firstname%> <%=athlete.lastname%> <i class="fa fa-plus-circle"></i>
                 </div>
 
@@ -118,7 +118,7 @@
             <div class="athlete-box" data-id="<%= athlete.athleteid%>">
               <%= t.include("js/_athletebox.html", { data: { athletes: people, id: athlete.athleteid }}) %>
             </div>
-            
+
             <div class="schedule">
 
             <!--Event rows-->
@@ -129,21 +129,21 @@
                   continue;
                 }
 
-                var dateString = "8/" + i; 
-                var hasEvent = !!athlete.days[dateString]; 
-                var athletes = athlete.days[dateString]; 
+                var dateString = "8/" + i;
+                var hasEvent = !!athlete.days[dateString];
+                var athletes = athlete.days[dateString];
 
                 if (hasEvent) {
                   athletes.forEach(function(t) {
-                    hasMedal = !!t.medal;  
-                  }); 
+                    hasMedal = !!t.medal;
+                  });
                 }%>
 
               <div class="row-item <%= hasEvent ? "event" : "noevent" %> <%= hasMedal ? "medal" : "" %> <%= done ? "done" : "" %>" data-id="<%=dateString%>">
 
                 <%  if (hasEvent) { %>
 
-                <% athletes.forEach( function(day) { 
+                <% athletes.forEach( function(day) {
 
                   wonMedal = !!day.medalType;
                   hasResult = !!day.results;%>
@@ -153,7 +153,7 @@
                   <img src="assets/<%= wonMedal ? "medals/" + day.medalType + "_medal.png": "icons/" + athlete.icon_name + ".png" %>" class="icon grow">
 
 
-                  <aside class="tooltiptext <%= (i == 20 || i == 21) ? "lefty" : "" %>">    
+                  <aside class="tooltiptext <%= (i == 20 || i == 21) ? "lefty" : "" %>">
 
                     <div class="date"><%=day.event.date%></div>
                     <div class="title"><%=day.event.title%></div>
@@ -199,8 +199,8 @@
         </div>
       </div>
 
-      <script> 
-        window.olympians = <%= JSON.stringify(people) %>  
+      <script>
+        window.olympians = <%= JSON.stringify(people) %>
       </script>
       <script src="app.js" async></script>
       <% if (json.project.production) { %>
